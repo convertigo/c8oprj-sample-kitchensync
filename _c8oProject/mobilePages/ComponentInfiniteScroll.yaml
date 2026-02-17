@@ -1,0 +1,397 @@
+comment: Infinite Scroll component page
+icon: apps
+iconPosition: start
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        		/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: component-infinite-scroll
+title: Infinite Scroll
+↓Header [ngx.components.UIDynamicElement-1797000000288]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1797000000289]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
+    tagName: ion-toolbar
+    ↓ButtonSetStart [ngx.components.UIDynamicElement-1797000000290]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      comment: Bean ButtonSetStart (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1797000000291]: 
+        beanData: '{"ionBean":"BackButton"}'
+        comment: Bean BackButton (ngx.components.UIDynamicElement)
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1797000000292]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: Bean MenuButton (ngx.components.UIDynamicElement)
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1797000000293]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1797000000294]: 
+        comment: Bean Text (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Infinite Scroll
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1797000000295]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      comment: Bean ButtonSet2 (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓ThemeSwitchButton [ngx.components.UIDynamicElement-1797000000296]: 
+        beanData: '{"ionBean":"Button","IonFill":"plain:clear"}'
+        comment: Bean ThemeSwitchButton (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓Class [ngx.components.UIAttribute-1797000000297]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-theme-button
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1797000000298]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? this.translate.instant(''Theme_Switch_To_Light'') : this.translate.instant(''Theme_Switch_To_Dark'')'
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1797000000299]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTheme [ngx.components.UIDynamicAction-1797000000300]: 
+            beanData: '{"ionBean":"SetThemeAction","dark":"script:!(this.global && this.global.themeDark)"}'
+            comment: Bean SetTheme (ngx.components.UIDynamicAction)
+        ↓ThemeIcon [ngx.components.UIDynamicElement-1797000000301]: 
+          beanData: '{"ionBean":"Icon","IconName":"script:this?.global?.themeDark ? ''sunny-outline'' : ''moon-outline''"}'
+          comment: Bean ThemeIcon (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓IconName [ngx.components.UIAttribute-1797000000302]: 
+            attrName: '[name]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? ''sunny-outline'' : ''moon-outline'''
+            comment: Bean IconName (ngx.components.UIAttribute)
+      ↓LanguageSelector [ngx.components.UIDynamicElement-1797000000303]: 
+        beanData: |
+          '{
+           "ionBean": "Select",
+           "ControlName": "plain:name1770915137820",
+           "Justify": "plain:start"
+          }'
+        comment: Bean LanguageSelector (ngx.components.UIDynamicElement)
+        tagName: ion-select
+        ↓Class [ngx.components.UIAttribute-1797000000304]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-lang-select
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1797000000305]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'Language' | translate
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Interface [ngx.components.UIAttribute-1797000000306]: 
+          attrName: '[interface]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'popover'
+          comment: Bean Interface (ngx.components.UIAttribute)
+        ↓Value [ngx.components.UIAttribute-1797000000307]: 
+          attrName: '[value]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global.currentLanguage() ?? 'en'
+          comment: Bean Value (ngx.components.UIAttribute)
+        ↓SelectedText [ngx.components.UIAttribute-1797000000308]: 
+          attrName: '[selectedText]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:(this.global?.getLanguageLabelKey() ??  'Lang_English') | translate
+          comment: Bean SelectedText (ngx.components.UIAttribute)
+        ↓ChangeEvent [ngx.components.UIControlEvent-1797000000309]: 
+          attrName: (ionChange)
+          comment: Bean ChangeEvent (ngx.components.UIControlEvent)
+          eventName: ionChange
+          ↓SetLanguage [ngx.components.UIDynamicAction-1797000000310]: 
+            beanData: |
+              '{
+               "ionBean": "SetLanguageAction",
+               "language": "script:event.detail.value",
+               "storageKey": "plain:c8o-lang",
+               "globalProperty": "plain:currentLanguage"
+              }'
+            comment: Bean SetLanguage (ngx.components.UIDynamicAction)
+        ↓LangEN [ngx.components.UIDynamicElement-1797000000311]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:en"}'
+          comment: Bean LangEN (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1797000000312]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_English
+        ↓LangFR [ngx.components.UIDynamicElement-1797000000313]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:fr"}'
+          comment: Bean LangFR (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1797000000314]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_French
+        ↓LangIT [ngx.components.UIDynamicElement-1797000000315]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:it"}'
+          comment: Bean LangIT (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1797000000316]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Italian
+        ↓LangES [ngx.components.UIDynamicElement-1797000000317]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:es"}'
+          comment: Bean LangES (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1797000000318]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Spanish
+↓Content [ngx.components.UIDynamicElement-1797000000319]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
+  tagName: ion-content
+  ↓IonList1 [ngx.components.UIDynamicElement-1797000000320]: 
+    beanData: '{"ionBean":"List"}'
+    comment: Bean IonList1 (ngx.components.UIDynamicElement)
+    tagName: ion-list
+    ↓Directive27 [ngx.components.UIControlDirective-1796000092001]: 
+      comment: Bean Directive27 (ngx.components.UIControlDirective)
+      directiveItemName: item
+      directiveSource: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: source:{"filter":"Global","project":"sampleKitchenSync","input":"","model":{"data":[{"sharedObject":"router.sharedObject"}],"path":"?.infiniteItems","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓IonItem28 [ngx.components.UIDynamicElement-1796000092002]: 
+        beanData: '{"ionBean":"ListItem"}'
+        comment: Bean IonItem28 (ngx.components.UIDynamicElement)
+        tagName: ion-item
+        ↓IonAvatar29 [ngx.components.UIDynamicElement-1796000092003]: 
+          beanData: '{"ionBean":"Avatar"}'
+          comment: Bean IonAvatar29 (ngx.components.UIDynamicElement)
+          tagName: ion-avatar
+          ↓Attrslot30 [ngx.components.UIAttribute-1796000092004]: 
+            attrName: slot
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:start
+            comment: Bean Attrslot30 (ngx.components.UIAttribute)
+          ↓Img31 [ngx.components.UIDynamicElement-1796000092005]: 
+            beanData: '{"ionBean":"Image"}'
+            comment: Bean Img31 (ngx.components.UIDynamicElement)
+            tagName: ion-img
+            ↓Attrsrc32 [ngx.components.UIAttribute-1796000092006]: 
+              attrName: src
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:item.avatar
+              comment: Bean Attrsrc32 (ngx.components.UIAttribute)
+        ↓IonLabel33 [ngx.components.UIDynamicElement-1796000092007]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel33 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓H234 [ngx.components.UIDynamicElement-1796000092008]: 
+            beanData: '{"ionBean":"Heading2"}'
+            comment: Bean H234 (ngx.components.UIDynamicElement)
+            tagName: h2
+            ↓Text35 [ngx.components.UIText-1796000092009]: 
+              comment: Bean Text35 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:item.name
+          ↓P36 [ngx.components.UIDynamicElement-1796000092010]: 
+            beanData: '{"ionBean":"Paragraph"}'
+            comment: Bean P36 (ngx.components.UIDynamicElement)
+            tagName: p
+            ↓Text37 [ngx.components.UIText-1796000092011]: 
+              comment: Bean Text37 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:item.created
+  ↓IonInfiniteScroll22 [ngx.components.UIDynamicElement-1797000000321]: 
+    beanData: '{"ionBean":"InfiniteScroll"}'
+    comment: Bean IonInfiniteScroll22 (ngx.components.UIDynamicElement)
+    tagName: ion-infinite-scroll
+    ↓Attrthreshold23 [ngx.components.UIAttribute-1797000000322]: 
+      attrName: threshold
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:100px
+      comment: Bean Attrthreshold23 (ngx.components.UIAttribute)
+    ↓Attrdisabled27 [ngx.components.UIAttribute-1796000092012]: 
+      attrName: '[disabled]'
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: script:this.global && this.global.infiniteDone
+      comment: Bean Attrdisabled27 (ngx.components.UIAttribute)
+    ↓EventInfinite [ngx.components.UIControlEvent-1796000500011]: 
+      attrName: (ionInfinite)
+      comment: Bean EventInfinite (ngx.components.UIControlEvent)
+      eventName: ionInfinite
+      ↓onInfinite [ngx.components.UICustomAsyncAction-1796000500012]: 
+        actionValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+            - com.twinsoft.convertigo.beans.common.FormatedContent: 
+              →: |
+                '		try {
+                			setTimeout(function () {
+                				var names = Array.isArray(page.global && page.global.infiniteNames) ? page.global.infiniteNames : [
+                					"Ada Lovelace",
+                					"Alan Turing",
+                					"Grace Hopper",
+                					"Margaret Hamilton",
+                					"Katherine Johnson",
+                					"Donald Knuth",
+                					"Edsger Dijkstra",
+                					"Barbara Liskov"
+                				];
+                				var list = Array.isArray(page.global && page.global.infiniteItems) ? page.global.infiniteItems.slice(0) : [];
+                				var cursor = Number((page.global && page.global.infiniteCursor) || 0);
+                				var max = Number((page.global && page.global.infiniteMaxItems) || 40);
+                				var batch = Number((page.global && page.global.infiniteChunkSize) || 8);
+                				var remaining = Math.max(0, max - list.length);
+                				var addCount = Math.min(batch, remaining);
+                				for (var i = 0; i < addCount; i++) {
+                					var idx = cursor + i;
+                					var order = idx + 1;
+                					list.push({
+                						avatar: "https://www.gravatar.com/avatar/" + ((idx % 70) + 1) + "?d=monsterid&f=y",
+                						name: names[idx % names.length] + " #" + order,
+                						created: "Loaded item #" + order
+                					});
+                				}
+                				cursor = cursor + addCount;
+                				page.global.infiniteItems = list;
+                				page.global.infiniteCursor = cursor;
+                				page.global.infiniteDone = list.length >= max;
+                				if (event && event.target && typeof event.target.complete === "function") {
+                					event.target.complete();
+                				}
+                				if (event && event.target && page.global && page.global.infiniteDone) {
+                					event.target.disabled = true;
+                				}
+                				page.ref.markForCheck();
+                			}, 450);
+                		} catch (e) {
+                			page.c8o.log.debug("[MB] onInfinite failed", e);
+                		} finally {
+                			return;
+                		}
+                '
+        comment: Bean onInfinite (ngx.components.UICustomAsyncAction)
+    ↓IonInfiniteScrollContent24 [ngx.components.UIDynamicElement-1797000000323]: 
+      beanData: '{"ionBean":"InfiniteScrollContent"}'
+      comment: Bean IonInfiniteScrollContent24 (ngx.components.UIDynamicElement)
+      tagName: ion-infinite-scroll-content
+      ↓AttrloadingSpinner25 [ngx.components.UIAttribute-1797000000324]: 
+        attrName: loading-spinner
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:bubbles
+        comment: Bean AttrloadingSpinner25 (ngx.components.UIAttribute)
+      ↓AttrloadingText26 [ngx.components.UIAttribute-1797000000325]: 
+        attrName: loading-text
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Loading more data...
+        comment: Bean AttrloadingText26 (ngx.components.UIAttribute)
+↓PageEvent [ngx.components.UIPageEvent-1960000100001]: 
+  comment: Bean PageEvent (ngx.components.UIPageEvent)
+  viewEvent: onWillLoad
+  ↓InitInfiniteItems [ngx.components.UICustomAsyncAction-1960000100002]: 
+    actionValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+          →: |
+            '		try {
+            			if (!page.global) {
+            				return;
+            			}
+            			var names = [
+            				"Ada Lovelace",
+            				"Alan Turing",
+            				"Grace Hopper",
+            				"Margaret Hamilton",
+            				"Katherine Johnson",
+            				"Donald Knuth",
+            				"Edsger Dijkstra",
+            				"Barbara Liskov"
+            			];
+            			var list = [];
+            			var cursor = 0;
+            			var max = 40;
+            			var chunk = 8;
+            			var initialCount = 14;
+            			var addCount = Math.min(initialCount, max);
+            			for (var i = 0; i < addCount; i++) {
+            				var order = i + 1;
+            				list.push({
+            					avatar: "https://www.gravatar.com/avatar/" + ((i % 70) + 1) + "?d=monsterid&f=y",
+            					name: names[i % names.length] + " #" + order,
+            					created: "Loaded item #" + order
+            				});
+            			}
+            			cursor = cursor + addCount;
+            			page.global.infiniteNames = names;
+            			page.global.infiniteChunkSize = chunk;
+            			page.global.infiniteMaxItems = max;
+            			page.global.infiniteItems = list;
+            			page.global.infiniteCursor = cursor;
+            			page.global.infiniteDone = list.length >= max;
+            			page.ref.markForCheck();
+            		} catch (e) {
+            			page.c8o.log.debug("[MB] initInfiniteItems failed", e);
+            		} finally {
+            			return;
+            		}
+            '
+    comment: Bean InitInfiniteItems (ngx.components.UICustomAsyncAction)

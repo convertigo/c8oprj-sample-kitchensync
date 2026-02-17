@@ -1,0 +1,489 @@
+comment: Progress Bar component page
+icon: apps
+iconPosition: start
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: component-progress-bar
+title: Progress Bar
+↓Header [ngx.components.UIDynamicElement-1796000002801]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1796000002802]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
+    tagName: ion-toolbar
+    ↓ButtonSetStart [ngx.components.UIDynamicElement-1796000002803]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      comment: Bean ButtonSetStart (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1796000002804]: 
+        beanData: '{"ionBean":"BackButton"}'
+        comment: Bean BackButton (ngx.components.UIDynamicElement)
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1796000002805]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: Bean MenuButton (ngx.components.UIDynamicElement)
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1796000002806]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1796000002807]: 
+        comment: Bean Text (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Progress Bar
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1796000002873]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      comment: Bean ButtonSet2 (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓ThemeSwitchButton [ngx.components.UIDynamicElement-1796000002874]: 
+        beanData: '{"ionBean":"Button","IonFill":"plain:clear"}'
+        comment: Bean ThemeSwitchButton (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓Class [ngx.components.UIAttribute-1796000002875]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-theme-button
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000002876]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? this.translate.instant(''Theme_Switch_To_Light'') : this.translate.instant(''Theme_Switch_To_Dark'')'
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1796000002877]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTheme [ngx.components.UIDynamicAction-1796000002878]: 
+            beanData: '{"ionBean":"SetThemeAction","dark":"script:!(this.global && this.global.themeDark)"}'
+            comment: Bean SetTheme (ngx.components.UIDynamicAction)
+        ↓ThemeIcon [ngx.components.UIDynamicElement-1796000002879]: 
+          beanData: '{"ionBean":"Icon","IconName":"script:this?.global?.themeDark ? ''sunny-outline'' : ''moon-outline''"}'
+          comment: Bean ThemeIcon (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓IconName [ngx.components.UIAttribute-1796000002880]: 
+            attrName: '[name]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? ''sunny-outline'' : ''moon-outline'''
+            comment: Bean IconName (ngx.components.UIAttribute)
+      ↓LanguageSelector [ngx.components.UIDynamicElement-1796000002881]: 
+        beanData: |
+          '{
+           "ionBean": "Select",
+           "ControlName": "plain:name1770915137820",
+           "Justify": "plain:start"
+          }'
+        comment: Bean LanguageSelector (ngx.components.UIDynamicElement)
+        tagName: ion-select
+        ↓Class [ngx.components.UIAttribute-1796000002882]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-lang-select
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000002883]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'Language' | translate
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Interface [ngx.components.UIAttribute-1796000002884]: 
+          attrName: '[interface]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'popover'
+          comment: Bean Interface (ngx.components.UIAttribute)
+        ↓Value [ngx.components.UIAttribute-1796000002885]: 
+          attrName: '[value]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global.currentLanguage() ?? 'en'
+          comment: Bean Value (ngx.components.UIAttribute)
+        ↓SelectedText [ngx.components.UIAttribute-1796000002886]: 
+          attrName: '[selectedText]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:(this.global?.getLanguageLabelKey() ??  'Lang_English') | translate
+          comment: Bean SelectedText (ngx.components.UIAttribute)
+        ↓ChangeEvent [ngx.components.UIControlEvent-1796000002887]: 
+          attrName: (ionChange)
+          comment: Bean ChangeEvent (ngx.components.UIControlEvent)
+          eventName: ionChange
+          ↓SetLanguage [ngx.components.UIDynamicAction-1796000002888]: 
+            beanData: |
+              '{
+               "ionBean": "SetLanguageAction",
+               "language": "script:event.detail.value",
+               "storageKey": "plain:c8o-lang",
+               "globalProperty": "plain:currentLanguage"
+              }'
+            comment: Bean SetLanguage (ngx.components.UIDynamicAction)
+        ↓LangEN [ngx.components.UIDynamicElement-1796000002889]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:en"}'
+          comment: Bean LangEN (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000002890]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_English
+        ↓LangFR [ngx.components.UIDynamicElement-1796000002891]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:fr"}'
+          comment: Bean LangFR (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000002892]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_French
+        ↓LangIT [ngx.components.UIDynamicElement-1796000002893]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:it"}'
+          comment: Bean LangIT (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000002894]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Italian
+        ↓LangES [ngx.components.UIDynamicElement-1796000002895]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:es"}'
+          comment: Bean LangES (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000002896]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Spanish
+↓Content [ngx.components.UIDynamicElement-1796000002820]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
+  tagName: ion-content
+  ↓IonList1 [ngx.components.UIDynamicElement-1796000002821]: 
+    beanData: '{"ionBean":"List"}'
+    comment: Bean IonList1 (ngx.components.UIDynamicElement)
+    tagName: ion-list
+    ↓IonListHeader2 [ngx.components.UIDynamicElement-1796000002822]: 
+      beanData: '{"ionBean":"Listheader"}'
+      comment: Bean IonListHeader2 (ngx.components.UIDynamicElement)
+      tagName: ion-list-header
+      ↓IonLabel3 [ngx.components.UIDynamicElement-1796000002823]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel3 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text4 [ngx.components.UIText-1796000002824]: 
+          comment: Bean Text4 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Determinate
+    ↓IonProgressBar5 [ngx.components.UIDynamicElement-1796000002825]: 
+      beanData: '{"ionBean":"ProgressBar"}'
+      comment: Bean IonProgressBar5 (ngx.components.UIDynamicElement)
+      tagName: ion-progress-bar
+      ↓Attrvalue6 [ngx.components.UIAttribute-1796000002826]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:0.2
+        comment: Bean Attrvalue6 (ngx.components.UIAttribute)
+  ↓IonList7 [ngx.components.UIDynamicElement-1796000002827]: 
+    beanData: '{"ionBean":"List"}'
+    comment: Bean IonList7 (ngx.components.UIDynamicElement)
+    tagName: ion-list
+    ↓IonListHeader8 [ngx.components.UIDynamicElement-1796000002828]: 
+      beanData: '{"ionBean":"Listheader"}'
+      comment: Bean IonListHeader8 (ngx.components.UIDynamicElement)
+      tagName: ion-list-header
+      ↓IonLabel9 [ngx.components.UIDynamicElement-1796000002829]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel9 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text10 [ngx.components.UIText-1796000002830]: 
+          comment: Bean Text10 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Control Determinate
+      ↓IonButton11 [ngx.components.UIDynamicElement-1796000002831]: 
+        beanData: '{"ionBean":"Button"}'
+        comment: Bean IonButton11 (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓IonIcon12 [ngx.components.UIDynamicElement-1796000002832]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon12 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrslot13 [ngx.components.UIAttribute-1796000002833]: 
+            attrName: slot
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:icon-only
+            comment: Bean Attrslot13 (ngx.components.UIAttribute)
+          ↓Attrios14 [ngx.components.UIAttribute-1796000002834]: 
+            attrName: ios
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:add-outline
+            comment: Bean Attrios14 (ngx.components.UIAttribute)
+          ↓Attrmd15 [ngx.components.UIAttribute-1796000002835]: 
+            attrName: md
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:add-sharp
+            comment: Bean Attrmd15 (ngx.components.UIAttribute)
+    ↓IonProgressBar16 [ngx.components.UIDynamicElement-1796000002836]: 
+      beanData: '{"ionBean":"ProgressBar"}'
+      comment: Bean IonProgressBar16 (ngx.components.UIDynamicElement)
+      tagName: ion-progress-bar
+      ↓Attrvalue17 [ngx.components.UIAttribute-1796000002837]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:0.1
+        comment: Bean Attrvalue17 (ngx.components.UIAttribute)
+  ↓IonList18 [ngx.components.UIDynamicElement-1796000002838]: 
+    beanData: '{"ionBean":"List"}'
+    comment: Bean IonList18 (ngx.components.UIDynamicElement)
+    tagName: ion-list
+    ↓IonListHeader19 [ngx.components.UIDynamicElement-1796000002839]: 
+      beanData: '{"ionBean":"Listheader"}'
+      comment: Bean IonListHeader19 (ngx.components.UIDynamicElement)
+      tagName: ion-list-header
+      ↓IonLabel20 [ngx.components.UIDynamicElement-1796000002840]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel20 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text21 [ngx.components.UIText-1796000002841]: 
+          comment: Bean Text21 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Indeterminate
+    ↓IonProgressBar22 [ngx.components.UIDynamicElement-1796000002842]: 
+      beanData: '{"ionBean":"ProgressBar"}'
+      comment: Bean IonProgressBar22 (ngx.components.UIDynamicElement)
+      tagName: ion-progress-bar
+      ↓Attrtype23 [ngx.components.UIAttribute-1796000002843]: 
+        attrName: type
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:indeterminate
+        comment: Bean Attrtype23 (ngx.components.UIAttribute)
+    ↓IonListHeader24 [ngx.components.UIDynamicElement-1796000002844]: 
+      beanData: '{"ionBean":"Listheader"}'
+      comment: Bean IonListHeader24 (ngx.components.UIDynamicElement)
+      tagName: ion-list-header
+      ↓IonLabel25 [ngx.components.UIDynamicElement-1796000002845]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel25 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text26 [ngx.components.UIText-1796000002846]: 
+          comment: Bean Text26 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Indeterminate (reversed)
+    ↓IonProgressBar27 [ngx.components.UIDynamicElement-1796000002847]: 
+      beanData: '{"ionBean":"ProgressBar"}'
+      comment: Bean IonProgressBar27 (ngx.components.UIDynamicElement)
+      tagName: ion-progress-bar
+      ↓Attrtype28 [ngx.components.UIAttribute-1796000002848]: 
+        attrName: type
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:indeterminate
+        comment: Bean Attrtype28 (ngx.components.UIAttribute)
+      ↓Attrreversed29 [ngx.components.UIAttribute-1796000002849]: 
+        attrName: reversed
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:true
+        comment: Bean Attrreversed29 (ngx.components.UIAttribute)
+    ↓IonListHeader30 [ngx.components.UIDynamicElement-1796000002850]: 
+      beanData: '{"ionBean":"Listheader"}'
+      comment: Bean IonListHeader30 (ngx.components.UIDynamicElement)
+      tagName: ion-list-header
+      ↓IonLabel31 [ngx.components.UIDynamicElement-1796000002851]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel31 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text32 [ngx.components.UIText-1796000002852]: 
+          comment: Bean Text32 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Buffer
+    ↓IonProgressBar33 [ngx.components.UIDynamicElement-1796000002853]: 
+      beanData: '{"ionBean":"ProgressBar"}'
+      comment: Bean IonProgressBar33 (ngx.components.UIDynamicElement)
+      tagName: ion-progress-bar
+      ↓Attrvalue34 [ngx.components.UIAttribute-1796000002854]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:0.25
+        comment: Bean Attrvalue34 (ngx.components.UIAttribute)
+      ↓Attrbuffer35 [ngx.components.UIAttribute-1796000002855]: 
+        attrName: buffer
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:0.5
+        comment: Bean Attrbuffer35 (ngx.components.UIAttribute)
+    ↓IonListHeader36 [ngx.components.UIDynamicElement-1796000002856]: 
+      beanData: '{"ionBean":"Listheader"}'
+      comment: Bean IonListHeader36 (ngx.components.UIDynamicElement)
+      tagName: ion-list-header
+      ↓IonLabel37 [ngx.components.UIDynamicElement-1796000002857]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel37 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text38 [ngx.components.UIText-1796000002858]: 
+          comment: Bean Text38 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Colors
+    ↓IonProgressBar39 [ngx.components.UIDynamicElement-1796000002859]: 
+      beanData: '{"ionBean":"ProgressBar"}'
+      comment: Bean IonProgressBar39 (ngx.components.UIDynamicElement)
+      tagName: ion-progress-bar
+      ↓Attrtype40 [ngx.components.UIAttribute-1796000002860]: 
+        attrName: type
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:indeterminate
+        comment: Bean Attrtype40 (ngx.components.UIAttribute)
+      ↓Attrcolor41 [ngx.components.UIAttribute-1796000002861]: 
+        attrName: color
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:secondary
+        comment: Bean Attrcolor41 (ngx.components.UIAttribute)
+      ↓Attrclass42 [ngx.components.UIAttribute-1796000002862]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:progress-margin
+        comment: Bean Attrclass42 (ngx.components.UIAttribute)
+    ↓IonProgressBar43 [ngx.components.UIDynamicElement-1796000002863]: 
+      beanData: '{"ionBean":"ProgressBar"}'
+      comment: Bean IonProgressBar43 (ngx.components.UIDynamicElement)
+      tagName: ion-progress-bar
+      ↓Attrtype44 [ngx.components.UIAttribute-1796000002864]: 
+        attrName: type
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:indeterminate
+        comment: Bean Attrtype44 (ngx.components.UIAttribute)
+      ↓Attrreversed45 [ngx.components.UIAttribute-1796000002865]: 
+        attrName: reversed
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:true
+        comment: Bean Attrreversed45 (ngx.components.UIAttribute)
+      ↓Attrcolor46 [ngx.components.UIAttribute-1796000002866]: 
+        attrName: color
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:tertiary
+        comment: Bean Attrcolor46 (ngx.components.UIAttribute)
+      ↓Attrclass47 [ngx.components.UIAttribute-1796000002867]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:progress-margin
+        comment: Bean Attrclass47 (ngx.components.UIAttribute)
+    ↓IonProgressBar48 [ngx.components.UIDynamicElement-1796000002868]: 
+      beanData: '{"ionBean":"ProgressBar"}'
+      comment: Bean IonProgressBar48 (ngx.components.UIDynamicElement)
+      tagName: ion-progress-bar
+      ↓Attrvalue49 [ngx.components.UIAttribute-1796000002869]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:0.25
+        comment: Bean Attrvalue49 (ngx.components.UIAttribute)
+      ↓Attrbuffer50 [ngx.components.UIAttribute-1796000002870]: 
+        attrName: buffer
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:0.5
+        comment: Bean Attrbuffer50 (ngx.components.UIAttribute)
+      ↓Attrcolor51 [ngx.components.UIAttribute-1796000002871]: 
+        attrName: color
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:danger
+        comment: Bean Attrcolor51 (ngx.components.UIAttribute)
+      ↓Attrclass52 [ngx.components.UIAttribute-1796000002872]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:progress-margin
+        comment: Bean Attrclass52 (ngx.components.UIAttribute)
+↓Style [ngx.components.UIStyle-1771410561708]: 
+  comment: Bean Style (ngx.components.UIStyle)
+  styleContent: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+        →: |
+          'ion-content ion-progress-bar {
+            margin: 10px 0;
+          }
+          
+          .progress-margin {
+            margin-bottom: 40px;
+          }'

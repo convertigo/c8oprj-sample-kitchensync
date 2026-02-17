@@ -1,0 +1,408 @@
+comment: SwiperSlides component page
+icon: apps
+iconPosition: start
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: component-swiper-slides
+title: Swiper Slides
+↓Header [ngx.components.UIDynamicElement-1798000010001]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1798000010002]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
+    tagName: ion-toolbar
+    ↓ButtonSetStart [ngx.components.UIDynamicElement-1798000010003]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      comment: Bean ButtonSetStart (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1798000010004]: 
+        beanData: '{"ionBean":"BackButton"}'
+        comment: Bean BackButton (ngx.components.UIDynamicElement)
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1798000010005]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: Bean MenuButton (ngx.components.UIDynamicElement)
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1798000010006]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1798000010007]: 
+        comment: Bean Text (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Swiper Slides
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1798000010008]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      comment: Bean ButtonSet2 (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓ThemeSwitchButton [ngx.components.UIDynamicElement-1798000010009]: 
+        beanData: '{"ionBean":"Button","IonFill":"plain:clear"}'
+        comment: Bean ThemeSwitchButton (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓Class [ngx.components.UIAttribute-1798000010010]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-theme-button
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1798000010011]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? this.translate.instant(''Theme_Switch_To_Light'') : this.translate.instant(''Theme_Switch_To_Dark'')'
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1798000010012]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTheme [ngx.components.UIDynamicAction-1798000010013]: 
+            beanData: '{"ionBean":"SetThemeAction","dark":"script:!(this.global && this.global.themeDark)"}'
+            comment: Bean SetTheme (ngx.components.UIDynamicAction)
+        ↓ThemeIcon [ngx.components.UIDynamicElement-1798000010014]: 
+          beanData: '{"ionBean":"Icon","IconName":"script:this?.global?.themeDark ? ''sunny-outline'' : ''moon-outline''"}'
+          comment: Bean ThemeIcon (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓IconName [ngx.components.UIAttribute-1798000010015]: 
+            attrName: '[name]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? ''sunny-outline'' : ''moon-outline'''
+            comment: Bean IconName (ngx.components.UIAttribute)
+      ↓LanguageSelector [ngx.components.UIDynamicElement-1798000010016]: 
+        beanData: |
+          '{
+           "ionBean": "Select",
+           "ControlName": "plain:name1770915137820",
+           "Justify": "plain:start"
+          }'
+        comment: Bean LanguageSelector (ngx.components.UIDynamicElement)
+        tagName: ion-select
+        ↓Class [ngx.components.UIAttribute-1798000010017]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-lang-select
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1798000010018]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'Language' | translate
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Interface [ngx.components.UIAttribute-1798000010019]: 
+          attrName: '[interface]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'popover'
+          comment: Bean Interface (ngx.components.UIAttribute)
+        ↓Value [ngx.components.UIAttribute-1798000010020]: 
+          attrName: '[value]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global.currentLanguage() ?? 'en'
+          comment: Bean Value (ngx.components.UIAttribute)
+        ↓SelectedText [ngx.components.UIAttribute-1798000010021]: 
+          attrName: '[selectedText]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:(this.global?.getLanguageLabelKey() ??  'Lang_English') | translate
+          comment: Bean SelectedText (ngx.components.UIAttribute)
+        ↓ChangeEvent [ngx.components.UIControlEvent-1798000010022]: 
+          attrName: (ionChange)
+          comment: Bean ChangeEvent (ngx.components.UIControlEvent)
+          eventName: ionChange
+          ↓SetLanguage [ngx.components.UIDynamicAction-1798000010023]: 
+            beanData: |
+              '{
+               "ionBean": "SetLanguageAction",
+               "language": "script:event.detail.value",
+               "storageKey": "plain:c8o-lang",
+               "globalProperty": "plain:currentLanguage"
+              }'
+            comment: Bean SetLanguage (ngx.components.UIDynamicAction)
+        ↓LangEN [ngx.components.UIDynamicElement-1798000010024]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:en"}'
+          comment: Bean LangEN (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1798000010025]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_English
+        ↓LangFR [ngx.components.UIDynamicElement-1798000010026]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:fr"}'
+          comment: Bean LangFR (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1798000010027]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_French
+        ↓LangIT [ngx.components.UIDynamicElement-1798000010028]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:it"}'
+          comment: Bean LangIT (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1798000010029]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Italian
+        ↓LangES [ngx.components.UIDynamicElement-1798000010030]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:es"}'
+          comment: Bean LangES (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1798000010031]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Spanish
+↓Content [ngx.components.UIDynamicElement-1798000010032]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
+  tagName: ion-content
+  ↓Div1 [ngx.components.UIDynamicElement-1798000010033]: 
+    beanData: '{"ionBean":"DivTag"}'
+    comment: Bean Div1 (ngx.components.UIDynamicElement)
+    tagName: div
+    ↓Attrclass2 [ngx.components.UIAttribute-1798000010034]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:ion-padding-start ion-padding-end
+      comment: Bean Attrclass2 (ngx.components.UIAttribute)
+    ↓IntroCard [ngx.components.UIDynamicElement-1798000010035]: 
+      beanData: '{"ionBean":"Card"}'
+      comment: Bean IntroCard (ngx.components.UIDynamicElement)
+      tagName: ion-card
+      ↓CardContent [ngx.components.UIDynamicElement-1798000010036]: 
+        beanData: '{"ionBean":"CardContent"}'
+        comment: Bean CardContent (ngx.components.UIDynamicElement)
+        tagName: ion-card-content
+        ↓Paragraph [ngx.components.UIDynamicElement-1798000010037]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean Paragraph (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text [ngx.components.UIText-1798000010038]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:SwiperSlides shows horizontal slides with touch gestures and pagination.
+    ↓Slides [ngx.components.UIDynamicComponent-1798000010039]: 
+      beanData: '{"ionBean":"SwiperSlides","Options":"script:{slidesPerView: 1, spaceBetween: 12, createElements: true, pagination: {clickable: true}}"}'
+      comment: Bean Slides (ngx.components.UIDynamicComponent)
+      tagName: c8o-slides
+      ↓Class [ngx.components.UIAttribute-1798000010040]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:swiper-slides-demo
+        comment: Bean Class (ngx.components.UIAttribute)
+      ↓Slide1 [ngx.components.UIDynamicElement-1798000010041]: 
+        beanData: '{"ionBean":"SwiperSlide"}'
+        comment: Bean Slide1 (ngx.components.UIDynamicElement)
+        tagName: swiper-slide
+        ↓Image [ngx.components.UIDynamicElement-1798000011201]: 
+          beanData: '{"ionBean":"Image"}'
+          comment: Bean Image (ngx.components.UIDynamicElement)
+          tagName: ion-img
+          ↓Attrsrc [ngx.components.UIAttribute-1798000011202]: 
+            attrName: src
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:assets/slide-1.png
+            comment: Bean Attrsrc (ngx.components.UIAttribute)
+        ↓Heading [ngx.components.UIDynamicElement-1798000010042]: 
+          beanData: '{"ionBean":"Heading3"}'
+          comment: Bean Heading (ngx.components.UIDynamicElement)
+          tagName: h3
+          ↓Text [ngx.components.UIText-1798000010043]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Slide 1
+        ↓Paragraph [ngx.components.UIDynamicElement-1798000010044]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean Paragraph (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text [ngx.components.UIText-1798000010045]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Browse rich cards with smooth swipe gestures.
+        ↓Style [ngx.components.UIStyle-1771420991205]: 
+          comment: Bean Style (ngx.components.UIStyle)
+          styleContent: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+              - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                →: |
+                  'text-align: center;
+                  '
+      ↓Slide2 [ngx.components.UIDynamicElement-1798000010046]: 
+        beanData: '{"ionBean":"SwiperSlide"}'
+        comment: Bean Slide2 (ngx.components.UIDynamicElement)
+        tagName: swiper-slide
+        ↓Image [ngx.components.UIDynamicElement-1798000011203]: 
+          beanData: '{"ionBean":"Image"}'
+          comment: Bean Image (ngx.components.UIDynamicElement)
+          tagName: ion-img
+          ↓Attrsrc [ngx.components.UIAttribute-1798000011204]: 
+            attrName: src
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:assets/slide-2.png
+            comment: Bean Attrsrc (ngx.components.UIAttribute)
+        ↓Heading [ngx.components.UIDynamicElement-1798000010047]: 
+          beanData: '{"ionBean":"Heading3"}'
+          comment: Bean Heading (ngx.components.UIDynamicElement)
+          tagName: h3
+          ↓Text [ngx.components.UIText-1798000010048]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Slide 2
+        ↓Paragraph [ngx.components.UIDynamicElement-1798000010049]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean Paragraph (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text [ngx.components.UIText-1798000010050]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Combine slides with custom content and actions.
+        ↓Style [ngx.components.UIStyle-1771421012513]: 
+          comment: Bean Style (ngx.components.UIStyle)
+          styleContent: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+              - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                →: |
+                  'text-align: center;
+                  '
+      ↓Slide3 [ngx.components.UIDynamicElement-1798000010051]: 
+        beanData: '{"ionBean":"SwiperSlide"}'
+        comment: Bean Slide3 (ngx.components.UIDynamicElement)
+        tagName: swiper-slide
+        ↓Image [ngx.components.UIDynamicElement-1798000011205]: 
+          beanData: '{"ionBean":"Image"}'
+          comment: Bean Image (ngx.components.UIDynamicElement)
+          tagName: ion-img
+          ↓Attrsrc [ngx.components.UIAttribute-1798000011206]: 
+            attrName: src
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:assets/slide-3.png
+            comment: Bean Attrsrc (ngx.components.UIAttribute)
+        ↓Heading [ngx.components.UIDynamicElement-1798000010052]: 
+          beanData: '{"ionBean":"Heading3"}'
+          comment: Bean Heading (ngx.components.UIDynamicElement)
+          tagName: h3
+          ↓Text [ngx.components.UIText-1798000010053]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Slide 3
+        ↓Paragraph [ngx.components.UIDynamicElement-1798000010054]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean Paragraph (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text [ngx.components.UIText-1798000010055]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Use this page to validate SwiperSlides behavior in both themes.
+        ↓Style [ngx.components.UIStyle-1771421013733]: 
+          comment: Bean Style (ngx.components.UIStyle)
+          styleContent: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+              - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                →: |
+                  'text-align: center;
+                  '
+  ↓Style [ngx.components.UIStyle-1798000010056]: 
+    comment: Bean Style (ngx.components.UIStyle)
+    styleContent: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+          →: |
+            'c8o-slides.swiper-slides-demo {
+              display: block;
+              margin-top: 12px;
+              padding-bottom: 26px;
+              --swiper-pagination-bottom: 0px;
+              --swiper-pagination-color: var(--ion-color-primary);
+              --swiper-pagination-bullet-inactive-color: var(--ion-border-color, #94a3b8);
+            }
+            
+            c8o-slides.swiper-slides-demo swiper-slide {
+              border: 1px solid var(--ion-border-color, #cbd5e1);
+              border-radius: 14px;
+              min-height: 250px;
+              padding: 18px;
+              box-sizing: border-box;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              gap: 10px;
+              background: var(--ion-item-background, #ffffff);
+            }
+            
+            c8o-slides.swiper-slides-demo swiper-slide ion-img {
+              width: 100%;
+              height: 140px;
+              border-radius: 10px;
+              overflow: hidden;
+            }
+            
+            c8o-slides.swiper-slides-demo swiper-slide h3 {
+              margin: 0 0 8px 0;
+            }
+            
+            c8o-slides.swiper-slides-demo swiper-slide p {
+              margin: 0;
+            }
+            '

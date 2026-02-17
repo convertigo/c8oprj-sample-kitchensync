@@ -1,0 +1,428 @@
+comment: Tabs component page
+icon: apps
+iconPosition: start
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: component-tabs
+title: Tabs
+↓Header [ngx.components.UIDynamicElement-1796000003801]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1796000003802]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
+    tagName: ion-toolbar
+    ↓ButtonSetStart [ngx.components.UIDynamicElement-1796000003803]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      comment: Bean ButtonSetStart (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1796000003804]: 
+        beanData: '{"ionBean":"BackButton"}'
+        comment: Bean BackButton (ngx.components.UIDynamicElement)
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1796000003805]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: Bean MenuButton (ngx.components.UIDynamicElement)
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1796000003806]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1796000003807]: 
+        comment: Bean Text (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: 'script:(this.global && this.global.tabsActive === ''tabs-movies'') ? ''Movies'' : ((this.global && this.global.tabsActive === ''tabs-games'') ? ''Games'' : ''Music'')'
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1796000003851]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      comment: Bean ButtonSet2 (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓ThemeSwitchButton [ngx.components.UIDynamicElement-1796000003852]: 
+        beanData: '{"ionBean":"Button","IonFill":"plain:clear"}'
+        comment: Bean ThemeSwitchButton (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓Class [ngx.components.UIAttribute-1796000003853]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-theme-button
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000003854]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? this.translate.instant(''Theme_Switch_To_Light'') : this.translate.instant(''Theme_Switch_To_Dark'')'
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1796000003855]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTheme [ngx.components.UIDynamicAction-1796000003856]: 
+            beanData: '{"ionBean":"SetThemeAction","dark":"script:!(this.global && this.global.themeDark)"}'
+            comment: Bean SetTheme (ngx.components.UIDynamicAction)
+        ↓ThemeIcon [ngx.components.UIDynamicElement-1796000003857]: 
+          beanData: '{"ionBean":"Icon","IconName":"script:this?.global?.themeDark ? ''sunny-outline'' : ''moon-outline''"}'
+          comment: Bean ThemeIcon (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓IconName [ngx.components.UIAttribute-1796000003858]: 
+            attrName: '[name]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? ''sunny-outline'' : ''moon-outline'''
+            comment: Bean IconName (ngx.components.UIAttribute)
+      ↓LanguageSelector [ngx.components.UIDynamicElement-1796000003859]: 
+        beanData: |
+          '{
+           "ionBean": "Select",
+           "ControlName": "plain:name1770915137820",
+           "Justify": "plain:start"
+          }'
+        comment: Bean LanguageSelector (ngx.components.UIDynamicElement)
+        tagName: ion-select
+        ↓Class [ngx.components.UIAttribute-1796000003860]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-lang-select
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000003861]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'Language' | translate
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Interface [ngx.components.UIAttribute-1796000003862]: 
+          attrName: '[interface]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'popover'
+          comment: Bean Interface (ngx.components.UIAttribute)
+        ↓Value [ngx.components.UIAttribute-1796000003863]: 
+          attrName: '[value]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global.currentLanguage() ?? 'en'
+          comment: Bean Value (ngx.components.UIAttribute)
+        ↓SelectedText [ngx.components.UIAttribute-1796000003864]: 
+          attrName: '[selectedText]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:(this.global?.getLanguageLabelKey() ??  'Lang_English') | translate
+          comment: Bean SelectedText (ngx.components.UIAttribute)
+        ↓ChangeEvent [ngx.components.UIControlEvent-1796000003865]: 
+          attrName: (ionChange)
+          comment: Bean ChangeEvent (ngx.components.UIControlEvent)
+          eventName: ionChange
+          ↓SetLanguage [ngx.components.UIDynamicAction-1796000003866]: 
+            beanData: |
+              '{
+               "ionBean": "SetLanguageAction",
+               "language": "script:event.detail.value",
+               "storageKey": "plain:c8o-lang",
+               "globalProperty": "plain:currentLanguage"
+              }'
+            comment: Bean SetLanguage (ngx.components.UIDynamicAction)
+        ↓LangEN [ngx.components.UIDynamicElement-1796000003867]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:en"}'
+          comment: Bean LangEN (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003868]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_English
+        ↓LangFR [ngx.components.UIDynamicElement-1796000003869]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:fr"}'
+          comment: Bean LangFR (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003870]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_French
+        ↓LangIT [ngx.components.UIDynamicElement-1796000003871]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:it"}'
+          comment: Bean LangIT (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003872]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Italian
+        ↓LangES [ngx.components.UIDynamicElement-1796000003873]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:es"}'
+          comment: Bean LangES (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003874]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Spanish
+↓Content [ngx.components.UIDynamicElement-1796000003820]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
+  tagName: ion-content
+  ↓IonTabs1 [ngx.components.UIDynamicElement-1796000003821]: 
+    beanData: '{"ionBean":"Tabs"}'
+    comment: Bean IonTabs1 (ngx.components.UIDynamicElement)
+    tagName: ion-tabs
+    ↓TabsContent [ngx.components.UIDynamicElement-1796000700002]: 
+      beanData: '{"ionBean":"DivTag"}'
+      comment: Bean TabsContent (ngx.components.UIDynamicElement)
+      tagName: div
+      ↓Attrclass [ngx.components.UIAttribute-1796000700003]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:ion-padding
+        comment: Bean Attrclass (ngx.components.UIAttribute)
+      ↓MusicPanel [ngx.components.UIDynamicElement-1796000700004]: 
+        beanData: '{"ionBean":"DivTag"}'
+        comment: Bean MusicPanel (ngx.components.UIDynamicElement)
+        tagName: div
+        ↓Attrdisplay [ngx.components.UIAttribute-1796000700005]: 
+          attrName: '[style.display]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.tabsActive === ''tabs-music'') ? ''block'' : ''none'''
+          comment: Bean Attrdisplay (ngx.components.UIAttribute)
+        ↓Title [ngx.components.UIDynamicElement-1796000700006]: 
+          beanData: '{"ionBean":"Heading1"}'
+          comment: Bean Title (ngx.components.UIDynamicElement)
+          tagName: h1
+          ↓Text [ngx.components.UIText-1796000700007]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Music
+      ↓MoviesPanel [ngx.components.UIDynamicElement-1796000700008]: 
+        beanData: '{"ionBean":"DivTag"}'
+        comment: Bean MoviesPanel (ngx.components.UIDynamicElement)
+        tagName: div
+        ↓Attrdisplay [ngx.components.UIAttribute-1796000700009]: 
+          attrName: '[style.display]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.tabsActive === ''tabs-movies'') ? ''block'' : ''none'''
+          comment: Bean Attrdisplay (ngx.components.UIAttribute)
+        ↓Title [ngx.components.UIDynamicElement-1796000700010]: 
+          beanData: '{"ionBean":"Heading1"}'
+          comment: Bean Title (ngx.components.UIDynamicElement)
+          tagName: h1
+          ↓Text [ngx.components.UIText-1796000700011]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Movies
+      ↓GamesPanel [ngx.components.UIDynamicElement-1796000700012]: 
+        beanData: '{"ionBean":"DivTag"}'
+        comment: Bean GamesPanel (ngx.components.UIDynamicElement)
+        tagName: div
+        ↓Attrdisplay [ngx.components.UIAttribute-1796000700013]: 
+          attrName: '[style.display]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.tabsActive === ''tabs-games'') ? ''block'' : ''none'''
+          comment: Bean Attrdisplay (ngx.components.UIAttribute)
+        ↓Title [ngx.components.UIDynamicElement-1796000700014]: 
+          beanData: '{"ionBean":"Heading1"}'
+          comment: Bean Title (ngx.components.UIDynamicElement)
+          tagName: h1
+          ↓Text [ngx.components.UIText-1796000700015]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Games
+      ↓Style [ngx.components.UIStyle-1771416463619]: 
+        comment: Bean Style (ngx.components.UIStyle)
+        styleContent: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+            - com.twinsoft.convertigo.beans.common.FormatedContent: 
+              →: |
+                '	height: 100%;
+                	text-align: center;
+                '
+    ↓IonTabBar11 [ngx.components.UIDynamicElement-1796000003831]: 
+      beanData: '{"ionBean":"TabBar"}'
+      comment: Bean IonTabBar11 (ngx.components.UIDynamicElement)
+      tagName: ion-tab-bar
+      ↓Attrslot12 [ngx.components.UIAttribute-1796000003832]: 
+        attrName: slot
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:bottom
+        comment: Bean Attrslot12 (ngx.components.UIAttribute)
+      ↓IonTabButton13 [ngx.components.UIDynamicTabButton-1796000003833]: 
+        beanData: '{"ionBean":"TabButton"}'
+        comment: Bean IonTabButton13 (ngx.components.UIDynamicTabButton)
+        tagName: ion-tab-button
+        ↓Attrselected [ngx.components.UIAttribute-1796000700016]: 
+          attrName: '[selected]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global && this.global.tabsActive === 'tabs-music'
+          comment: Bean Attrselected (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1796000700017]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTab [ngx.components.UIDynamicAction-1796000700018]: 
+            beanData: |
+              '{
+               "ionBean": "SetGlobalAction",
+               "Property": "plain:tabsActive",
+               "Value": "plain:tabs-music"
+              }'
+            comment: Bean SetTab (ngx.components.UIDynamicAction)
+        ↓IonLabel15 [ngx.components.UIDynamicElement-1796000003835]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel15 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text16 [ngx.components.UIText-1796000003836]: 
+            comment: Bean Text16 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Music
+        ↓IonIcon17 [ngx.components.UIDynamicElement-1796000003837]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon17 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname18 [ngx.components.UIAttribute-1796000003838]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:musical-note
+            comment: Bean Attrname18 (ngx.components.UIAttribute)
+      ↓IonTabButton19 [ngx.components.UIDynamicTabButton-1796000003839]: 
+        beanData: '{"ionBean":"TabButton"}'
+        comment: Bean IonTabButton19 (ngx.components.UIDynamicTabButton)
+        tagName: ion-tab-button
+        ↓Attrselected [ngx.components.UIAttribute-1796000700019]: 
+          attrName: '[selected]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global && this.global.tabsActive === 'tabs-movies'
+          comment: Bean Attrselected (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1796000700020]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTab [ngx.components.UIDynamicAction-1796000700021]: 
+            beanData: |
+              '{
+               "ionBean": "SetGlobalAction",
+               "Property": "plain:tabsActive",
+               "Value": "plain:tabs-movies"
+              }'
+            comment: Bean SetTab (ngx.components.UIDynamicAction)
+        ↓IonLabel21 [ngx.components.UIDynamicElement-1796000003841]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel21 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text22 [ngx.components.UIText-1796000003842]: 
+            comment: Bean Text22 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Movies
+        ↓IonIcon23 [ngx.components.UIDynamicElement-1796000003843]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon23 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname24 [ngx.components.UIAttribute-1796000003844]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:videocam
+            comment: Bean Attrname24 (ngx.components.UIAttribute)
+      ↓IonTabButton25 [ngx.components.UIDynamicTabButton-1796000003845]: 
+        beanData: '{"ionBean":"TabButton"}'
+        comment: Bean IonTabButton25 (ngx.components.UIDynamicTabButton)
+        tagName: ion-tab-button
+        ↓Attrselected [ngx.components.UIAttribute-1796000700022]: 
+          attrName: '[selected]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global && this.global.tabsActive === 'tabs-games'
+          comment: Bean Attrselected (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1796000700023]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTab [ngx.components.UIDynamicAction-1796000700024]: 
+            beanData: |
+              '{
+               "ionBean": "SetGlobalAction",
+               "Property": "plain:tabsActive",
+               "Value": "plain:tabs-games"
+              }'
+            comment: Bean SetTab (ngx.components.UIDynamicAction)
+        ↓IonLabel27 [ngx.components.UIDynamicElement-1796000003847]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel27 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text28 [ngx.components.UIText-1796000003848]: 
+            comment: Bean Text28 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Games
+        ↓IonIcon29 [ngx.components.UIDynamicElement-1796000003849]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon29 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname30 [ngx.components.UIAttribute-1796000003850]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:game-controller
+            comment: Bean Attrname30 (ngx.components.UIAttribute)
+↓PageEvent [ngx.components.UIPageEvent-1796000700001]: 
+  comment: Bean PageEvent (ngx.components.UIPageEvent)
+  viewEvent: onWillLoad
+  ↓SetDefaultTab [ngx.components.UIDynamicAction-1796000700025]: 
+    beanData: |
+      '{
+       "ionBean": "SetGlobalAction",
+       "Property": "plain:tabsActive",
+       "Value": "plain:tabs-music"
+      }'
+    comment: Bean SetDefaultTab (ngx.components.UIDynamicAction)

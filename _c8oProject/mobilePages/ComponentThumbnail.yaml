@@ -1,0 +1,538 @@
+comment: Thumbnail component page
+icon: apps
+iconPosition: start
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: component-thumbnail
+title: Thumbnail
+↓Header [ngx.components.UIDynamicElement-1796000004001]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1796000004002]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
+    tagName: ion-toolbar
+    ↓ButtonSetStart [ngx.components.UIDynamicElement-1796000004003]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      comment: Bean ButtonSetStart (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1796000004004]: 
+        beanData: '{"ionBean":"BackButton"}'
+        comment: Bean BackButton (ngx.components.UIDynamicElement)
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1796000004005]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: Bean MenuButton (ngx.components.UIDynamicElement)
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1796000004006]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1796000004007]: 
+        comment: Bean Text (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Thumbnail
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1796000004090]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      comment: Bean ButtonSet2 (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓ThemeSwitchButton [ngx.components.UIDynamicElement-1796000004091]: 
+        beanData: '{"ionBean":"Button","IonFill":"plain:clear"}'
+        comment: Bean ThemeSwitchButton (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓Class [ngx.components.UIAttribute-1796000004092]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-theme-button
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000004093]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? this.translate.instant(''Theme_Switch_To_Light'') : this.translate.instant(''Theme_Switch_To_Dark'')'
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1796000004094]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTheme [ngx.components.UIDynamicAction-1796000004095]: 
+            beanData: '{"ionBean":"SetThemeAction","dark":"script:!(this.global && this.global.themeDark)"}'
+            comment: Bean SetTheme (ngx.components.UIDynamicAction)
+        ↓ThemeIcon [ngx.components.UIDynamicElement-1796000004096]: 
+          beanData: '{"ionBean":"Icon","IconName":"script:this?.global?.themeDark ? ''sunny-outline'' : ''moon-outline''"}'
+          comment: Bean ThemeIcon (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓IconName [ngx.components.UIAttribute-1796000004097]: 
+            attrName: '[name]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? ''sunny-outline'' : ''moon-outline'''
+            comment: Bean IconName (ngx.components.UIAttribute)
+      ↓LanguageSelector [ngx.components.UIDynamicElement-1796000004098]: 
+        beanData: |
+          '{
+           "ionBean": "Select",
+           "ControlName": "plain:name1770915137820",
+           "Justify": "plain:start"
+          }'
+        comment: Bean LanguageSelector (ngx.components.UIDynamicElement)
+        tagName: ion-select
+        ↓Class [ngx.components.UIAttribute-1796000004099]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-lang-select
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000004100]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'Language' | translate
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Interface [ngx.components.UIAttribute-1796000004101]: 
+          attrName: '[interface]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'popover'
+          comment: Bean Interface (ngx.components.UIAttribute)
+        ↓Value [ngx.components.UIAttribute-1796000004102]: 
+          attrName: '[value]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global.currentLanguage() ?? 'en'
+          comment: Bean Value (ngx.components.UIAttribute)
+        ↓SelectedText [ngx.components.UIAttribute-1796000004103]: 
+          attrName: '[selectedText]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:(this.global?.getLanguageLabelKey() ??  'Lang_English') | translate
+          comment: Bean SelectedText (ngx.components.UIAttribute)
+        ↓ChangeEvent [ngx.components.UIControlEvent-1796000004104]: 
+          attrName: (ionChange)
+          comment: Bean ChangeEvent (ngx.components.UIControlEvent)
+          eventName: ionChange
+          ↓SetLanguage [ngx.components.UIDynamicAction-1796000004105]: 
+            beanData: |
+              '{
+               "ionBean": "SetLanguageAction",
+               "language": "script:event.detail.value",
+               "storageKey": "plain:c8o-lang",
+               "globalProperty": "plain:currentLanguage"
+              }'
+            comment: Bean SetLanguage (ngx.components.UIDynamicAction)
+        ↓LangEN [ngx.components.UIDynamicElement-1796000004106]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:en"}'
+          comment: Bean LangEN (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000004107]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_English
+        ↓LangFR [ngx.components.UIDynamicElement-1796000004108]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:fr"}'
+          comment: Bean LangFR (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000004109]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_French
+        ↓LangIT [ngx.components.UIDynamicElement-1796000004110]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:it"}'
+          comment: Bean LangIT (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000004111]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Italian
+        ↓LangES [ngx.components.UIDynamicElement-1796000004112]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:es"}'
+          comment: Bean LangES (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000004113]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Spanish
+↓Content [ngx.components.UIDynamicElement-1796000004020]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
+  tagName: ion-content
+  ↓IonListHeader1 [ngx.components.UIDynamicElement-1796000004021]: 
+    beanData: '{"ionBean":"Listheader"}'
+    comment: Bean IonListHeader1 (ngx.components.UIDynamicElement)
+    tagName: ion-list-header
+    ↓IonLabel2 [ngx.components.UIDynamicElement-1796000004022]: 
+      beanData: '{"ionBean":"Label"}'
+      comment: Bean IonLabel2 (ngx.components.UIDynamicElement)
+      tagName: ion-label
+      ↓Text3 [ngx.components.UIText-1796000004023]: 
+        comment: Bean Text3 (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Default
+  ↓IonThumbnail4 [ngx.components.UIDynamicElement-1796000004024]: 
+    beanData: '{"ionBean":"Thumbnail"}'
+    comment: Bean IonThumbnail4 (ngx.components.UIDynamicElement)
+    tagName: ion-thumbnail
+    ↓Attrclass5 [ngx.components.UIAttribute-1796000004025]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:ion-margin-start
+      comment: Bean Attrclass5 (ngx.components.UIAttribute)
+    ↓Img6 [ngx.components.UIDynamicElement-1796000004026]: 
+      beanData: '{"ionBean":"Image"}'
+      comment: Bean Img6 (ngx.components.UIDynamicElement)
+      tagName: ion-img
+      ↓Attrsrc7 [ngx.components.UIAttribute-1796000004027]: 
+        attrName: src
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:assets/thumbnail.svg
+        comment: Bean Attrsrc7 (ngx.components.UIAttribute)
+  ↓IonList8 [ngx.components.UIDynamicElement-1796000004028]: 
+    beanData: '{"ionBean":"List"}'
+    comment: Bean IonList8 (ngx.components.UIDynamicElement)
+    tagName: ion-list
+    ↓IonListHeader9 [ngx.components.UIDynamicElement-1796000004029]: 
+      beanData: '{"ionBean":"Listheader"}'
+      comment: Bean IonListHeader9 (ngx.components.UIDynamicElement)
+      tagName: ion-list-header
+      ↓IonLabel10 [ngx.components.UIDynamicElement-1796000004030]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel10 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text11 [ngx.components.UIText-1796000004031]: 
+          comment: Bean Text11 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Item Thumbnails
+    ↓IonItem12 [ngx.components.UIDynamicElement-1796000004032]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem12 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonThumbnail13 [ngx.components.UIDynamicElement-1796000004033]: 
+        beanData: '{"ionBean":"Thumbnail"}'
+        comment: Bean IonThumbnail13 (ngx.components.UIDynamicElement)
+        tagName: ion-thumbnail
+        ↓Attrslot14 [ngx.components.UIAttribute-1796000004034]: 
+          attrName: slot
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:start
+          comment: Bean Attrslot14 (ngx.components.UIAttribute)
+        ↓Img15 [ngx.components.UIDynamicElement-1796000004035]: 
+          beanData: '{"ionBean":"Image"}'
+          comment: Bean Img15 (ngx.components.UIDynamicElement)
+          tagName: ion-img
+          ↓Attrsrc16 [ngx.components.UIAttribute-1796000004036]: 
+            attrName: src
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:assets/thumbnail.svg
+            comment: Bean Attrsrc16 (ngx.components.UIAttribute)
+      ↓IonLabel17 [ngx.components.UIDynamicElement-1796000004037]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel17 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text18 [ngx.components.UIText-1796000004038]: 
+          comment: Bean Text18 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Lorem ipsum
+    ↓IonItem19 [ngx.components.UIDynamicElement-1796000004039]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem19 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonThumbnail20 [ngx.components.UIDynamicElement-1796000004040]: 
+        beanData: '{"ionBean":"Thumbnail"}'
+        comment: Bean IonThumbnail20 (ngx.components.UIDynamicElement)
+        tagName: ion-thumbnail
+        ↓Attrslot21 [ngx.components.UIAttribute-1796000004041]: 
+          attrName: slot
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:start
+          comment: Bean Attrslot21 (ngx.components.UIAttribute)
+        ↓Img22 [ngx.components.UIDynamicElement-1796000004042]: 
+          beanData: '{"ionBean":"Image"}'
+          comment: Bean Img22 (ngx.components.UIDynamicElement)
+          tagName: ion-img
+          ↓Attrsrc23 [ngx.components.UIAttribute-1796000004043]: 
+            attrName: src
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:assets/thumbnail.svg
+            comment: Bean Attrsrc23 (ngx.components.UIAttribute)
+      ↓IonLabel24 [ngx.components.UIDynamicElement-1796000004044]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel24 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓H325 [ngx.components.UIDynamicElement-1796000004045]: 
+          beanData: '{"ionBean":"Heading3"}'
+          comment: Bean H325 (ngx.components.UIDynamicElement)
+          tagName: h3
+          ↓Text26 [ngx.components.UIText-1796000004046]: 
+            comment: Bean Text26 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lorem ipsum
+        ↓P27 [ngx.components.UIDynamicElement-1796000004047]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean P27 (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text28 [ngx.components.UIText-1796000004048]: 
+            comment: Bean Text28 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:dolor sit amet
+    ↓IonItem29 [ngx.components.UIDynamicElement-1796000004049]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem29 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonThumbnail30 [ngx.components.UIDynamicElement-1796000004050]: 
+        beanData: '{"ionBean":"Thumbnail"}'
+        comment: Bean IonThumbnail30 (ngx.components.UIDynamicElement)
+        tagName: ion-thumbnail
+        ↓Attrslot31 [ngx.components.UIAttribute-1796000004051]: 
+          attrName: slot
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:start
+          comment: Bean Attrslot31 (ngx.components.UIAttribute)
+        ↓Img32 [ngx.components.UIDynamicElement-1796000004052]: 
+          beanData: '{"ionBean":"Image"}'
+          comment: Bean Img32 (ngx.components.UIDynamicElement)
+          tagName: ion-img
+          ↓Attrsrc33 [ngx.components.UIAttribute-1796000004053]: 
+            attrName: src
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:assets/thumbnail.svg
+            comment: Bean Attrsrc33 (ngx.components.UIAttribute)
+      ↓IonLabel34 [ngx.components.UIDynamicElement-1796000004054]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel34 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓H335 [ngx.components.UIDynamicElement-1796000004055]: 
+          beanData: '{"ionBean":"Heading3"}'
+          comment: Bean H335 (ngx.components.UIDynamicElement)
+          tagName: h3
+          ↓Text36 [ngx.components.UIText-1796000004056]: 
+            comment: Bean Text36 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lorem ipsum
+        ↓P37 [ngx.components.UIDynamicElement-1796000004057]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean P37 (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text38 [ngx.components.UIText-1796000004058]: 
+            comment: Bean Text38 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:dolor sit amet
+        ↓P39 [ngx.components.UIDynamicElement-1796000004059]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean P39 (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text40 [ngx.components.UIText-1796000004060]: 
+            comment: Bean Text40 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:consectetur adipiscing elit. Duis ut urna neque.
+    ↓IonItem41 [ngx.components.UIDynamicElement-1796000004061]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem41 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonThumbnail42 [ngx.components.UIDynamicElement-1796000004062]: 
+        beanData: '{"ionBean":"Thumbnail"}'
+        comment: Bean IonThumbnail42 (ngx.components.UIDynamicElement)
+        tagName: ion-thumbnail
+        ↓Attrslot43 [ngx.components.UIAttribute-1796000004063]: 
+          attrName: slot
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:end
+          comment: Bean Attrslot43 (ngx.components.UIAttribute)
+        ↓Img44 [ngx.components.UIDynamicElement-1796000004064]: 
+          beanData: '{"ionBean":"Image"}'
+          comment: Bean Img44 (ngx.components.UIDynamicElement)
+          tagName: ion-img
+          ↓Attrsrc45 [ngx.components.UIAttribute-1796000004065]: 
+            attrName: src
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:assets/thumbnail.svg
+            comment: Bean Attrsrc45 (ngx.components.UIAttribute)
+      ↓IonLabel46 [ngx.components.UIDynamicElement-1796000004066]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel46 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text47 [ngx.components.UIText-1796000004067]: 
+          comment: Bean Text47 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Lorem ipsum
+    ↓IonItem48 [ngx.components.UIDynamicElement-1796000004068]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem48 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonThumbnail49 [ngx.components.UIDynamicElement-1796000004069]: 
+        beanData: '{"ionBean":"Thumbnail"}'
+        comment: Bean IonThumbnail49 (ngx.components.UIDynamicElement)
+        tagName: ion-thumbnail
+        ↓Attrslot50 [ngx.components.UIAttribute-1796000004070]: 
+          attrName: slot
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:end
+          comment: Bean Attrslot50 (ngx.components.UIAttribute)
+        ↓Img51 [ngx.components.UIDynamicElement-1796000004071]: 
+          beanData: '{"ionBean":"Image"}'
+          comment: Bean Img51 (ngx.components.UIDynamicElement)
+          tagName: ion-img
+          ↓Attrsrc52 [ngx.components.UIAttribute-1796000004072]: 
+            attrName: src
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:assets/thumbnail.svg
+            comment: Bean Attrsrc52 (ngx.components.UIAttribute)
+      ↓IonLabel53 [ngx.components.UIDynamicElement-1796000004073]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel53 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓H354 [ngx.components.UIDynamicElement-1796000004074]: 
+          beanData: '{"ionBean":"Heading3"}'
+          comment: Bean H354 (ngx.components.UIDynamicElement)
+          tagName: h3
+          ↓Text55 [ngx.components.UIText-1796000004075]: 
+            comment: Bean Text55 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lorem ipsum
+        ↓P56 [ngx.components.UIDynamicElement-1796000004076]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean P56 (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text57 [ngx.components.UIText-1796000004077]: 
+            comment: Bean Text57 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:dolor sit amet
+    ↓IonItem58 [ngx.components.UIDynamicElement-1796000004078]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem58 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonThumbnail59 [ngx.components.UIDynamicElement-1796000004079]: 
+        beanData: '{"ionBean":"Thumbnail"}'
+        comment: Bean IonThumbnail59 (ngx.components.UIDynamicElement)
+        tagName: ion-thumbnail
+        ↓Attrslot60 [ngx.components.UIAttribute-1796000004080]: 
+          attrName: slot
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:end
+          comment: Bean Attrslot60 (ngx.components.UIAttribute)
+        ↓Img61 [ngx.components.UIDynamicElement-1796000004081]: 
+          beanData: '{"ionBean":"Image"}'
+          comment: Bean Img61 (ngx.components.UIDynamicElement)
+          tagName: ion-img
+          ↓Attrsrc62 [ngx.components.UIAttribute-1796000004082]: 
+            attrName: src
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:assets/thumbnail.svg
+            comment: Bean Attrsrc62 (ngx.components.UIAttribute)
+      ↓IonLabel63 [ngx.components.UIDynamicElement-1796000004083]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel63 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓H364 [ngx.components.UIDynamicElement-1796000004084]: 
+          beanData: '{"ionBean":"Heading3"}'
+          comment: Bean H364 (ngx.components.UIDynamicElement)
+          tagName: h3
+          ↓Text65 [ngx.components.UIText-1796000004085]: 
+            comment: Bean Text65 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lorem ipsum
+        ↓P66 [ngx.components.UIDynamicElement-1796000004086]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean P66 (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text67 [ngx.components.UIText-1796000004087]: 
+            comment: Bean Text67 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:dolor sit amet
+        ↓P68 [ngx.components.UIDynamicElement-1796000004088]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean P68 (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text69 [ngx.components.UIText-1796000004089]: 
+            comment: Bean Text69 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:consectetur adipiscing elit. Duis ut urna neque.

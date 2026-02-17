@@ -1,0 +1,477 @@
+comment: Checkbox component page
+icon: apps
+iconPosition: start
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: component-checkbox
+title: Checkbox
+↓Header [ngx.components.UIDynamicElement-1797000000067]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1797000000068]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
+    tagName: ion-toolbar
+    ↓ButtonSetStart [ngx.components.UIDynamicElement-1797000000069]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      comment: Bean ButtonSetStart (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1797000000070]: 
+        beanData: '{"ionBean":"BackButton"}'
+        comment: Bean BackButton (ngx.components.UIDynamicElement)
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1797000000071]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: Bean MenuButton (ngx.components.UIDynamicElement)
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1797000000072]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1797000000073]: 
+        comment: Bean Text (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Checkbox
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1797000000074]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      comment: Bean ButtonSet2 (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓ThemeSwitchButton [ngx.components.UIDynamicElement-1797000000075]: 
+        beanData: '{"ionBean":"Button","IonFill":"plain:clear"}'
+        comment: Bean ThemeSwitchButton (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓Class [ngx.components.UIAttribute-1797000000076]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-theme-button
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1797000000077]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? this.translate.instant(''Theme_Switch_To_Light'') : this.translate.instant(''Theme_Switch_To_Dark'')'
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1797000000078]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTheme [ngx.components.UIDynamicAction-1797000000079]: 
+            beanData: '{"ionBean":"SetThemeAction","dark":"script:!(this.global && this.global.themeDark)"}'
+            comment: Bean SetTheme (ngx.components.UIDynamicAction)
+        ↓ThemeIcon [ngx.components.UIDynamicElement-1797000000080]: 
+          beanData: '{"ionBean":"Icon","IconName":"script:this?.global?.themeDark ? ''sunny-outline'' : ''moon-outline''"}'
+          comment: Bean ThemeIcon (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓IconName [ngx.components.UIAttribute-1797000000081]: 
+            attrName: '[name]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? ''sunny-outline'' : ''moon-outline'''
+            comment: Bean IconName (ngx.components.UIAttribute)
+      ↓LanguageSelector [ngx.components.UIDynamicElement-1797000000082]: 
+        beanData: |
+          '{
+           "ionBean": "Select",
+           "ControlName": "plain:name1770915137820",
+           "Justify": "plain:start"
+          }'
+        comment: Bean LanguageSelector (ngx.components.UIDynamicElement)
+        tagName: ion-select
+        ↓Class [ngx.components.UIAttribute-1797000000083]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-lang-select
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1797000000084]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'Language' | translate
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Interface [ngx.components.UIAttribute-1797000000085]: 
+          attrName: '[interface]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'popover'
+          comment: Bean Interface (ngx.components.UIAttribute)
+        ↓Value [ngx.components.UIAttribute-1797000000086]: 
+          attrName: '[value]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global.currentLanguage() ?? 'en'
+          comment: Bean Value (ngx.components.UIAttribute)
+        ↓SelectedText [ngx.components.UIAttribute-1797000000087]: 
+          attrName: '[selectedText]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:(this.global?.getLanguageLabelKey() ??  'Lang_English') | translate
+          comment: Bean SelectedText (ngx.components.UIAttribute)
+        ↓ChangeEvent [ngx.components.UIControlEvent-1797000000088]: 
+          attrName: (ionChange)
+          comment: Bean ChangeEvent (ngx.components.UIControlEvent)
+          eventName: ionChange
+          ↓SetLanguage [ngx.components.UIDynamicAction-1797000000089]: 
+            beanData: |
+              '{
+               "ionBean": "SetLanguageAction",
+               "language": "script:event.detail.value",
+               "storageKey": "plain:c8o-lang",
+               "globalProperty": "plain:currentLanguage"
+              }'
+            comment: Bean SetLanguage (ngx.components.UIDynamicAction)
+        ↓LangEN [ngx.components.UIDynamicElement-1797000000090]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:en"}'
+          comment: Bean LangEN (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1797000000091]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_English
+        ↓LangFR [ngx.components.UIDynamicElement-1797000000092]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:fr"}'
+          comment: Bean LangFR (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1797000000093]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_French
+        ↓LangIT [ngx.components.UIDynamicElement-1797000000094]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:it"}'
+          comment: Bean LangIT (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1797000000095]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Italian
+        ↓LangES [ngx.components.UIDynamicElement-1797000000096]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:es"}'
+          comment: Bean LangES (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000000929]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Spanish
+↓Content [ngx.components.UIDynamicElement-1797000000097]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
+  tagName: ion-content
+  ↓IonList1 [ngx.components.UIDynamicElement-1797000000098]: 
+    beanData: '{"ionBean":"List"}'
+    comment: Bean IonList1 (ngx.components.UIDynamicElement)
+    tagName: ion-list
+    ↓Attrlines2 [ngx.components.UIAttribute-1797000000099]: 
+      attrName: lines
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:full
+      comment: Bean Attrlines2 (ngx.components.UIAttribute)
+    ↓IonListHeader3 [ngx.components.UIDynamicElement-1797000000100]: 
+      beanData: '{"ionBean":"Listheader"}'
+      comment: Bean IonListHeader3 (ngx.components.UIDynamicElement)
+      tagName: ion-list-header
+      ↓IonLabel4 [ngx.components.UIDynamicElement-1797000000101]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean IonLabel4 (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text5 [ngx.components.UIText-1797000000102]: 
+          comment: Bean Text5 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Characters
+    ↓IonItem6 [ngx.components.UIDynamicElement-1797000000103]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem6 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox7 [ngx.components.UIDynamicElement-1797000000104]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "IonColor": "plain:primary",
+           "Checked": "plain:true",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox7 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Text12 [ngx.components.UIText-1797000000105]: 
+          comment: Bean Text12 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Jon Snow
+    ↓IonItem13 [ngx.components.UIDynamicElement-1797000000106]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem13 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox14 [ngx.components.UIDynamicElement-1797000000107]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "IonColor": "plain:dark",
+           "Checked": "plain:true",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox14 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Text19 [ngx.components.UIText-1797000000108]: 
+          comment: Bean Text19 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Daenerys Targaryen
+    ↓IonItem20 [ngx.components.UIDynamicElement-1797000000109]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem20 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox21 [ngx.components.UIDynamicElement-1797000000110]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox21 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Attrdisabled22 [ngx.components.UIAttribute-1797000000111]: 
+          attrName: disabled
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:true
+          comment: Bean Attrdisabled22 (ngx.components.UIAttribute)
+        ↓Text25 [ngx.components.UIText-1797000000112]: 
+          comment: Bean Text25 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Arya Stark
+    ↓IonItem26 [ngx.components.UIDynamicElement-1797000000113]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem26 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox27 [ngx.components.UIDynamicElement-1797000000114]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "IonColor": "plain:secondary",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox27 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Text31 [ngx.components.UIText-1797000000115]: 
+          comment: Bean Text31 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Tyrion Lannister
+    ↓IonItem32 [ngx.components.UIDynamicElement-1797000000116]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem32 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox33 [ngx.components.UIDynamicElement-1797000000117]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "IonColor": "plain:danger",
+           "Checked": "plain:true",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox33 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Text38 [ngx.components.UIText-1797000000118]: 
+          comment: Bean Text38 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Sansa Stark
+    ↓IonItem39 [ngx.components.UIDynamicElement-1797000000119]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem39 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox40 [ngx.components.UIDynamicElement-1797000000120]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "IonColor": "plain:primary",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox40 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Text44 [ngx.components.UIText-1797000000121]: 
+          comment: Bean Text44 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Khal Drogo
+    ↓IonItem45 [ngx.components.UIDynamicElement-1797000000122]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem45 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox46 [ngx.components.UIDynamicElement-1797000000123]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "IonColor": "plain:tertiary",
+           "Checked": "plain:true",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox46 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Text51 [ngx.components.UIText-1797000000124]: 
+          comment: Bean Text51 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Cersei Lannister
+    ↓IonItem52 [ngx.components.UIDynamicElement-1797000000125]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem52 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox53 [ngx.components.UIDynamicElement-1797000000126]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "IonColor": "plain:medium",
+           "Checked": "plain:true",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox53 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Text58 [ngx.components.UIText-1797000000127]: 
+          comment: Bean Text58 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Stannis Baratheon
+    ↓IonItem59 [ngx.components.UIDynamicElement-1797000000128]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem59 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox60 [ngx.components.UIDynamicElement-1797000000129]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "IonColor": "plain:primary",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox60 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Attrdisabled62 [ngx.components.UIAttribute-1797000000130]: 
+          attrName: disabled
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:true
+          comment: Bean Attrdisabled62 (ngx.components.UIAttribute)
+        ↓Text65 [ngx.components.UIText-1797000000131]: 
+          comment: Bean Text65 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Petyr Baelish
+    ↓IonItem66 [ngx.components.UIDynamicElement-1797000000132]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem66 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox67 [ngx.components.UIDynamicElement-1797000000133]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "IonColor": "plain:dark",
+           "Checked": "plain:true",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox67 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Text72 [ngx.components.UIText-1797000000134]: 
+          comment: Bean Text72 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Hodor
+    ↓IonItem73 [ngx.components.UIDynamicElement-1797000000135]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem73 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox74 [ngx.components.UIDynamicElement-1797000000136]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "IonColor": "plain:secondary",
+           "Checked": "plain:true",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox74 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Text79 [ngx.components.UIText-1797000000137]: 
+          comment: Bean Text79 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Catelyn Stark
+    ↓IonItem80 [ngx.components.UIDynamicElement-1797000000138]: 
+      beanData: '{"ionBean":"ListItem"}'
+      comment: Bean IonItem80 (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓IonCheckbox81 [ngx.components.UIDynamicElement-1797000000139]: 
+        beanData: |
+          '{
+           "ionBean": "CheckBox",
+           "IonColor": "plain:primary",
+           "Justify": "plain:start",
+           "LabelPlacement": "plain:end"
+          }'
+        comment: Bean IonCheckbox81 (ngx.components.UIDynamicElement)
+        tagName: ion-checkbox
+        ↓Text85 [ngx.components.UIText-1797000000140]: 
+          comment: Bean Text85 (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Bronn

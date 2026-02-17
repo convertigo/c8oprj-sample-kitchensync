@@ -3,14 +3,18 @@ comment: Main navigation menu
 tagName: ion-menu
 ↓Header [ngx.components.UIDynamicElement-1771011036570]: 
   beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
   tagName: ion-header
   ↓ToolBar [ngx.components.UIDynamicElement-1771011036571]: 
     beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
     tagName: ion-toolbar
     ↓BarTitle [ngx.components.UIDynamicElement-1771011036572]: 
       beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
       tagName: ion-title
       ↓Text [ngx.components.UIText-1771011036573]: 
+        comment: Bean Text (ngx.components.UIText)
         i18n: true
         textValue: 
           - xmlizable: 
@@ -18,11 +22,14 @@ tagName: ion-menu
             - MobileSmartSourceType: plain:Navigation
 ↓Content [ngx.components.UIDynamicElement-1771011036574]: 
   beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
   tagName: ion-content
   ↓List [ngx.components.UIDynamicElement-1771011036575]: 
     beanData: '{"ionBean":"List","Inset":"plain:inset"}'
+    comment: Bean List (ngx.components.UIDynamicElement)
     tagName: ion-list
     ↓MenuAutoItems [ngx.components.UIDynamicMenuItems-1771011036576]: 
       beanData: '{"ionBean":"MenuAutoItems"}'
+      comment: Bean MenuAutoItems (ngx.components.UIDynamicMenuItems)
       itemtitle: 
       tagName: button

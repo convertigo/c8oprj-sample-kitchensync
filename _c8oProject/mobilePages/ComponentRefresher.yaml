@@ -1,0 +1,467 @@
+comment: Refresher component page
+icon: apps
+iconPosition: start
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: component-refresher
+title: Refresher
+↓Header [ngx.components.UIDynamicElement-1797000000422]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1797000000423]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
+    tagName: ion-toolbar
+    ↓ButtonSetStart [ngx.components.UIDynamicElement-1797000000424]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      comment: Bean ButtonSetStart (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1797000000425]: 
+        beanData: '{"ionBean":"BackButton"}'
+        comment: Bean BackButton (ngx.components.UIDynamicElement)
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1797000000426]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: Bean MenuButton (ngx.components.UIDynamicElement)
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1797000000427]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1796000003107]: 
+        comment: Bean Text (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Refresher
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1796000003132]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      comment: Bean ButtonSet2 (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓ThemeSwitchButton [ngx.components.UIDynamicElement-1796000003133]: 
+        beanData: '{"ionBean":"Button","IonFill":"plain:clear"}'
+        comment: Bean ThemeSwitchButton (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓Class [ngx.components.UIAttribute-1796000003134]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-theme-button
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000003135]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? this.translate.instant(''Theme_Switch_To_Light'') : this.translate.instant(''Theme_Switch_To_Dark'')'
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1796000003136]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTheme [ngx.components.UIDynamicAction-1796000003137]: 
+            beanData: '{"ionBean":"SetThemeAction","dark":"script:!(this.global && this.global.themeDark)"}'
+            comment: Bean SetTheme (ngx.components.UIDynamicAction)
+        ↓ThemeIcon [ngx.components.UIDynamicElement-1796000003138]: 
+          beanData: '{"ionBean":"Icon","IconName":"script:this?.global?.themeDark ? ''sunny-outline'' : ''moon-outline''"}'
+          comment: Bean ThemeIcon (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓IconName [ngx.components.UIAttribute-1796000003139]: 
+            attrName: '[name]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? ''sunny-outline'' : ''moon-outline'''
+            comment: Bean IconName (ngx.components.UIAttribute)
+      ↓LanguageSelector [ngx.components.UIDynamicElement-1796000003140]: 
+        beanData: |
+          '{
+           "ionBean": "Select",
+           "ControlName": "plain:name1770915137820",
+           "Justify": "plain:start"
+          }'
+        comment: Bean LanguageSelector (ngx.components.UIDynamicElement)
+        tagName: ion-select
+        ↓Class [ngx.components.UIAttribute-1796000003141]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-lang-select
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000003142]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'Language' | translate
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Interface [ngx.components.UIAttribute-1796000003143]: 
+          attrName: '[interface]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'popover'
+          comment: Bean Interface (ngx.components.UIAttribute)
+        ↓Value [ngx.components.UIAttribute-1796000003144]: 
+          attrName: '[value]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global.currentLanguage() ?? 'en'
+          comment: Bean Value (ngx.components.UIAttribute)
+        ↓SelectedText [ngx.components.UIAttribute-1796000003145]: 
+          attrName: '[selectedText]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:(this.global?.getLanguageLabelKey() ??  'Lang_English') | translate
+          comment: Bean SelectedText (ngx.components.UIAttribute)
+        ↓ChangeEvent [ngx.components.UIControlEvent-1796000003146]: 
+          attrName: (ionChange)
+          comment: Bean ChangeEvent (ngx.components.UIControlEvent)
+          eventName: ionChange
+          ↓SetLanguage [ngx.components.UIDynamicAction-1796000003147]: 
+            beanData: |
+              '{
+               "ionBean": "SetLanguageAction",
+               "language": "script:event.detail.value",
+               "storageKey": "plain:c8o-lang",
+               "globalProperty": "plain:currentLanguage"
+              }'
+            comment: Bean SetLanguage (ngx.components.UIDynamicAction)
+        ↓LangEN [ngx.components.UIDynamicElement-1796000003148]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:en"}'
+          comment: Bean LangEN (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003149]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_English
+        ↓LangFR [ngx.components.UIDynamicElement-1796000003150]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:fr"}'
+          comment: Bean LangFR (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003151]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_French
+        ↓LangIT [ngx.components.UIDynamicElement-1796000003152]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:it"}'
+          comment: Bean LangIT (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003153]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Italian
+        ↓LangES [ngx.components.UIDynamicElement-1796000003154]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:es"}'
+          comment: Bean LangES (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003155]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Spanish
+↓Content [ngx.components.UIDynamicElement-1796000003120]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
+  tagName: ion-content
+  ↓IonRefresher1 [ngx.components.UIDynamicElement-1796000003121]: 
+    beanData: '{"ionBean":"Refresher"}'
+    comment: Bean IonRefresher1 (ngx.components.UIDynamicElement)
+    tagName: ion-refresher
+    ↓Attrslot2 [ngx.components.UIAttribute-1796000003122]: 
+      attrName: slot
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:fixed
+      comment: Bean Attrslot2 (ngx.components.UIAttribute)
+    ↓EventRefresh [ngx.components.UIControlEvent-1796000500021]: 
+      attrName: (ionRefresh)
+      comment: Bean EventRefresh (ngx.components.UIControlEvent)
+      eventName: ionRefresh
+      ↓onRefresh [ngx.components.UICustomAsyncAction-1796000500022]: 
+        actionValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+            - com.twinsoft.convertigo.beans.common.FormatedContent: 
+              →: |
+                '		try {
+                			setTimeout(function () {
+                				var authors = Array.isArray(page.global && page.global.refresherAuthors) ? page.global.refresherAuthors : [
+                					"Everyworse",
+                					"Nextably",
+                					"Givester",
+                					"TempleRentr",
+                					"Spout",
+                					"Frigital",
+                					"Batterbus",
+                					"Ham Pot",
+                					"Bat Plus IQ",
+                					"Throbe"
+                				];
+                				var titles = Array.isArray(page.global && page.global.refresherTitles) ? page.global.refresherTitles : [
+                					"Get 50 percent off your purchase today",
+                					"Do not miss out on your exclusive deal",
+                					"Treat yourself with fresh savings",
+                					"Your 25 percent coupon expires at midnight",
+                					"Big savings up to 50 percent this week",
+                					"Lucky you save today",
+                					"The event you do not want to miss",
+                					"Special offer see inside",
+                					"Ready to order",
+                					"Bonus coupon inside"
+                				];
+                				var messages = Array.isArray(page.global && page.global.refresherMessages) ? page.global.refresherMessages : [
+                					"The best brands and the best deals",
+                					"Recommended by your personal planner",
+                					"Catch them before they are gone",
+                					"Shop today to save on gifts",
+                					"Offer expires at 11 59 PM",
+                					"Free delivery on selected orders",
+                					"Selection value and service",
+                					"Shop now and save big",
+                					"Unlock your coupon code now",
+                					"All your favorites are heading your way"
+                				];
+                				var pickRandom = function (list) {
+                					var index = Math.floor(Math.random() * list.length);
+                					return list[index];
+                				};
+                				var createItems = function (count, unread) {
+                					var items = [];
+                					var total = Number(count || 0);
+                					for (var i = 0; i < total; i++) {
+                						items.push({
+                							unread: unread === true,
+                							email: {
+                								author: pickRandom(authors),
+                								title: pickRandom(titles),
+                								message: pickRandom(messages)
+                							}
+                						});
+                					}
+                					return items;
+                				};
+                				var current = Array.isArray(page.global && page.global.refresherItems) ? page.global.refresherItems.slice(0) : [];
+                				page.global.refresherItems = createItems(2, true).concat(current);
+                				if (event && event.target && typeof event.target.complete === "function") {
+                					event.target.complete();
+                				}
+                				page.ref.markForCheck();
+                			}, 1000);
+                		} catch (e) {
+                			page.c8o.log.debug("[MB] onRefresherRefresh failed", e);
+                		} finally {
+                			return;
+                		}
+                '
+        comment: Bean onRefresh (ngx.components.UICustomAsyncAction)
+    ↓IonRefresherContent3 [ngx.components.UIDynamicElement-1796000003123]: 
+      beanData: '{"ionBean":"RefresherContent"}'
+      comment: Bean IonRefresherContent3 (ngx.components.UIDynamicElement)
+      tagName: ion-refresher-content
+  ↓IonList4 [ngx.components.UIDynamicElement-1796000003124]: 
+    beanData: '{"ionBean":"List"}'
+    comment: Bean IonList4 (ngx.components.UIDynamicElement)
+    tagName: ion-list
+    ↓Directive5 [ngx.components.UIControlDirective-1796000190001]: 
+      comment: Bean Directive5 (ngx.components.UIControlDirective)
+      directiveItemName: item
+      directiveSource: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: source:{"filter":"Global","project":"sampleKitchenSync","input":"","model":{"data":[{"sharedObject":"router.sharedObject"}],"path":"?.refresherItems","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓IonItem6 [ngx.components.UIDynamicElement-1796000190002]: 
+        beanData: '{"ionBean":"ListItem"}'
+        comment: Bean IonItem6 (ngx.components.UIDynamicElement)
+        tagName: ion-item
+        ↓Div7 [ngx.components.UIDynamicElement-1796000190003]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div7 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Attrslot8 [ngx.components.UIAttribute-1796000190004]: 
+            attrName: slot
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:start
+            comment: Bean Attrslot8 (ngx.components.UIAttribute)
+          ↓Attrclass9 [ngx.components.UIAttribute-1796000190005]: 
+            attrName: '[class]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:item.unread ? ''dot dot-unread'' : ''dot'''
+            comment: Bean Attrclass9 (ngx.components.UIAttribute)
+        ↓IonLabel10 [ngx.components.UIDynamicElement-1796000190006]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel10 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓H211 [ngx.components.UIDynamicElement-1796000190007]: 
+            beanData: '{"ionBean":"Heading2"}'
+            comment: Bean H211 (ngx.components.UIDynamicElement)
+            tagName: h2
+            ↓Text12 [ngx.components.UIText-1796000190008]: 
+              comment: Bean Text12 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:item.email.author
+          ↓H313 [ngx.components.UIDynamicElement-1796000190009]: 
+            beanData: '{"ionBean":"Heading3"}'
+            comment: Bean H313 (ngx.components.UIDynamicElement)
+            tagName: h3
+            ↓Text14 [ngx.components.UIText-1796000190010]: 
+              comment: Bean Text14 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:item.email.title
+          ↓P15 [ngx.components.UIDynamicElement-1796000190011]: 
+            beanData: '{"ionBean":"Paragraph"}'
+            comment: Bean P15 (ngx.components.UIDynamicElement)
+            tagName: p
+            ↓Text16 [ngx.components.UIText-1796000190012]: 
+              comment: Bean Text16 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:item.email.message
+↓PageEvent [ngx.components.UIPageEvent-1960000200001]: 
+  comment: Bean PageEvent (ngx.components.UIPageEvent)
+  viewEvent: onWillLoad
+  ↓InitRefresherItems [ngx.components.UICustomAsyncAction-1960000200002]: 
+    actionValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+          →: |
+            '		try {
+            			if (!page.global) {
+            				return;
+            			}
+            			var authors = [
+            				"Everyworse",
+            				"Nextably",
+            				"Givester",
+            				"TempleRentr",
+            				"Spout",
+            				"Frigital",
+            				"Batterbus",
+            				"Ham Pot",
+            				"Bat Plus IQ",
+            				"Throbe"
+            			];
+            			var titles = [
+            				"Get 50 percent off your purchase today",
+            				"Do not miss out on your exclusive deal",
+            				"Treat yourself with fresh savings",
+            				"Your 25 percent coupon expires at midnight",
+            				"Big savings up to 50 percent this week",
+            				"Lucky you save today",
+            				"The event you do not want to miss",
+            				"Special offer see inside",
+            				"Ready to order",
+            				"Bonus coupon inside"
+            			];
+            			var messages = [
+            				"The best brands and the best deals",
+            				"Recommended by your personal planner",
+            				"Catch them before they are gone",
+            				"Shop today to save on gifts",
+            				"Offer expires at 11 59 PM",
+            				"Free delivery on selected orders",
+            				"Selection value and service",
+            				"Shop now and save big",
+            				"Unlock your coupon code now",
+            				"All your favorites are heading your way"
+            			];
+            			var pickRandom = function (list) {
+            				var index = Math.floor(Math.random() * list.length);
+            				return list[index];
+            			};
+            			var createItems = function (count, unread) {
+            				var items = [];
+            				var total = Number(count || 0);
+            				for (var i = 0; i < total; i++) {
+            					items.push({
+            						unread: unread === true,
+            						email: {
+            							author: pickRandom(authors),
+            							title: pickRandom(titles),
+            							message: pickRandom(messages)
+            						}
+            					});
+            				}
+            				return items;
+            			};
+            			page.global.refresherAuthors = authors;
+            			page.global.refresherTitles = titles;
+            			page.global.refresherMessages = messages;
+            			page.global.refresherItems = createItems(5, false);
+            			page.ref.markForCheck();
+            		} catch (e) {
+            			page.c8o.log.debug("[MB] initRefresherItems failed", e);
+            		} finally {
+            			return;
+            		}
+            '
+    comment: Bean InitRefresherItems (ngx.components.UICustomAsyncAction)
+↓Style [ngx.components.UIStyle-1796000190013]: 
+  comment: Bean Style (ngx.components.UIStyle)
+  styleContent: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+        →: |
+          'component-refresher ion-content {
+            user-select: none;
+          }
+          
+          component-refresher ion-item {
+            --padding-start: 8px;
+          }
+          
+          component-refresher .dot {
+            display: block;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            align-self: start;
+            margin: 16px 8px 16px 9px;
+          }
+          
+          component-refresher .dot-unread {
+            background: var(--ion-color-primary);
+          }
+          
+          component-refresher ion-item h2,
+          component-refresher ion-item h3 {
+            font-weight: 500 !important;
+          }'

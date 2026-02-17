@@ -1,0 +1,632 @@
+comment: Picker component page
+icon: apps
+iconPosition: start
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: component-picker
+title: Picker
+↓Header [ngx.components.UIDynamicElement-1797000000412]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1797000000413]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
+    tagName: ion-toolbar
+    ↓ButtonSetStart [ngx.components.UIDynamicElement-1797000000414]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      comment: Bean ButtonSetStart (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1796000002604]: 
+        beanData: '{"ionBean":"BackButton"}'
+        comment: Bean BackButton (ngx.components.UIDynamicElement)
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1796000002605]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: Bean MenuButton (ngx.components.UIDynamicElement)
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1796000002606]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1796000002607]: 
+        comment: Bean Text (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Picker
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1796000002649]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      comment: Bean ButtonSet2 (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓ThemeSwitchButton [ngx.components.UIDynamicElement-1796000002650]: 
+        beanData: '{"ionBean":"Button","IonFill":"plain:clear"}'
+        comment: Bean ThemeSwitchButton (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓Class [ngx.components.UIAttribute-1796000002651]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-theme-button
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000002652]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? this.translate.instant(''Theme_Switch_To_Light'') : this.translate.instant(''Theme_Switch_To_Dark'')'
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1796000002653]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTheme [ngx.components.UIDynamicAction-1796000002654]: 
+            beanData: '{"ionBean":"SetThemeAction","dark":"script:!(this.global && this.global.themeDark)"}'
+            comment: Bean SetTheme (ngx.components.UIDynamicAction)
+        ↓ThemeIcon [ngx.components.UIDynamicElement-1796000002655]: 
+          beanData: '{"ionBean":"Icon","IconName":"script:this?.global?.themeDark ? ''sunny-outline'' : ''moon-outline''"}'
+          comment: Bean ThemeIcon (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓IconName [ngx.components.UIAttribute-1796000002656]: 
+            attrName: '[name]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? ''sunny-outline'' : ''moon-outline'''
+            comment: Bean IconName (ngx.components.UIAttribute)
+      ↓LanguageSelector [ngx.components.UIDynamicElement-1796000002657]: 
+        beanData: |
+          '{
+           "ionBean": "Select",
+           "ControlName": "plain:name1770915137820",
+           "Justify": "plain:start"
+          }'
+        comment: Bean LanguageSelector (ngx.components.UIDynamicElement)
+        tagName: ion-select
+        ↓Class [ngx.components.UIAttribute-1796000002658]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-lang-select
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000002659]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'Language' | translate
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Interface [ngx.components.UIAttribute-1796000002660]: 
+          attrName: '[interface]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'popover'
+          comment: Bean Interface (ngx.components.UIAttribute)
+        ↓Value [ngx.components.UIAttribute-1796000002661]: 
+          attrName: '[value]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global.currentLanguage() ?? 'en'
+          comment: Bean Value (ngx.components.UIAttribute)
+        ↓SelectedText [ngx.components.UIAttribute-1796000002662]: 
+          attrName: '[selectedText]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:(this.global?.getLanguageLabelKey() ??  'Lang_English') | translate
+          comment: Bean SelectedText (ngx.components.UIAttribute)
+        ↓ChangeEvent [ngx.components.UIControlEvent-1796000002663]: 
+          attrName: (ionChange)
+          comment: Bean ChangeEvent (ngx.components.UIControlEvent)
+          eventName: ionChange
+          ↓SetLanguage [ngx.components.UIDynamicAction-1796000002664]: 
+            beanData: |
+              '{
+               "ionBean": "SetLanguageAction",
+               "language": "script:event.detail.value",
+               "storageKey": "plain:c8o-lang",
+               "globalProperty": "plain:currentLanguage"
+              }'
+            comment: Bean SetLanguage (ngx.components.UIDynamicAction)
+        ↓LangEN [ngx.components.UIDynamicElement-1796000002665]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:en"}'
+          comment: Bean LangEN (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000002666]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_English
+        ↓LangFR [ngx.components.UIDynamicElement-1796000002667]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:fr"}'
+          comment: Bean LangFR (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000002668]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_French
+        ↓LangIT [ngx.components.UIDynamicElement-1796000002669]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:it"}'
+          comment: Bean LangIT (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000002670]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Italian
+        ↓LangES [ngx.components.UIDynamicElement-1796000002671]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:es"}'
+          comment: Bean LangES (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000002672]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Spanish
+↓Content [ngx.components.UIDynamicElement-1796000002620]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
+  tagName: ion-content
+  ↓IntroCard [ngx.components.UIDynamicElement-1796000002621]: 
+    beanData: '{"ionBean":"Card"}'
+    comment: Bean IntroCard (ngx.components.UIDynamicElement)
+    tagName: ion-card
+    ↓CardContent [ngx.components.UIDynamicElement-1796000002622]: 
+      beanData: '{"ionBean":"CardContent"}'
+      comment: Bean CardContent (ngx.components.UIDynamicElement)
+      tagName: ion-card-content
+      ↓Paragraph [ngx.components.UIDynamicElement-1796000002623]: 
+        beanData: '{"ionBean":"Paragraph"}'
+        comment: Bean Paragraph (ngx.components.UIDynamicElement)
+        tagName: p
+        ↓Text [ngx.components.UIText-1796000002624]: 
+          comment: Bean Text (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:The Picker is a dialog that displays columns with options in each column. It appears inline with your page content, but it can also be displayed over your content by using a Modal or a Popover.
+  ↓Div1 [ngx.components.UIDynamicElement-1796000002625]: 
+    beanData: '{"ionBean":"DivTag"}'
+    comment: Bean Div1 (ngx.components.UIDynamicElement)
+    tagName: div
+    ↓Attrclass2 [ngx.components.UIAttribute-1796000002626]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:ion-padding-start ion-padding-end
+      comment: Bean Attrclass2 (ngx.components.UIAttribute)
+    ↓IonPicker3 [ngx.components.UIDynamicElement-1796000002627]: 
+      beanData: '{"ionBean":"InlinePicker"}'
+      comment: Bean IonPicker3 (ngx.components.UIDynamicElement)
+      tagName: ion-picker
+      ↓IonPickerColumn4 [ngx.components.UIDynamicElement-1796000002628]: 
+        beanData: '{"ionBean":"DivTag"}'
+        comment: Bean IonPickerColumn4 (ngx.components.UIDynamicElement)
+        tagName: ion-picker-column
+        ↓IonPickerColumnOption5 [ngx.components.UIDynamicElement-1796000002629]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean IonPickerColumnOption5 (ngx.components.UIDynamicElement)
+          tagName: ion-picker-column-option
+          ↓AttrvalueOpt5 [ngx.components.UIAttribute-1771408272303]: 
+            attrName: value
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Dog
+            comment: Bean AttrvalueOpt5 (ngx.components.UIAttribute)
+          ↓TextOpt5 [ngx.components.UIText-1771408272505]: 
+            comment: Bean TextOpt5 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Dog
+        ↓AttrvalueCol4 [ngx.components.UIAttribute-1771408264281]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Dog
+          comment: Bean AttrvalueCol4 (ngx.components.UIAttribute)
+        ↓IonPickerColumnOption6 [ngx.components.UIDynamicElement-1771408286402]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean IonPickerColumnOption6 (ngx.components.UIDynamicElement)
+          tagName: ion-picker-column-option
+          ↓Attrvalue6 [ngx.components.UIAttribute-1771408308359]: 
+            attrName: value
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Cat
+            comment: Bean Attrvalue6 (ngx.components.UIAttribute)
+          ↓Text6 [ngx.components.UIText-1771408308674]: 
+            comment: Bean Text6 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Cat
+        ↓IonPickerColumnOption7 [ngx.components.UIDynamicElement-1771408286742]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean IonPickerColumnOption7 (ngx.components.UIDynamicElement)
+          tagName: ion-picker-column-option
+          ↓Attrvalue7 [ngx.components.UIAttribute-1771408308954]: 
+            attrName: value
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Bird
+            comment: Bean Attrvalue7 (ngx.components.UIAttribute)
+          ↓Text7 [ngx.components.UIText-1771408309465]: 
+            comment: Bean Text7 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Bird
+        ↓IonPickerColumnOption8 [ngx.components.UIDynamicElement-1771408287140]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean IonPickerColumnOption8 (ngx.components.UIDynamicElement)
+          tagName: ion-picker-column-option
+          ↓Attrvalue8 [ngx.components.UIAttribute-1771408310020]: 
+            attrName: value
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lizard
+            comment: Bean Attrvalue8 (ngx.components.UIAttribute)
+          ↓Text8 [ngx.components.UIText-1771408310333]: 
+            comment: Bean Text8 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lizard
+        ↓IonPickerColumnOption9 [ngx.components.UIDynamicElement-1771408287561]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean IonPickerColumnOption9 (ngx.components.UIDynamicElement)
+          tagName: ion-picker-column-option
+          ↓Attrvalue9 [ngx.components.UIAttribute-1771408310592]: 
+            attrName: value
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Chinchilla
+            comment: Bean Attrvalue9 (ngx.components.UIAttribute)
+          ↓Text9 [ngx.components.UIText-1771408310792]: 
+            comment: Bean Text9 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Chinchilla
+    ↓IonButton6 [ngx.components.UIDynamicElement-1796000002630]: 
+      beanData: '{"ionBean":"Button"}'
+      comment: Bean IonButton6 (ngx.components.UIDynamicElement)
+      tagName: ion-button
+      ↓Attrid7 [ngx.components.UIAttribute-1796000002631]: 
+        attrName: id
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:open-picker
+        comment: Bean Attrid7 (ngx.components.UIAttribute)
+      ↓Attrclass8 [ngx.components.UIAttribute-1796000002632]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:ion-text-wrap
+        comment: Bean Attrclass8 (ngx.components.UIAttribute)
+      ↓Attrexpand9 [ngx.components.UIAttribute-1796000002633]: 
+        attrName: expand
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:block
+        comment: Bean Attrexpand9 (ngx.components.UIAttribute)
+      ↓Text10 [ngx.components.UIText-1796000002634]: 
+        comment: Bean Text10 (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Open Picker in a Modal
+    ↓IonModal11 [ngx.components.UIDynamicElement-1796000002635]: 
+      beanData: '{"ionBean":"InlineModal"}'
+      comment: Bean IonModal11 (ngx.components.UIDynamicElement)
+      tagName: ion-modal
+      ↓Attrtrigger12 [ngx.components.UIAttribute-1796000002636]: 
+        attrName: trigger
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:open-picker
+        comment: Bean Attrtrigger12 (ngx.components.UIAttribute)
+      ↓IonToolbar13 [ngx.components.UIDynamicElement-1796000002637]: 
+        beanData: '{"ionBean":"ToolBar"}'
+        comment: Bean IonToolbar13 (ngx.components.UIDynamicElement)
+        tagName: ion-toolbar
+        ↓IonButtons14 [ngx.components.UIDynamicElement-1796000002638]: 
+          beanData: '{"ionBean":"ButtonSet"}'
+          comment: Bean IonButtons14 (ngx.components.UIDynamicElement)
+          tagName: ion-buttons
+          ↓Attrslot15 [ngx.components.UIAttribute-1796000002639]: 
+            attrName: slot
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:start
+            comment: Bean Attrslot15 (ngx.components.UIAttribute)
+          ↓IonButton16 [ngx.components.UIDynamicElement-1796000002640]: 
+            beanData: '{"ionBean":"Button"}'
+            comment: Bean IonButton16 (ngx.components.UIDynamicElement)
+            tagName: ion-button
+            ↓Text17 [ngx.components.UIText-1796000002641]: 
+              comment: Bean Text17 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Cancel
+            ↓Event [ngx.components.UIControlEvent-1771408462380]: 
+              comment: Bean Event (ngx.components.UIControlEvent)
+              ↓CloseModal [ngx.components.UIDynamicAction-1771408469613]: 
+                beanData: '{"ionBean":"CloseModalAction"}'
+                comment: Bean CloseModal (ngx.components.UIDynamicAction)
+        ↓IonButtons18 [ngx.components.UIDynamicElement-1796000002642]: 
+          beanData: '{"ionBean":"ButtonSet"}'
+          comment: Bean IonButtons18 (ngx.components.UIDynamicElement)
+          tagName: ion-buttons
+          ↓Attrslot19 [ngx.components.UIAttribute-1796000002643]: 
+            attrName: slot
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:end
+            comment: Bean Attrslot19 (ngx.components.UIAttribute)
+          ↓IonButton20 [ngx.components.UIDynamicElement-1796000002644]: 
+            beanData: '{"ionBean":"Button"}'
+            comment: Bean IonButton20 (ngx.components.UIDynamicElement)
+            tagName: ion-button
+            ↓Text21 [ngx.components.UIText-1796000002645]: 
+              comment: Bean Text21 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Done
+            ↓Event [ngx.components.UIControlEvent-1771408462676]: 
+              comment: Bean Event (ngx.components.UIControlEvent)
+              ↓CloseModal [ngx.components.UIDynamicAction-1771408469983]: 
+                beanData: '{"ionBean":"CloseModalAction"}'
+                comment: Bean CloseModal (ngx.components.UIDynamicAction)
+      ↓IonPicker22 [ngx.components.UIDynamicElement-1796000002646]: 
+        beanData: '{"ionBean":"InlinePicker"}'
+        comment: Bean IonPicker22 (ngx.components.UIDynamicElement)
+        tagName: ion-picker
+        ↓IonPickerColumn23 [ngx.components.UIDynamicElement-1796000002647]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean IonPickerColumn23 (ngx.components.UIDynamicElement)
+          tagName: ion-picker-column
+          ↓IonPickerColumnOption24 [ngx.components.UIDynamicElement-1796000002648]: 
+            beanData: '{"ionBean":"DivTag"}'
+            comment: Bean IonPickerColumnOption24 (ngx.components.UIDynamicElement)
+            tagName: ion-picker-column-option
+            ↓Attrvalue24 [ngx.components.UIAttribute-1771408339196]: 
+              attrName: value
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Minified
+              comment: Bean Attrvalue24 (ngx.components.UIAttribute)
+            ↓Text24 [ngx.components.UIText-1771408339423]: 
+              comment: Bean Text24 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Minified
+          ↓AttrvalueCol23 [ngx.components.UIAttribute-1771408329420]: 
+            attrName: value
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Minified
+            comment: Bean AttrvalueCol23 (ngx.components.UIAttribute)
+          ↓IonPickerColumnOption25 [ngx.components.UIDynamicElement-1771408350955]: 
+            beanData: '{"ionBean":"DivTag"}'
+            comment: Bean IonPickerColumnOption25 (ngx.components.UIDynamicElement)
+            tagName: ion-picker-column-option
+            ↓Attrvalue25 [ngx.components.UIAttribute-1771408373767]: 
+              attrName: value
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Responsive
+              comment: Bean Attrvalue25 (ngx.components.UIAttribute)
+            ↓Text25 [ngx.components.UIText-1771408374004]: 
+              comment: Bean Text25 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Responsive
+          ↓IonPickerColumnOption26 [ngx.components.UIDynamicElement-1771408351234]: 
+            beanData: '{"ionBean":"DivTag"}'
+            comment: Bean IonPickerColumnOption26 (ngx.components.UIDynamicElement)
+            tagName: ion-picker-column-option
+            ↓Attrvalue26 [ngx.components.UIAttribute-1771408374327]: 
+              attrName: value
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Full Stack
+              comment: Bean Attrvalue26 (ngx.components.UIAttribute)
+            ↓Text26 [ngx.components.UIText-1771408374583]: 
+              comment: Bean Text26 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Full Stack
+          ↓IonPickerColumnOption27 [ngx.components.UIDynamicElement-1771408351593]: 
+            beanData: '{"ionBean":"DivTag"}'
+            comment: Bean IonPickerColumnOption27 (ngx.components.UIDynamicElement)
+            tagName: ion-picker-column-option
+            ↓Attrvalue27 [ngx.components.UIAttribute-1771408375011]: 
+              attrName: value
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Mobile First
+              comment: Bean Attrvalue27 (ngx.components.UIAttribute)
+            ↓Text27 [ngx.components.UIText-1771408375263]: 
+              comment: Bean Text27 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Mobile First
+          ↓IonPickerColumnOption28 [ngx.components.UIDynamicElement-1771408352080]: 
+            beanData: '{"ionBean":"DivTag"}'
+            comment: Bean IonPickerColumnOption28 (ngx.components.UIDynamicElement)
+            tagName: ion-picker-column-option
+            ↓Attrvalue28 [ngx.components.UIAttribute-1771408375475]: 
+              attrName: value
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Serverless
+              comment: Bean Attrvalue28 (ngx.components.UIAttribute)
+            ↓Text28 [ngx.components.UIText-1771408375765]: 
+              comment: Bean Text28 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Serverless
+        ↓IonPickerColumn29 [ngx.components.UIDynamicElement-1771408392484]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean IonPickerColumn29 (ngx.components.UIDynamicElement)
+          tagName: ion-picker-column
+          ↓AttrvalueCol29 [ngx.components.UIAttribute-1771408403088]: 
+            attrName: value
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Tomato
+            comment: Bean AttrvalueCol29 (ngx.components.UIAttribute)
+          ↓IonPickerColumnOption30 [ngx.components.UIDynamicElement-1771408416036]: 
+            beanData: '{"ionBean":"DivTag"}'
+            comment: Bean IonPickerColumnOption30 (ngx.components.UIDynamicElement)
+            tagName: ion-picker-column-option
+            ↓Attrvalue30 [ngx.components.UIAttribute-1771408443815]: 
+              attrName: value
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Tomato
+              comment: Bean Attrvalue30 (ngx.components.UIAttribute)
+            ↓Text30 [ngx.components.UIText-1771408444089]: 
+              comment: Bean Text30 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Tomato
+          ↓IonPickerColumnOption31 [ngx.components.UIDynamicElement-1771408416381]: 
+            beanData: '{"ionBean":"DivTag"}'
+            comment: Bean IonPickerColumnOption31 (ngx.components.UIDynamicElement)
+            tagName: ion-picker-column-option
+            ↓Attrvalue31 [ngx.components.UIAttribute-1771408444300]: 
+              attrName: value
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Avocado
+              comment: Bean Attrvalue31 (ngx.components.UIAttribute)
+            ↓Text31 [ngx.components.UIText-1771408444489]: 
+              comment: Bean Text31 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Avocado
+          ↓IonPickerColumnOption32 [ngx.components.UIDynamicElement-1771408416682]: 
+            beanData: '{"ionBean":"DivTag"}'
+            comment: Bean IonPickerColumnOption32 (ngx.components.UIDynamicElement)
+            tagName: ion-picker-column-option
+            ↓Attrvalue32 [ngx.components.UIAttribute-1771408444674]: 
+              attrName: value
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Onion
+              comment: Bean Attrvalue32 (ngx.components.UIAttribute)
+            ↓Text32 [ngx.components.UIText-1771408444884]: 
+              comment: Bean Text32 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Onion
+          ↓IonPickerColumnOption33 [ngx.components.UIDynamicElement-1771408417428]: 
+            beanData: '{"ionBean":"DivTag"}'
+            comment: Bean IonPickerColumnOption33 (ngx.components.UIDynamicElement)
+            tagName: ion-picker-column-option
+            ↓Attrvalue33 [ngx.components.UIAttribute-1771408445052]: 
+              attrName: value
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Potato
+              comment: Bean Attrvalue33 (ngx.components.UIAttribute)
+            ↓Text33 [ngx.components.UIText-1771408445217]: 
+              comment: Bean Text33 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Potato
+          ↓IonPickerColumnOption34 [ngx.components.UIDynamicElement-1771408417063]: 
+            beanData: '{"ionBean":"DivTag"}'
+            comment: Bean IonPickerColumnOption34 (ngx.components.UIDynamicElement)
+            tagName: ion-picker-column-option
+            ↓Text34 [ngx.components.UIText-1771408445394]: 
+              comment: Bean Text34 (ngx.components.UIText)
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Artichoke
+            ↓Attrvalue34 [ngx.components.UIAttribute-1771408445561]: 
+              attrName: value
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Artichoke
+              comment: Bean Attrvalue34 (ngx.components.UIAttribute)
+↓Style [ngx.components.UIStyle-1771409334833]: 
+  comment: Bean Style (ngx.components.UIStyle)
+  styleContent: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+        →: |
+          'ion-modal {
+            --height: auto;
+          
+            align-items: end;
+          }
+          
+          ion-modal ion-picker {
+            margin-bottom: var(--ion-safe-area-bottom);
+          }
+          '

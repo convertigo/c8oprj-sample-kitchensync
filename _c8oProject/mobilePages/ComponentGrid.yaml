@@ -1,0 +1,566 @@
+comment: Grid component page
+icon: apps
+iconPosition: start
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: component-grid
+title: Grid
+↓Header [ngx.components.UIDynamicElement-1797000000214]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1797000000215]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
+    tagName: ion-toolbar
+    ↓ButtonSetStart [ngx.components.UIDynamicElement-1797000000216]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      comment: Bean ButtonSetStart (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1797000000217]: 
+        beanData: '{"ionBean":"BackButton"}'
+        comment: Bean BackButton (ngx.components.UIDynamicElement)
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1797000000218]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: Bean MenuButton (ngx.components.UIDynamicElement)
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1797000000219]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1797000000220]: 
+        comment: Bean Text (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Grid
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1796000001390]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      comment: Bean ButtonSet2 (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓ThemeSwitchButton [ngx.components.UIDynamicElement-1796000001391]: 
+        beanData: '{"ionBean":"Button","IonFill":"plain:clear"}'
+        comment: Bean ThemeSwitchButton (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓Class [ngx.components.UIAttribute-1796000001392]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-theme-button
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000001393]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? this.translate.instant(''Theme_Switch_To_Light'') : this.translate.instant(''Theme_Switch_To_Dark'')'
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1796000001394]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTheme [ngx.components.UIDynamicAction-1796000001395]: 
+            beanData: '{"ionBean":"SetThemeAction","dark":"script:!(this.global && this.global.themeDark)"}'
+            comment: Bean SetTheme (ngx.components.UIDynamicAction)
+        ↓ThemeIcon [ngx.components.UIDynamicElement-1796000001396]: 
+          beanData: '{"ionBean":"Icon","IconName":"script:this?.global?.themeDark ? ''sunny-outline'' : ''moon-outline''"}'
+          comment: Bean ThemeIcon (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓IconName [ngx.components.UIAttribute-1796000001397]: 
+            attrName: '[name]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? ''sunny-outline'' : ''moon-outline'''
+            comment: Bean IconName (ngx.components.UIAttribute)
+      ↓LanguageSelector [ngx.components.UIDynamicElement-1796000001398]: 
+        beanData: |
+          '{
+           "ionBean": "Select",
+           "ControlName": "plain:name1770915137820",
+           "Justify": "plain:start"
+          }'
+        comment: Bean LanguageSelector (ngx.components.UIDynamicElement)
+        tagName: ion-select
+        ↓Class [ngx.components.UIAttribute-1796000001399]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-lang-select
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000001400]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'Language' | translate
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Interface [ngx.components.UIAttribute-1796000001401]: 
+          attrName: '[interface]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'popover'
+          comment: Bean Interface (ngx.components.UIAttribute)
+        ↓Value [ngx.components.UIAttribute-1796000001402]: 
+          attrName: '[value]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global.currentLanguage() ?? 'en'
+          comment: Bean Value (ngx.components.UIAttribute)
+        ↓SelectedText [ngx.components.UIAttribute-1796000001403]: 
+          attrName: '[selectedText]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:(this.global?.getLanguageLabelKey() ??  'Lang_English') | translate
+          comment: Bean SelectedText (ngx.components.UIAttribute)
+        ↓ChangeEvent [ngx.components.UIControlEvent-1796000001404]: 
+          attrName: (ionChange)
+          comment: Bean ChangeEvent (ngx.components.UIControlEvent)
+          eventName: ionChange
+          ↓SetLanguage [ngx.components.UIDynamicAction-1796000001405]: 
+            beanData: |
+              '{
+               "ionBean": "SetLanguageAction",
+               "language": "script:event.detail.value",
+               "storageKey": "plain:c8o-lang",
+               "globalProperty": "plain:currentLanguage"
+              }'
+            comment: Bean SetLanguage (ngx.components.UIDynamicAction)
+        ↓LangEN [ngx.components.UIDynamicElement-1796000001406]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:en"}'
+          comment: Bean LangEN (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000001407]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_English
+        ↓LangFR [ngx.components.UIDynamicElement-1796000001408]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:fr"}'
+          comment: Bean LangFR (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000001409]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_French
+        ↓LangIT [ngx.components.UIDynamicElement-1796000001410]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:it"}'
+          comment: Bean LangIT (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000001411]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Italian
+        ↓LangES [ngx.components.UIDynamicElement-1796000001412]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:es"}'
+          comment: Bean LangES (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000001413]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Spanish
+↓Content [ngx.components.UIDynamicElement-1797000000221]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
+  tagName: ion-content
+  ↓IonGrid1 [ngx.components.UIDynamicElement-1797000000222]: 
+    beanData: '{"ionBean":"Grid"}'
+    comment: Bean IonGrid1 (ngx.components.UIDynamicElement)
+    tagName: ion-grid
+    ↓IonRow2 [ngx.components.UIDynamicElement-1797000000223]: 
+      beanData: '{"ionBean":"GridRow"}'
+      comment: Bean IonRow2 (ngx.components.UIDynamicElement)
+      tagName: ion-row
+      ↓IonCol3 [ngx.components.UIDynamicElement-1797000000224]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol3 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div4 [ngx.components.UIDynamicElement-1797000000225]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div4 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text5 [ngx.components.UIText-1797000000226]: 
+            comment: Bean Text5 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:1 of 2
+      ↓IonCol6 [ngx.components.UIDynamicElement-1797000000227]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol6 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div7 [ngx.components.UIDynamicElement-1797000000228]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div7 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text8 [ngx.components.UIText-1797000000229]: 
+            comment: Bean Text8 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:2 of 2
+    ↓IonRow9 [ngx.components.UIDynamicElement-1797000000230]: 
+      beanData: '{"ionBean":"GridRow"}'
+      comment: Bean IonRow9 (ngx.components.UIDynamicElement)
+      tagName: ion-row
+      ↓IonCol10 [ngx.components.UIDynamicElement-1797000000231]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol10 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div11 [ngx.components.UIDynamicElement-1797000000232]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div11 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text12 [ngx.components.UIText-1797000000233]: 
+            comment: Bean Text12 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:1 of 3
+      ↓IonCol13 [ngx.components.UIDynamicElement-1797000000234]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol13 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div14 [ngx.components.UIDynamicElement-1797000000235]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div14 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text15 [ngx.components.UIText-1797000000236]: 
+            comment: Bean Text15 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:2 of 3
+      ↓IonCol16 [ngx.components.UIDynamicElement-1797000000237]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol16 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div17 [ngx.components.UIDynamicElement-1797000000238]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div17 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text18 [ngx.components.UIText-1797000000239]: 
+            comment: Bean Text18 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:3 of 3
+    ↓IonRow19 [ngx.components.UIDynamicElement-1797000000240]: 
+      beanData: '{"ionBean":"GridRow"}'
+      comment: Bean IonRow19 (ngx.components.UIDynamicElement)
+      tagName: ion-row
+      ↓IonCol20 [ngx.components.UIDynamicElement-1797000000241]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol20 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div21 [ngx.components.UIDynamicElement-1797000000242]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div21 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text22 [ngx.components.UIText-1797000000243]: 
+            comment: Bean Text22 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:1 of 3
+      ↓IonCol23 [ngx.components.UIDynamicElement-1797000000244]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol23 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Attrcol624 [ngx.components.UIAttribute-1797000000245]: 
+          attrName: col-6
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:true
+          comment: Bean Attrcol624 (ngx.components.UIAttribute)
+        ↓Div25 [ngx.components.UIDynamicElement-1797000000246]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div25 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text26 [ngx.components.UIText-1797000000247]: 
+            comment: Bean Text26 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:2 of 3
+      ↓IonCol27 [ngx.components.UIDynamicElement-1797000000248]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol27 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div28 [ngx.components.UIDynamicElement-1797000000249]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div28 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text29 [ngx.components.UIText-1797000000250]: 
+            comment: Bean Text29 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:3 of 3
+    ↓IonRow30 [ngx.components.UIDynamicElement-1797000000251]: 
+      beanData: '{"ionBean":"GridRow"}'
+      comment: Bean IonRow30 (ngx.components.UIDynamicElement)
+      tagName: ion-row
+      ↓IonCol31 [ngx.components.UIDynamicElement-1797000000252]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol31 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Attrcol632 [ngx.components.UIAttribute-1797000000253]: 
+          attrName: col-6
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:true
+          comment: Bean Attrcol632 (ngx.components.UIAttribute)
+        ↓Div33 [ngx.components.UIDynamicElement-1797000000254]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div33 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text34 [ngx.components.UIText-1797000000255]: 
+            comment: Bean Text34 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:1 of 3
+      ↓IonCol35 [ngx.components.UIDynamicElement-1797000000256]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol35 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div36 [ngx.components.UIDynamicElement-1797000000257]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div36 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text37 [ngx.components.UIText-1797000000258]: 
+            comment: Bean Text37 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:2 of 3
+      ↓IonCol38 [ngx.components.UIDynamicElement-1797000000259]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol38 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div39 [ngx.components.UIDynamicElement-1797000000260]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div39 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text40 [ngx.components.UIText-1797000000261]: 
+            comment: Bean Text40 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:3 of 3
+    ↓IonRow41 [ngx.components.UIDynamicElement-1797000000262]: 
+      beanData: '{"ionBean":"GridRow"}'
+      comment: Bean IonRow41 (ngx.components.UIDynamicElement)
+      tagName: ion-row
+      ↓IonCol42 [ngx.components.UIDynamicElement-1797000000263]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol42 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Attroffset443 [ngx.components.UIAttribute-1797000000264]: 
+          attrName: offset-4
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:true
+          comment: Bean Attroffset443 (ngx.components.UIAttribute)
+        ↓Div44 [ngx.components.UIDynamicElement-1797000000265]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div44 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text45 [ngx.components.UIText-1797000000266]: 
+            comment: Bean Text45 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:1 of 2
+      ↓IonCol46 [ngx.components.UIDynamicElement-1797000000267]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol46 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div47 [ngx.components.UIDynamicElement-1797000000268]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div47 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text48 [ngx.components.UIText-1797000000269]: 
+            comment: Bean Text48 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:2 of 2
+    ↓IonRow49 [ngx.components.UIDynamicElement-1797000000270]: 
+      beanData: '{"ionBean":"GridRow"}'
+      comment: Bean IonRow49 (ngx.components.UIDynamicElement)
+      tagName: ion-row
+      ↓IonCol50 [ngx.components.UIDynamicElement-1797000000271]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol50 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div51 [ngx.components.UIDynamicElement-1797000000272]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div51 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text52 [ngx.components.UIText-1797000000273]: 
+            comment: Bean Text52 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:1 of 2
+      ↓IonCol53 [ngx.components.UIDynamicElement-1797000000274]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol53 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Attroffset454 [ngx.components.UIAttribute-1797000000275]: 
+          attrName: offset-4
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:true
+          comment: Bean Attroffset454 (ngx.components.UIAttribute)
+        ↓Div55 [ngx.components.UIDynamicElement-1797000000276]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div55 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text56 [ngx.components.UIText-1797000000277]: 
+            comment: Bean Text56 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:2 of 2
+    ↓IonRow57 [ngx.components.UIDynamicElement-1797000000278]: 
+      beanData: '{"ionBean":"GridRow"}'
+      comment: Bean IonRow57 (ngx.components.UIDynamicElement)
+      tagName: ion-row
+      ↓IonCol58 [ngx.components.UIDynamicElement-1797000000279]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol58 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div59 [ngx.components.UIDynamicElement-1797000000280]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div59 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text60 [ngx.components.UIText-1796000001380]: 
+            comment: Bean Text60 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:1 of 4
+      ↓IonCol61 [ngx.components.UIDynamicElement-1796000001381]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol61 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div62 [ngx.components.UIDynamicElement-1796000001382]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div62 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text63 [ngx.components.UIText-1796000001383]: 
+            comment: Bean Text63 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:2 of 4
+      ↓IonCol64 [ngx.components.UIDynamicElement-1796000001384]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol64 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div65 [ngx.components.UIDynamicElement-1796000001385]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div65 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text66 [ngx.components.UIText-1796000001386]: 
+            comment: Bean Text66 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:3 of 4
+      ↓IonCol67 [ngx.components.UIDynamicElement-1796000001387]: 
+        beanData: '{"ionBean":"GridCol"}'
+        comment: Bean IonCol67 (ngx.components.UIDynamicElement)
+        tagName: ion-col
+        ↓Div68 [ngx.components.UIDynamicElement-1796000001388]: 
+          beanData: '{"ionBean":"DivTag"}'
+          comment: Bean Div68 (ngx.components.UIDynamicElement)
+          tagName: div
+          ↓Text69 [ngx.components.UIText-1796000001389]: 
+            comment: Bean Text69 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:4 of 4
+  ↓AgGridDemoCard [ngx.components.UIDynamicElement-1891000000200]: 
+    beanData: '{"ionBean":"Card"}'
+    comment: Bean AgGridDemoCard (ngx.components.UIDynamicElement)
+    tagName: ion-card
+    ↓CardHeader [ngx.components.UIDynamicElement-1891000000201]: 
+      beanData: '{"ionBean":"CardHeader"}'
+      comment: Bean CardHeader (ngx.components.UIDynamicElement)
+      tagName: ion-card-header
+      ↓CardTitle [ngx.components.UIDynamicElement-1891000000202]: 
+        beanData: '{"ionBean":"CardTitle"}'
+        comment: Bean CardTitle (ngx.components.UIDynamicElement)
+        tagName: ion-card-title
+        ↓Text [ngx.components.UIText-1891000000203]: 
+          comment: Bean Text (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Shared AgGrid (lib_ExtendedComponents_ui_ngx)
+    ↓CardContent [ngx.components.UIDynamicElement-1891000000204]: 
+      beanData: '{"ionBean":"CardContent"}'
+      comment: Bean CardContent (ngx.components.UIDynamicElement)
+      tagName: ion-card-content
+      ↓Paragraph [ngx.components.UIDynamicElement-1891000000205]: 
+        beanData: '{"ionBean":"Paragraph"}'
+        comment: Bean Paragraph (ngx.components.UIDynamicElement)
+        tagName: p
+        ↓Text [ngx.components.UIText-1891000000206]: 
+          comment: Bean Text (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Demo du shared component local encapsulant le composant agGrid de la librairie.
+      ↓UseSharedAgGrid [ngx.components.UIUseShared-1891000000207]: 
+        comment: Bean UseSharedAgGrid (ngx.components.UIUseShared)
+        identifier: sharedAgGrid
+        sharedcomponent: lib_ExtendedComponents_ui_ngx.MobileApplication.Application.agGrid
+↓Style [ngx.components.UIStyle-1771349245021]: 
+  comment: Bean Style (ngx.components.UIStyle)
+  styleContent: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+        →: |
+          'ion-col > div {
+            background-color: var(--ion-color-light);
+            border: solid 1px var(--ion-color-medium);
+            padding: 10px;
+          }'

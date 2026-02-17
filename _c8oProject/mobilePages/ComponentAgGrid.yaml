@@ -1,0 +1,456 @@
+comment: AgGrid component page
+icon: apps
+iconPosition: start
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: component-ag-grid
+title: AgGrid
+↓Header [ngx.components.UIDynamicElement-1909300000001]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1909300000002]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
+    tagName: ion-toolbar
+    ↓ButtonSetStart [ngx.components.UIDynamicElement-1909300000003]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      comment: Bean ButtonSetStart (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1909300000004]: 
+        beanData: '{"ionBean":"BackButton"}'
+        comment: Bean BackButton (ngx.components.UIDynamicElement)
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1909300000005]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: Bean MenuButton (ngx.components.UIDynamicElement)
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1909300000006]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1909300000007]: 
+        comment: Bean Text (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:AgGrid
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1909300000100]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      comment: Bean ButtonSet2 (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓ThemeSwitchButton [ngx.components.UIDynamicElement-1909300000101]: 
+        beanData: '{"ionBean":"Button","IonFill":"plain:clear"}'
+        comment: Bean ThemeSwitchButton (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓Class [ngx.components.UIAttribute-1909300000102]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-theme-button
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1909300000103]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? this.translate.instant(''Theme_Switch_To_Light'') : this.translate.instant(''Theme_Switch_To_Dark'')'
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1909300000104]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTheme [ngx.components.UIDynamicAction-1909300000105]: 
+            beanData: '{"ionBean":"SetThemeAction","dark":"script:!(this.global && this.global.themeDark)"}'
+            comment: Bean SetTheme (ngx.components.UIDynamicAction)
+        ↓ThemeIcon [ngx.components.UIDynamicElement-1909300000106]: 
+          beanData: '{"ionBean":"Icon","IconName":"script:this?.global?.themeDark ? ''sunny-outline'' : ''moon-outline''"}'
+          comment: Bean ThemeIcon (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓IconName [ngx.components.UIAttribute-1909300000107]: 
+            attrName: '[name]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? ''sunny-outline'' : ''moon-outline'''
+            comment: Bean IconName (ngx.components.UIAttribute)
+      ↓LanguageSelector [ngx.components.UIDynamicElement-1909300000108]: 
+        beanData: |
+          '{
+           "ionBean": "Select",
+           "ControlName": "plain:name1770915137820",
+           "Justify": "plain:start"
+          }'
+        comment: Bean LanguageSelector (ngx.components.UIDynamicElement)
+        tagName: ion-select
+        ↓Class [ngx.components.UIAttribute-1909300000109]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-lang-select
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1909300000110]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'Language' | translate
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Interface [ngx.components.UIAttribute-1909300000111]: 
+          attrName: '[interface]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'popover'
+          comment: Bean Interface (ngx.components.UIAttribute)
+        ↓Value [ngx.components.UIAttribute-1909300000112]: 
+          attrName: '[value]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global.currentLanguage() ?? 'en'
+          comment: Bean Value (ngx.components.UIAttribute)
+        ↓SelectedText [ngx.components.UIAttribute-1909300000113]: 
+          attrName: '[selectedText]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:(this.global?.getLanguageLabelKey() ??  'Lang_English') | translate
+          comment: Bean SelectedText (ngx.components.UIAttribute)
+        ↓ChangeEvent [ngx.components.UIControlEvent-1909300000114]: 
+          attrName: (ionChange)
+          comment: Bean ChangeEvent (ngx.components.UIControlEvent)
+          eventName: ionChange
+          ↓SetLanguage [ngx.components.UIDynamicAction-1909300000115]: 
+            beanData: |
+              '{
+               "ionBean": "SetLanguageAction",
+               "language": "script:event.detail.value",
+               "storageKey": "plain:c8o-lang",
+               "globalProperty": "plain:currentLanguage"
+              }'
+            comment: Bean SetLanguage (ngx.components.UIDynamicAction)
+        ↓LangEN [ngx.components.UIDynamicElement-1909300000116]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:en"}'
+          comment: Bean LangEN (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1909300000117]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_English
+        ↓LangFR [ngx.components.UIDynamicElement-1909300000118]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:fr"}'
+          comment: Bean LangFR (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1909300000119]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_French
+        ↓LangIT [ngx.components.UIDynamicElement-1909300000120]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:it"}'
+          comment: Bean LangIT (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1909300000121]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Italian
+        ↓LangES [ngx.components.UIDynamicElement-1909300000122]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:es"}'
+          comment: Bean LangES (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1909300000123]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Spanish
+↓Content [ngx.components.UIDynamicElement-1909300000008]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
+  tagName: ion-content
+  ↓Div1 [ngx.components.UIDynamicElement-1909300000009]: 
+    beanData: '{"ionBean":"DivTag"}'
+    comment: Bean Div1 (ngx.components.UIDynamicElement)
+    tagName: div
+    ↓Attrclass2 [ngx.components.UIAttribute-1909300000010]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:ion-padding-start ion-padding-end
+      comment: Bean Attrclass2 (ngx.components.UIAttribute)
+    ↓DemoCard [ngx.components.UIDynamicElement-1909300000011]: 
+      beanData: '{"ionBean":"Card"}'
+      comment: Bean DemoCard (ngx.components.UIDynamicElement)
+      tagName: ion-card
+      ↓CardHeader [ngx.components.UIDynamicElement-1909300000012]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        comment: Bean CardHeader (ngx.components.UIDynamicElement)
+        tagName: ion-card-header
+        ↓CardTitle [ngx.components.UIDynamicElement-1909300000013]: 
+          beanData: '{"ionBean":"CardTitle"}'
+          comment: Bean CardTitle (ngx.components.UIDynamicElement)
+          tagName: ion-card-title
+          ↓Text [ngx.components.UIText-1909300000014]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:agGrid (lib_ExtendedComponents_ui_ngx)
+      ↓CardContent [ngx.components.UIDynamicElement-1909300000015]: 
+        beanData: '{"ionBean":"CardContent"}'
+        comment: Bean CardContent (ngx.components.UIDynamicElement)
+        tagName: ion-card-content
+        ↓Paragraph [ngx.components.UIDynamicElement-1909300000016]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean Paragraph (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text [ngx.components.UIText-1909300000017]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Utilisation directe du shared component de la librairie, sans encapsulation locale.
+        ↓UseSharedAgGrid [ngx.components.UIUseShared-1909300000018]: 
+          comment: Bean UseSharedAgGrid (ngx.components.UIUseShared)
+          identifier: sharedAgGrid
+          sharedcomponent: lib_ExtendedComponents_ui_ngx.MobileApplication.Application.agGrid
+          ↓pagination [ngx.components.UIUseVariable-1909300000019]: 
+            comment: Bean pagination (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:true
+          ↓paginationPageSize [ngx.components.UIUseVariable-1909300000020]: 
+            comment: Bean paginationPageSize (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:10
+          ↓defaultColDef [ngx.components.UIUseVariable-1909300000021]: 
+            comment: Bean defaultColDef (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ hide: false, editable: false, sortable: true, resizable: true, filter: true }'
+          ↓columnDefs [ngx.components.UIUseVariable-1909300000022]: 
+            comment: Bean columnDefs (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:[{ headerName: ''Make'', field: ''make'' }, { headerName: ''Model'', field: ''model'' }, { headerName: ''Price'', field: ''price'' }]'
+          ↓rowData [ngx.components.UIUseVariable-1909300000023]: 
+            comment: Bean rowData (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:[{ make: ''Toyota'', model: ''Celica'', price: 35000 }, { make: ''Ford'', model: ''Mondeo'', price: 32000 }, { make: ''Porsche'', model: ''Boxter'', price: 72000 }, { make: ''Tesla'', model: ''Model 3'', price: 42000 }]'
+          ↓width [ngx.components.UIUseVariable-1909300000024]: 
+            comment: Bean width (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'100%'
+          ↓height [ngx.components.UIUseVariable-1909300000025]: 
+            comment: Bean height (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'320px'
+          ↓class [ngx.components.UIUseVariable-1909300000026]: 
+            comment: Bean class (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'ag-theme-quartz'
+          ↓paginationPageSizeSelector [ngx.components.UIUseVariable-1771423922237]: 
+            comment: 'array | boolean: [20,50,100] by default'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:true
+          ↓rowSelection [ngx.components.UIUseVariable-1771423922239]: 
+            comment: 'string: ''single'' (default) or ''multiple'''
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'single'
+          ↓rowDeselection [ngx.components.UIUseVariable-1771423922241]: 
+            comment: 'boolean: true (default) or false'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:true
+          ↓id [ngx.components.UIUseVariable-1771423922243]: 
+            comment: An Optional ID
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓suppressCellSelection [ngx.components.UIUseVariable-1771423922245]: 
+            comment: Bean suppressCellSelection (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:false
+          ↓suppressRowClickSelection [ngx.components.UIUseVariable-1771423922247]: 
+            comment: Bean suppressRowClickSelection (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:false
+          ↓overlayLoadingTemplate [ngx.components.UIUseVariable-1771423922249]: 
+            comment: Bean overlayLoadingTemplate (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓overlayNoRowsTemplate [ngx.components.UIUseVariable-1771423922251]: 
+            comment: Bean overlayNoRowsTemplate (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓rowHeight [ngx.components.UIUseVariable-1771423922253]: 
+            comment: Height of the row in pixels as a string
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'25'
+          ↓wrapperClass [ngx.components.UIUseVariable-1771423922255]: 
+            comment: Height of the row in pixels as a string
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓rowModelType [ngx.components.UIUseVariable-1771423922257]: 
+            comment: Row model type
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'clientSide'
+          ↓maxBlocksInCache [ngx.components.UIUseVariable-1771423922259]: 
+            comment: How many blocks to keep in the store. Default is no limit, so every requested block is kept
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓autoSizeColumns [ngx.components.UIUseVariable-1771423922261]: 
+            comment: Bean autoSizeColumns (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:true
+          ↓accessibility [ngx.components.UIUseVariable-1771423922263]: 
+            comment: 'boolean: true (default) or false'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:false
+          ↓ariaLabel [ngx.components.UIUseVariable-1771423922265]: 
+            comment: Bean ariaLabel (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:''
+          ↓showCsvDownload [ngx.components.UIUseVariable-1771423922267]: 
+            comment: |
+              If set to true will display a side bar menu where user can click a download button to download the grid content as a CSV file.
+              
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:false
+          ↓getLocaleText [ngx.components.UIUseVariable-1771423922269]: 
+            comment: Bean getLocaleText (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:null
+          ↓suppressFieldDotNotation [ngx.components.UIUseVariable-1771423922271]: 
+            comment: 'boolean: true (default) or false'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:false
+          ↓domLayout [ngx.components.UIUseVariable-1771423922273]: 
+            comment: 'boolean: true (default) or false'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'autoHeight'
+          ↓datasource [ngx.components.UIUseVariable-1771423922275]: 
+            comment: Bean datasource (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:null
+          ↓cacheBlockSize [ngx.components.UIUseVariable-1771423922277]: 
+            comment: Bean cacheBlockSize (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:100
+          ↓showCsvDownloadPosition [ngx.components.UIUseVariable-1771423922279]: 
+            comment: |
+              If 'showCsvDownload' is set to true, you can define the CSV button position to 'top', 'bottom', 'left', 'right', 'both_row' or 'both_col' relative to the Grid. 
+              
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'top'
+          ↓showCsvDownloadAlignment [ngx.components.UIUseVariable-1771423922281]: 
+            comment: |
+              If 'showCsvDownload' is set to true, you can define the CSV button horizontal or vertical alignment to 'start', 'center' or 'end'.
+              
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'end'
+          ↓localeText [ngx.components.UIUseVariable-1771423922283]: 
+            comment: |
+              'Define the Grid localisation.
+              You can provide:
+              
+               - { [key: string]: string } => A map of key->value pairs for localising text within the grid.
+               - ''fr'' or ''fr-FR'' => A string representing the translation language (BCP47 Tag or Sub tag)
+              
+              The default language of the grid is American English.'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'en'
+          ↓customLocaleText [ngx.components.UIUseVariable-1771423922285]: 
+            comment: |
+              'Add or surcharge Grid localisation.
+              You have to provide:
+              
+               - { [key_lang: string]: { [key: string]: string } } => A map of key_lang->object pairs for adding or surcharging localising text within the grid.
+              
+              The default value is an empty object.'
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:{}

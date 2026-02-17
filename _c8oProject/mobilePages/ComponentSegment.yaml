@@ -1,0 +1,1274 @@
+comment: Segment component page
+icon: apps
+iconPosition: start
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: component-segment
+title: Segment
+↓Header [ngx.components.UIDynamicElement-1796000003401]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Bean Header (ngx.components.UIDynamicElement)
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1796000003402]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    comment: Bean ToolBar (ngx.components.UIDynamicElement)
+    tagName: ion-toolbar
+    ↓ButtonSetStart [ngx.components.UIDynamicElement-1796000003403]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      comment: Bean ButtonSetStart (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1796000003404]: 
+        beanData: '{"ionBean":"BackButton"}'
+        comment: Bean BackButton (ngx.components.UIDynamicElement)
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1796000003405]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: Bean MenuButton (ngx.components.UIDynamicElement)
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1796000003406]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      comment: Bean BarTitle (ngx.components.UIDynamicElement)
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1796000003407]: 
+        comment: Bean Text (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Segment
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1796000003616]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      comment: Bean ButtonSet2 (ngx.components.UIDynamicElement)
+      tagName: ion-buttons
+      ↓ThemeSwitchButton [ngx.components.UIDynamicElement-1796000003617]: 
+        beanData: '{"ionBean":"Button","IonFill":"plain:clear"}'
+        comment: Bean ThemeSwitchButton (ngx.components.UIDynamicElement)
+        tagName: ion-button
+        ↓Class [ngx.components.UIAttribute-1796000003618]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-theme-button
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000003619]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? this.translate.instant(''Theme_Switch_To_Light'') : this.translate.instant(''Theme_Switch_To_Dark'')'
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Event [ngx.components.UIControlEvent-1796000003620]: 
+          comment: Bean Event (ngx.components.UIControlEvent)
+          ↓SetTheme [ngx.components.UIDynamicAction-1796000003621]: 
+            beanData: '{"ionBean":"SetThemeAction","dark":"script:!(this.global && this.global.themeDark)"}'
+            comment: Bean SetTheme (ngx.components.UIDynamicAction)
+        ↓ThemeIcon [ngx.components.UIDynamicElement-1796000003622]: 
+          beanData: '{"ionBean":"Icon","IconName":"script:this?.global?.themeDark ? ''sunny-outline'' : ''moon-outline''"}'
+          comment: Bean ThemeIcon (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓IconName [ngx.components.UIAttribute-1796000003623]: 
+            attrName: '[name]'
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:(this.global && this.global.themeDark) ? ''sunny-outline'' : ''moon-outline'''
+            comment: Bean IconName (ngx.components.UIAttribute)
+      ↓LanguageSelector [ngx.components.UIDynamicElement-1796000003624]: 
+        beanData: |
+          '{
+           "ionBean": "Select",
+           "ControlName": "plain:name1770915137820",
+           "Justify": "plain:start"
+          }'
+        comment: Bean LanguageSelector (ngx.components.UIDynamicElement)
+        tagName: ion-select
+        ↓Class [ngx.components.UIAttribute-1796000003625]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:toolbar-lang-select
+          comment: Bean Class (ngx.components.UIAttribute)
+        ↓Aria [ngx.components.UIAttribute-1796000003626]: 
+          attrName: aria-label
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'Language' | translate
+          comment: Bean Aria (ngx.components.UIAttribute)
+        ↓Interface [ngx.components.UIAttribute-1796000003627]: 
+          attrName: '[interface]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:'popover'
+          comment: Bean Interface (ngx.components.UIAttribute)
+        ↓Value [ngx.components.UIAttribute-1796000003628]: 
+          attrName: '[value]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.global.currentLanguage() ?? 'en'
+          comment: Bean Value (ngx.components.UIAttribute)
+        ↓SelectedText [ngx.components.UIAttribute-1796000003629]: 
+          attrName: '[selectedText]'
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:(this.global?.getLanguageLabelKey() ??  'Lang_English') | translate
+          comment: Bean SelectedText (ngx.components.UIAttribute)
+        ↓ChangeEvent [ngx.components.UIControlEvent-1796000003630]: 
+          attrName: (ionChange)
+          comment: Bean ChangeEvent (ngx.components.UIControlEvent)
+          eventName: ionChange
+          ↓SetLanguage [ngx.components.UIDynamicAction-1796000003631]: 
+            beanData: |
+              '{
+               "ionBean": "SetLanguageAction",
+               "language": "script:event.detail.value",
+               "storageKey": "plain:c8o-lang",
+               "globalProperty": "plain:currentLanguage"
+              }'
+            comment: Bean SetLanguage (ngx.components.UIDynamicAction)
+        ↓LangEN [ngx.components.UIDynamicElement-1796000003632]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:en"}'
+          comment: Bean LangEN (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003633]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_English
+        ↓LangFR [ngx.components.UIDynamicElement-1796000003634]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:fr"}'
+          comment: Bean LangFR (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003635]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_French
+        ↓LangIT [ngx.components.UIDynamicElement-1796000003636]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:it"}'
+          comment: Bean LangIT (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003637]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Italian
+        ↓LangES [ngx.components.UIDynamicElement-1796000003638]: 
+          beanData: '{"ionBean":"SelectOption","Value":"plain:es"}'
+          comment: Bean LangES (ngx.components.UIDynamicElement)
+          tagName: ion-select-option
+          ↓Text [ngx.components.UIText-1796000003639]: 
+            comment: Bean Text (ngx.components.UIText)
+            i18n: true
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Lang_Spanish
+↓Content [ngx.components.UIDynamicElement-1796000003420]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Bean Content (ngx.components.UIDynamicElement)
+  tagName: ion-content
+  ↓IonListHeader1 [ngx.components.UIDynamicElement-1796000003421]: 
+    beanData: '{"ionBean":"Listheader"}'
+    comment: Bean IonListHeader1 (ngx.components.UIDynamicElement)
+    tagName: ion-list-header
+    ↓IonLabel2 [ngx.components.UIDynamicElement-1796000003422]: 
+      beanData: '{"ionBean":"Label"}'
+      comment: Bean IonLabel2 (ngx.components.UIDynamicElement)
+      tagName: ion-label
+      ↓Text3 [ngx.components.UIText-1796000003423]: 
+        comment: Bean Text3 (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Colors
+  ↓Div4 [ngx.components.UIDynamicElement-1796000003424]: 
+    beanData: '{"ionBean":"DivTag"}'
+    comment: Bean Div4 (ngx.components.UIDynamicElement)
+    tagName: div
+    ↓Attrclass5 [ngx.components.UIAttribute-1796000003425]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:ion-padding-horizontal
+      comment: Bean Attrclass5 (ngx.components.UIAttribute)
+    ↓IonSegment6 [ngx.components.UIDynamicElement-1796000003426]: 
+      beanData: '{"ionBean":"Segment"}'
+      comment: Bean IonSegment6 (ngx.components.UIDynamicElement)
+      tagName: ion-segment
+      ↓Attrvalue7 [ngx.components.UIAttribute-1796000003427]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:call
+        comment: Bean Attrvalue7 (ngx.components.UIAttribute)
+      ↓IonSegmentButton8 [ngx.components.UIDynamicElement-1796000003428]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton8 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue9 [ngx.components.UIAttribute-1796000003429]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:call
+          comment: Bean Attrvalue9 (ngx.components.UIAttribute)
+        ↓IonLabel10 [ngx.components.UIDynamicElement-1796000003430]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel10 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text11 [ngx.components.UIText-1796000003431]: 
+            comment: Bean Text11 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Call
+      ↓IonSegmentButton12 [ngx.components.UIDynamicElement-1796000003432]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton12 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue13 [ngx.components.UIAttribute-1796000003433]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:favorite
+          comment: Bean Attrvalue13 (ngx.components.UIAttribute)
+        ↓IonLabel14 [ngx.components.UIDynamicElement-1796000003434]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel14 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text15 [ngx.components.UIText-1796000003435]: 
+            comment: Bean Text15 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Favorite
+      ↓IonSegmentButton16 [ngx.components.UIDynamicElement-1796000003436]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton16 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue17 [ngx.components.UIAttribute-1796000003437]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:map
+          comment: Bean Attrvalue17 (ngx.components.UIAttribute)
+        ↓IonLabel18 [ngx.components.UIDynamicElement-1796000003438]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel18 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text19 [ngx.components.UIText-1796000003439]: 
+            comment: Bean Text19 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Map
+    ↓IonSegment20 [ngx.components.UIDynamicElement-1796000003440]: 
+      beanData: '{"ionBean":"Segment"}'
+      comment: Bean IonSegment20 (ngx.components.UIDynamicElement)
+      tagName: ion-segment
+      ↓Attrvalue21 [ngx.components.UIAttribute-1796000003441]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:favorite
+        comment: Bean Attrvalue21 (ngx.components.UIAttribute)
+      ↓Attrcolor22 [ngx.components.UIAttribute-1796000003442]: 
+        attrName: color
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:secondary
+        comment: Bean Attrcolor22 (ngx.components.UIAttribute)
+      ↓IonSegmentButton23 [ngx.components.UIDynamicElement-1796000003443]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton23 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue24 [ngx.components.UIAttribute-1796000003444]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:call
+          comment: Bean Attrvalue24 (ngx.components.UIAttribute)
+        ↓IonIcon25 [ngx.components.UIDynamicElement-1796000003445]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon25 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname26 [ngx.components.UIAttribute-1796000003446]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:call
+            comment: Bean Attrname26 (ngx.components.UIAttribute)
+      ↓IonSegmentButton27 [ngx.components.UIDynamicElement-1796000003447]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton27 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue28 [ngx.components.UIAttribute-1796000003448]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:favorite
+          comment: Bean Attrvalue28 (ngx.components.UIAttribute)
+        ↓IonIcon29 [ngx.components.UIDynamicElement-1796000003449]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon29 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname30 [ngx.components.UIAttribute-1796000003450]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:heart
+            comment: Bean Attrname30 (ngx.components.UIAttribute)
+      ↓IonSegmentButton31 [ngx.components.UIDynamicElement-1796000003451]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton31 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue32 [ngx.components.UIAttribute-1796000003452]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:map
+          comment: Bean Attrvalue32 (ngx.components.UIAttribute)
+        ↓IonIcon33 [ngx.components.UIDynamicElement-1796000003453]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon33 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname34 [ngx.components.UIAttribute-1796000003454]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:pin
+            comment: Bean Attrname34 (ngx.components.UIAttribute)
+    ↓IonSegment35 [ngx.components.UIDynamicElement-1796000003455]: 
+      beanData: '{"ionBean":"Segment"}'
+      comment: Bean IonSegment35 (ngx.components.UIDynamicElement)
+      tagName: ion-segment
+      ↓Attrvalue36 [ngx.components.UIAttribute-1796000003456]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:map
+        comment: Bean Attrvalue36 (ngx.components.UIAttribute)
+      ↓Attrcolor37 [ngx.components.UIAttribute-1796000003457]: 
+        attrName: color
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:tertiary
+        comment: Bean Attrcolor37 (ngx.components.UIAttribute)
+      ↓IonSegmentButton38 [ngx.components.UIDynamicElement-1796000003458]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton38 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue39 [ngx.components.UIAttribute-1796000003459]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:call
+          comment: Bean Attrvalue39 (ngx.components.UIAttribute)
+        ↓IonLabel40 [ngx.components.UIDynamicElement-1796000003460]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel40 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text41 [ngx.components.UIText-1796000003461]: 
+            comment: Bean Text41 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Call
+        ↓IonIcon42 [ngx.components.UIDynamicElement-1796000003462]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon42 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname43 [ngx.components.UIAttribute-1796000003463]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:call
+            comment: Bean Attrname43 (ngx.components.UIAttribute)
+      ↓IonSegmentButton44 [ngx.components.UIDynamicElement-1796000003464]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton44 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue45 [ngx.components.UIAttribute-1796000003465]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:favorite
+          comment: Bean Attrvalue45 (ngx.components.UIAttribute)
+        ↓IonLabel46 [ngx.components.UIDynamicElement-1796000003466]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel46 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text47 [ngx.components.UIText-1796000003467]: 
+            comment: Bean Text47 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Favorite
+        ↓IonIcon48 [ngx.components.UIDynamicElement-1796000003468]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon48 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname49 [ngx.components.UIAttribute-1796000003469]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:heart
+            comment: Bean Attrname49 (ngx.components.UIAttribute)
+      ↓IonSegmentButton50 [ngx.components.UIDynamicElement-1796000003470]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton50 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue51 [ngx.components.UIAttribute-1796000003471]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:map
+          comment: Bean Attrvalue51 (ngx.components.UIAttribute)
+        ↓IonLabel52 [ngx.components.UIDynamicElement-1796000003472]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel52 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text53 [ngx.components.UIText-1796000003473]: 
+            comment: Bean Text53 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Map
+        ↓IonIcon54 [ngx.components.UIDynamicElement-1796000003474]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon54 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname55 [ngx.components.UIAttribute-1796000003475]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:pin
+            comment: Bean Attrname55 (ngx.components.UIAttribute)
+    ↓IonSegment56 [ngx.components.UIDynamicElement-1796000003476]: 
+      beanData: '{"ionBean":"Segment"}'
+      comment: Bean IonSegment56 (ngx.components.UIDynamicElement)
+      tagName: ion-segment
+      ↓Attrvalue57 [ngx.components.UIAttribute-1796000003477]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:call
+        comment: Bean Attrvalue57 (ngx.components.UIAttribute)
+      ↓Attrcolor58 [ngx.components.UIAttribute-1796000003478]: 
+        attrName: color
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:success
+        comment: Bean Attrcolor58 (ngx.components.UIAttribute)
+      ↓IonSegmentButton59 [ngx.components.UIDynamicElement-1796000003479]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton59 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue60 [ngx.components.UIAttribute-1796000003480]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:call
+          comment: Bean Attrvalue60 (ngx.components.UIAttribute)
+        ↓Attrlayout61 [ngx.components.UIAttribute-1796000003481]: 
+          attrName: layout
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:icon-bottom
+          comment: Bean Attrlayout61 (ngx.components.UIAttribute)
+        ↓IonIcon62 [ngx.components.UIDynamicElement-1796000003482]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon62 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname63 [ngx.components.UIAttribute-1796000003483]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:call
+            comment: Bean Attrname63 (ngx.components.UIAttribute)
+        ↓IonLabel64 [ngx.components.UIDynamicElement-1796000003484]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel64 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text65 [ngx.components.UIText-1796000003485]: 
+            comment: Bean Text65 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Call
+      ↓IonSegmentButton66 [ngx.components.UIDynamicElement-1796000003486]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton66 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue67 [ngx.components.UIAttribute-1796000003487]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:favorite
+          comment: Bean Attrvalue67 (ngx.components.UIAttribute)
+        ↓Attrlayout68 [ngx.components.UIAttribute-1796000003488]: 
+          attrName: layout
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:icon-bottom
+          comment: Bean Attrlayout68 (ngx.components.UIAttribute)
+        ↓IonIcon69 [ngx.components.UIDynamicElement-1796000003489]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon69 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname70 [ngx.components.UIAttribute-1796000003490]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:heart
+            comment: Bean Attrname70 (ngx.components.UIAttribute)
+        ↓IonLabel71 [ngx.components.UIDynamicElement-1796000003491]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel71 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text72 [ngx.components.UIText-1796000003492]: 
+            comment: Bean Text72 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Favorite
+      ↓IonSegmentButton73 [ngx.components.UIDynamicElement-1796000003493]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton73 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue74 [ngx.components.UIAttribute-1796000003494]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:map
+          comment: Bean Attrvalue74 (ngx.components.UIAttribute)
+        ↓Attrlayout75 [ngx.components.UIAttribute-1796000003495]: 
+          attrName: layout
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:icon-bottom
+          comment: Bean Attrlayout75 (ngx.components.UIAttribute)
+        ↓IonIcon76 [ngx.components.UIDynamicElement-1796000003496]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon76 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname77 [ngx.components.UIAttribute-1796000003497]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:pin
+            comment: Bean Attrname77 (ngx.components.UIAttribute)
+        ↓IonLabel78 [ngx.components.UIDynamicElement-1796000003498]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel78 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text79 [ngx.components.UIText-1796000003499]: 
+            comment: Bean Text79 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Map
+    ↓IonSegment80 [ngx.components.UIDynamicElement-1796000003500]: 
+      beanData: '{"ionBean":"Segment"}'
+      comment: Bean IonSegment80 (ngx.components.UIDynamicElement)
+      tagName: ion-segment
+      ↓Attrvalue81 [ngx.components.UIAttribute-1796000003501]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:favorite
+        comment: Bean Attrvalue81 (ngx.components.UIAttribute)
+      ↓Attrcolor82 [ngx.components.UIAttribute-1796000003502]: 
+        attrName: color
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:warning
+        comment: Bean Attrcolor82 (ngx.components.UIAttribute)
+      ↓IonSegmentButton83 [ngx.components.UIDynamicElement-1796000003503]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton83 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue84 [ngx.components.UIAttribute-1796000003504]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:call
+          comment: Bean Attrvalue84 (ngx.components.UIAttribute)
+        ↓Attrlayout85 [ngx.components.UIAttribute-1796000003505]: 
+          attrName: layout
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:icon-start
+          comment: Bean Attrlayout85 (ngx.components.UIAttribute)
+        ↓IonIcon86 [ngx.components.UIDynamicElement-1796000003506]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon86 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname87 [ngx.components.UIAttribute-1796000003507]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:call
+            comment: Bean Attrname87 (ngx.components.UIAttribute)
+        ↓IonLabel88 [ngx.components.UIDynamicElement-1796000003508]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel88 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text89 [ngx.components.UIText-1796000003509]: 
+            comment: Bean Text89 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Call
+      ↓IonSegmentButton90 [ngx.components.UIDynamicElement-1796000003510]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton90 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue91 [ngx.components.UIAttribute-1796000003511]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:favorite
+          comment: Bean Attrvalue91 (ngx.components.UIAttribute)
+        ↓Attrlayout92 [ngx.components.UIAttribute-1796000003512]: 
+          attrName: layout
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:icon-start
+          comment: Bean Attrlayout92 (ngx.components.UIAttribute)
+        ↓IonIcon93 [ngx.components.UIDynamicElement-1796000003513]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon93 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname94 [ngx.components.UIAttribute-1796000003514]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:heart
+            comment: Bean Attrname94 (ngx.components.UIAttribute)
+        ↓IonLabel95 [ngx.components.UIDynamicElement-1796000003515]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel95 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text96 [ngx.components.UIText-1796000003516]: 
+            comment: Bean Text96 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Favorite
+      ↓IonSegmentButton97 [ngx.components.UIDynamicElement-1796000003517]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton97 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue98 [ngx.components.UIAttribute-1796000003518]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:map
+          comment: Bean Attrvalue98 (ngx.components.UIAttribute)
+        ↓Attrlayout99 [ngx.components.UIAttribute-1796000003519]: 
+          attrName: layout
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:icon-start
+          comment: Bean Attrlayout99 (ngx.components.UIAttribute)
+        ↓IonIcon100 [ngx.components.UIDynamicElement-1796000003520]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon100 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname101 [ngx.components.UIAttribute-1796000003521]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:pin
+            comment: Bean Attrname101 (ngx.components.UIAttribute)
+        ↓IonLabel102 [ngx.components.UIDynamicElement-1796000003522]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel102 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text103 [ngx.components.UIText-1796000003523]: 
+            comment: Bean Text103 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Map
+    ↓IonSegment104 [ngx.components.UIDynamicElement-1796000003524]: 
+      beanData: '{"ionBean":"Segment"}'
+      comment: Bean IonSegment104 (ngx.components.UIDynamicElement)
+      tagName: ion-segment
+      ↓Attrvalue105 [ngx.components.UIAttribute-1796000003525]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:map
+        comment: Bean Attrvalue105 (ngx.components.UIAttribute)
+      ↓Attrcolor106 [ngx.components.UIAttribute-1796000003526]: 
+        attrName: color
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:danger
+        comment: Bean Attrcolor106 (ngx.components.UIAttribute)
+      ↓IonSegmentButton107 [ngx.components.UIDynamicElement-1796000003527]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton107 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue108 [ngx.components.UIAttribute-1796000003528]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:call
+          comment: Bean Attrvalue108 (ngx.components.UIAttribute)
+        ↓Attrlayout109 [ngx.components.UIAttribute-1796000003529]: 
+          attrName: layout
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:icon-end
+          comment: Bean Attrlayout109 (ngx.components.UIAttribute)
+        ↓IonIcon110 [ngx.components.UIDynamicElement-1796000003530]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon110 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname111 [ngx.components.UIAttribute-1796000003531]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:call
+            comment: Bean Attrname111 (ngx.components.UIAttribute)
+        ↓IonLabel112 [ngx.components.UIDynamicElement-1796000003532]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel112 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text113 [ngx.components.UIText-1796000003533]: 
+            comment: Bean Text113 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Call
+      ↓IonSegmentButton114 [ngx.components.UIDynamicElement-1796000003534]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton114 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue115 [ngx.components.UIAttribute-1796000003535]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:favorite
+          comment: Bean Attrvalue115 (ngx.components.UIAttribute)
+        ↓Attrlayout116 [ngx.components.UIAttribute-1796000003536]: 
+          attrName: layout
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:icon-end
+          comment: Bean Attrlayout116 (ngx.components.UIAttribute)
+        ↓IonIcon117 [ngx.components.UIDynamicElement-1796000003537]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon117 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname118 [ngx.components.UIAttribute-1796000003538]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:heart
+            comment: Bean Attrname118 (ngx.components.UIAttribute)
+        ↓IonLabel119 [ngx.components.UIDynamicElement-1796000003539]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel119 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text120 [ngx.components.UIText-1796000003540]: 
+            comment: Bean Text120 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Favorite
+      ↓IonSegmentButton121 [ngx.components.UIDynamicElement-1796000003541]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton121 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue122 [ngx.components.UIAttribute-1796000003542]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:map
+          comment: Bean Attrvalue122 (ngx.components.UIAttribute)
+        ↓Attrlayout123 [ngx.components.UIAttribute-1796000003543]: 
+          attrName: layout
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:icon-end
+          comment: Bean Attrlayout123 (ngx.components.UIAttribute)
+        ↓IonIcon124 [ngx.components.UIDynamicElement-1796000003544]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon124 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname125 [ngx.components.UIAttribute-1796000003545]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:pin
+            comment: Bean Attrname125 (ngx.components.UIAttribute)
+        ↓IonLabel126 [ngx.components.UIDynamicElement-1796000003546]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel126 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text127 [ngx.components.UIText-1796000003547]: 
+            comment: Bean Text127 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Map
+  ↓IonListHeader128 [ngx.components.UIDynamicElement-1796000003548]: 
+    beanData: '{"ionBean":"Listheader"}'
+    comment: Bean IonListHeader128 (ngx.components.UIDynamicElement)
+    tagName: ion-list-header
+    ↓IonLabel129 [ngx.components.UIDynamicElement-1796000003549]: 
+      beanData: '{"ionBean":"Label"}'
+      comment: Bean IonLabel129 (ngx.components.UIDynamicElement)
+      tagName: ion-label
+      ↓Text130 [ngx.components.UIText-1796000003550]: 
+        comment: Bean Text130 (ngx.components.UIText)
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Scrollable
+  ↓Div131 [ngx.components.UIDynamicElement-1796000003551]: 
+    beanData: '{"ionBean":"DivTag"}'
+    comment: Bean Div131 (ngx.components.UIDynamicElement)
+    tagName: div
+    ↓Attrclass132 [ngx.components.UIAttribute-1796000003552]: 
+      attrName: class
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:ion-padding-horizontal
+      comment: Bean Attrclass132 (ngx.components.UIAttribute)
+    ↓IonSegment133 [ngx.components.UIDynamicElement-1796000003553]: 
+      beanData: '{"ionBean":"Segment"}'
+      comment: Bean IonSegment133 (ngx.components.UIDynamicElement)
+      tagName: ion-segment
+      ↓Attrvalue134 [ngx.components.UIAttribute-1796000003554]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:call
+        comment: Bean Attrvalue134 (ngx.components.UIAttribute)
+      ↓Attrscrollable135 [ngx.components.UIAttribute-1796000003555]: 
+        attrName: scrollable
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:true
+        comment: Bean Attrscrollable135 (ngx.components.UIAttribute)
+      ↓IonSegmentButton136 [ngx.components.UIDynamicElement-1796000003556]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton136 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue137 [ngx.components.UIAttribute-1796000003557]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:call
+          comment: Bean Attrvalue137 (ngx.components.UIAttribute)
+        ↓IonLabel138 [ngx.components.UIDynamicElement-1796000003558]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel138 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text139 [ngx.components.UIText-1796000003559]: 
+            comment: Bean Text139 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Call
+      ↓IonSegmentButton140 [ngx.components.UIDynamicElement-1796000003560]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton140 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue141 [ngx.components.UIAttribute-1796000003561]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:favorite
+          comment: Bean Attrvalue141 (ngx.components.UIAttribute)
+        ↓IonLabel142 [ngx.components.UIDynamicElement-1796000003562]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel142 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text143 [ngx.components.UIText-1796000003563]: 
+            comment: Bean Text143 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Favorite
+      ↓IonSegmentButton144 [ngx.components.UIDynamicElement-1796000003564]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton144 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue145 [ngx.components.UIAttribute-1796000003565]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:map
+          comment: Bean Attrvalue145 (ngx.components.UIAttribute)
+        ↓IonLabel146 [ngx.components.UIDynamicElement-1796000003566]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel146 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text147 [ngx.components.UIText-1796000003567]: 
+            comment: Bean Text147 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Map
+      ↓IonSegmentButton148 [ngx.components.UIDynamicElement-1796000003568]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton148 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue149 [ngx.components.UIAttribute-1796000003569]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:watch
+          comment: Bean Attrvalue149 (ngx.components.UIAttribute)
+        ↓IonLabel150 [ngx.components.UIDynamicElement-1796000003570]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel150 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text151 [ngx.components.UIText-1796000003571]: 
+            comment: Bean Text151 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Watch
+      ↓IonSegmentButton152 [ngx.components.UIDynamicElement-1796000003572]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton152 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue153 [ngx.components.UIAttribute-1796000003573]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:account
+          comment: Bean Attrvalue153 (ngx.components.UIAttribute)
+        ↓IonLabel154 [ngx.components.UIDynamicElement-1796000003574]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel154 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text155 [ngx.components.UIText-1796000003575]: 
+            comment: Bean Text155 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Account
+      ↓IonSegmentButton156 [ngx.components.UIDynamicElement-1796000003576]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton156 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue157 [ngx.components.UIAttribute-1796000003577]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:settings
+          comment: Bean Attrvalue157 (ngx.components.UIAttribute)
+        ↓IonLabel158 [ngx.components.UIDynamicElement-1796000003578]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel158 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text159 [ngx.components.UIText-1796000003579]: 
+            comment: Bean Text159 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Settings
+      ↓IonSegmentButton160 [ngx.components.UIDynamicElement-1796000003580]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton160 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue161 [ngx.components.UIAttribute-1796000003581]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:profile
+          comment: Bean Attrvalue161 (ngx.components.UIAttribute)
+        ↓IonLabel162 [ngx.components.UIDynamicElement-1796000003582]: 
+          beanData: '{"ionBean":"Label"}'
+          comment: Bean IonLabel162 (ngx.components.UIDynamicElement)
+          tagName: ion-label
+          ↓Text163 [ngx.components.UIText-1796000003583]: 
+            comment: Bean Text163 (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Profile
+    ↓IonSegment164 [ngx.components.UIDynamicElement-1796000003584]: 
+      beanData: '{"ionBean":"Segment"}'
+      comment: Bean IonSegment164 (ngx.components.UIDynamicElement)
+      tagName: ion-segment
+      ↓Attrvalue165 [ngx.components.UIAttribute-1796000003585]: 
+        attrName: value
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:favorite
+        comment: Bean Attrvalue165 (ngx.components.UIAttribute)
+      ↓Attrcolor166 [ngx.components.UIAttribute-1796000003586]: 
+        attrName: color
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:tertiary
+        comment: Bean Attrcolor166 (ngx.components.UIAttribute)
+      ↓Attrscrollable167 [ngx.components.UIAttribute-1796000003587]: 
+        attrName: scrollable
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:true
+        comment: Bean Attrscrollable167 (ngx.components.UIAttribute)
+      ↓IonSegmentButton168 [ngx.components.UIDynamicElement-1796000003588]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton168 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue169 [ngx.components.UIAttribute-1796000003589]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:call
+          comment: Bean Attrvalue169 (ngx.components.UIAttribute)
+        ↓IonIcon170 [ngx.components.UIDynamicElement-1796000003590]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon170 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname171 [ngx.components.UIAttribute-1796000003591]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:call
+            comment: Bean Attrname171 (ngx.components.UIAttribute)
+      ↓IonSegmentButton172 [ngx.components.UIDynamicElement-1796000003592]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton172 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue173 [ngx.components.UIAttribute-1796000003593]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:favorite
+          comment: Bean Attrvalue173 (ngx.components.UIAttribute)
+        ↓IonIcon174 [ngx.components.UIDynamicElement-1796000003594]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon174 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname175 [ngx.components.UIAttribute-1796000003595]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:heart
+            comment: Bean Attrname175 (ngx.components.UIAttribute)
+      ↓IonSegmentButton176 [ngx.components.UIDynamicElement-1796000003596]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton176 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue177 [ngx.components.UIAttribute-1796000003597]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:map
+          comment: Bean Attrvalue177 (ngx.components.UIAttribute)
+        ↓IonIcon178 [ngx.components.UIDynamicElement-1796000003598]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon178 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname179 [ngx.components.UIAttribute-1796000003599]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:pin
+            comment: Bean Attrname179 (ngx.components.UIAttribute)
+      ↓IonSegmentButton180 [ngx.components.UIDynamicElement-1796000003600]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton180 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue181 [ngx.components.UIAttribute-1796000003601]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:watch
+          comment: Bean Attrvalue181 (ngx.components.UIAttribute)
+        ↓IonIcon182 [ngx.components.UIDynamicElement-1796000003602]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon182 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname183 [ngx.components.UIAttribute-1796000003603]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:play-circle-outline
+            comment: Bean Attrname183 (ngx.components.UIAttribute)
+      ↓IonSegmentButton184 [ngx.components.UIDynamicElement-1796000003604]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton184 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue185 [ngx.components.UIAttribute-1796000003605]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:account
+          comment: Bean Attrvalue185 (ngx.components.UIAttribute)
+        ↓IonIcon186 [ngx.components.UIDynamicElement-1796000003606]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon186 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname187 [ngx.components.UIAttribute-1796000003607]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:people
+            comment: Bean Attrname187 (ngx.components.UIAttribute)
+      ↓IonSegmentButton188 [ngx.components.UIDynamicElement-1796000003608]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton188 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue189 [ngx.components.UIAttribute-1796000003609]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:settings
+          comment: Bean Attrvalue189 (ngx.components.UIAttribute)
+        ↓IonIcon190 [ngx.components.UIDynamicElement-1796000003610]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon190 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname191 [ngx.components.UIAttribute-1796000003611]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:cog
+            comment: Bean Attrname191 (ngx.components.UIAttribute)
+      ↓IonSegmentButton192 [ngx.components.UIDynamicElement-1796000003612]: 
+        beanData: '{"ionBean":"SegmentButton"}'
+        comment: Bean IonSegmentButton192 (ngx.components.UIDynamicElement)
+        tagName: ion-segment-button
+        ↓Attrvalue193 [ngx.components.UIAttribute-1796000003613]: 
+          attrName: value
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:profile
+          comment: Bean Attrvalue193 (ngx.components.UIAttribute)
+        ↓IonIcon194 [ngx.components.UIDynamicElement-1796000003614]: 
+          beanData: '{"ionBean":"Icon"}'
+          comment: Bean IonIcon194 (ngx.components.UIDynamicElement)
+          tagName: ion-icon
+          ↓Attrname195 [ngx.components.UIAttribute-1796000003615]: 
+            attrName: name
+            attrValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:person
+            comment: Bean Attrname195 (ngx.components.UIAttribute)
+↓Style [ngx.components.UIStyle-1771413319626]: 
+  comment: Bean Style (ngx.components.UIStyle)
+  styleContent: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+        →: |
+          'ion-content ion-segment {
+            margin: 10px auto;
+          }
+          '
