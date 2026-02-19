@@ -5,14 +5,14 @@
 # This sample assumes you have declared the following Encrypted Secrets
 # https://docs.github.com/en/actions/reference/encrypted-secrets
 #
-# C8O_SERVER: Convertigo server endpoint, where the built mobile application will connect
+# C8O_SERVER_BETA: Convertigo server endpoint, where the built mobile application will connect
 #             and the backend project will be deployed, like https://<myhost>/convertigo
-# C8O_USER: Convertigo server admin or a user with role PROJECTS_CONFIG, used for the deploiment
-# C8O_PASSWORD: Convertigo server password for the C8O_USER
+# C8O_USER_BETA: Convertigo server admin or a user with role PROJECTS_CONFIG, used for the deploiment
+# C8O_PASSWORD_BETA: Convertigo server password for the C8O_USER_BETA
 #
-# C8O_SERVER_PROD: override C8O_SERVER for tags
-# C8O_USER_PROD: override C8O_USER for tags
-# C8O_PASSWORD_PROD: override C8O_PASSWORD for tags
+# C8O_SERVER_DEMO: override C8O_SERVER_BETA for tags
+# C8O_USER_DEMO: override C8O_USER_BETA for tags
+# C8O_PASSWORD_DEMO: override C8O_PASSWORD_BETA for tags
 #
 # Discover all tasks and -Pconvertigo options in your project build.gradle file.
 
@@ -61,7 +61,7 @@ jobs:
 
       - name: Convertigo generate application code
         env:
-          C8O_SERVER: ${{ github.ref_type == 'tag' && secrets.C8O_SERVER_PROD || secrets.C8O_SERVER }}
+          C8O_SERVER: ${{ github.ref_type == 'tag' && secrets.C8O_SERVER_DEMO || secrets.C8O_SERVER_BETA }}
         run: |
           echo "Generate Mobile Builder App" && \
           sh gradlew --stacktrace --info generateMobileBuilder export -x compileMobileBuilder \
@@ -69,9 +69,9 @@ jobs:
 
       - name: Build and deploy based on branch or tag
         env:
-          C8O_SERVER: ${{ github.ref_type == 'tag' && secrets.C8O_SERVER_PROD || secrets.C8O_SERVER }}
-          C8O_USER: ${{ github.ref_type == 'tag' && secrets.C8O_USER_PROD || secrets.C8O_USER }}
-          C8O_PASSWORD: ${{ github.ref_type == 'tag' && secrets.C8O_PASSWORD_PROD || secrets.C8O_PASSWORD }}
+          C8O_SERVER: ${{ github.ref_type == 'tag' && secrets.C8O_SERVER_DEMO || secrets.C8O_SERVER_BETA }}
+          C8O_USER: ${{ github.ref_type == 'tag' && secrets.C8O_USER_DEMO || secrets.C8O_USER_BETA }}
+          C8O_PASSWORD: ${{ github.ref_type == 'tag' && secrets.C8O_PASSWORD_DEMO || secrets.C8O_PASSWORD_BETA }}
         run: |
           if [ "${{ github.ref_type }}" = "tag" ]; then
             echo "Deploying to production server $C8O_SERVER";
