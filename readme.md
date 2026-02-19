@@ -82,13 +82,13 @@ For more technical informations : [documentation](./project.md)
      <tr><td>To contribute</td><td>
 
      ```
-     sampleKitchenSync=git@github.com:convertigo/c8oprj-sample-kitchensync.git:branch=8.4.0.0
+     sampleKitchenSync=https://github.com/convertigo/c8oprj-sample-kitchensync.git:branch=8.4.0.0
      ```
      </td></tr>
      <tr><td>To simply use</td><td>
 
      ```
-     sampleKitchenSync=git@github.com:convertigo/c8oprj-sample-kitchensync/archive/8.4.0.0.zip
+     sampleKitchenSync=https://github.com/convertigo/c8oprj-sample-kitchensync/archive/8.4.0.0.zip
      ```
      </td></tr>
     </table>
