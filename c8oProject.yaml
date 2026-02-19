@@ -4,7 +4,7 @@
   contextTimeout: 59
   corsOrigin: =Origin
   httpSessionTimeout: 60
-  version: 8.4.0.1
+  version: 8.4.0.2
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
   ↓project [references.ProjectSchemaReference]: 
     projectName: lib_ExtendedComponents_ui_ngx=https://github.com/convertigo/c8oprj-lib-extended-components-ui-ngx.git:branch=8.4.0.0
