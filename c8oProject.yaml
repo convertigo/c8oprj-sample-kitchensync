@@ -4,14 +4,14 @@
   contextTimeout: 59
   corsOrigin: =Origin
   httpSessionTimeout: 60
-  version: 8.4.0.5
+  version: 8.4.0.6
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
   ↓project [references.ProjectSchemaReference]: 
-    projectName: lib_ExtendedComponents_ui_ngx=/Users/charlesg/dev/convertigo/studios/Studio_8.4_stable/.metadata/.plugins/com.twinsoft.convertigo.studio/git/c8oprj-lib-extended-components-ui-ngx_v8.4.0.15
+    projectName: lib_ExtendedComponents_ui_ngx=https://github.com/convertigo/c8oprj-lib-extended-components-ui-ngx.git:branch=8.4.0.0
   ↓project1 [references.ProjectSchemaReference]: 
     projectName: mobilebuilder_tpl_8_4_0_ngx=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_8_4_0_ngx.zip
   ↓project2 [references.ProjectSchemaReference]: 
-    projectName: libApexCharts=/Users/charlesg/dev/convertigo/studios/Studio_8.4_stable/.metadata/.plugins/com.twinsoft.convertigo.studio/git/c8oprj-lib-apexcharts-ui-ngx_v8.4.0.1
+    projectName: libApexCharts=https://github.com/convertigo/c8oprj-lib-apexcharts-ui-ngx.git:branch=8.4.0.0
   ↓project3 [references.ProjectSchemaReference]: 
     projectName: lib_Leaflet=https://github.com/convertigo/c8oprj-lib-leaflet.git:branch=8.4.0.0
   ↓Application [core.MobileApplication]: 
