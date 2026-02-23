@@ -357,3 +357,231 @@ title: Apex Chart
               - xmlizable: 
                 - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
                 - MobileSmartSourceType: script:null
+    ↓BarCard [ngx.components.UIDynamicElement-1932000001001]: 
+      beanData: '{"ionBean":"Card"}'
+      comment: Bean BarCard (ngx.components.UIDynamicElement)
+      tagName: ion-card
+      ↓CardHeader [ngx.components.UIDynamicElement-1932000001002]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        comment: Bean CardHeader (ngx.components.UIDynamicElement)
+        tagName: ion-card-header
+        ↓CardTitle [ngx.components.UIDynamicElement-1932000001003]: 
+          beanData: '{"ionBean":"CardTitle"}'
+          comment: Bean CardTitle (ngx.components.UIDynamicElement)
+          tagName: ion-card-title
+          ↓Text [ngx.components.UIText-1932000001004]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:apxChart (Bar)
+      ↓CardContent [ngx.components.UIDynamicElement-1932000001005]: 
+        beanData: '{"ionBean":"CardContent"}'
+        comment: Bean CardContent (ngx.components.UIDynamicElement)
+        tagName: ion-card-content
+        ↓Paragraph [ngx.components.UIDynamicElement-1932000001006]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean Paragraph (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text [ngx.components.UIText-1932000001007]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Exemple bar chart avec deux séries.
+        ↓UseSharedApxChartBar [ngx.components.UIUseShared-1932000001008]: 
+          comment: Bean UseSharedApxChartBar (ngx.components.UIUseShared)
+          identifier: sharedApxChartBar
+          sharedcomponent: libApexCharts.Application.NgxApp.apxChart
+          ↓series [ngx.components.UIUseVariable-1932000001009]: 
+            comment: Bean series (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:[{ name: ''Revenue'', data: [44, 55, 41, 67, 22, 43, 21] }, { name: ''Cost'', data: [13, 23, 20, 8, 13, 27, 33] }]'
+          ↓chart [ngx.components.UIUseVariable-1932000001010]: 
+            comment: Bean chart (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ type: ''bar'', height: 320, toolbar: { show: true } }'
+          ↓title [ngx.components.UIUseVariable-1932000001011]: 
+            comment: Bean title (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ text: ''Weekly Revenue'', align: ''left'' }'
+          ↓xaxis [ngx.components.UIUseVariable-1932000001012]: 
+            comment: Bean xaxis (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ categories: [''Mon'', ''Tue'', ''Wed'', ''Thu'', ''Fri'', ''Sat'', ''Sun''] }'
+          ↓theme [ngx.components.UIUseVariable-1932000001013]: 
+            comment: Bean theme (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ mode: (this.global && this.global.themeDark) ? ''dark'' : ''light'' }'
+          ↓plotOptions [ngx.components.UIUseVariable-1932000001014]: 
+            comment: Bean plotOptions (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ bar: { borderRadius: 4, columnWidth: ''45%'' } }'
+          ↓dataLabels [ngx.components.UIUseVariable-1932000001015]: 
+            comment: Bean dataLabels (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ enabled: false }'
+    ↓DonutCard [ngx.components.UIDynamicElement-1932000001101]: 
+      beanData: '{"ionBean":"Card"}'
+      comment: Bean DonutCard (ngx.components.UIDynamicElement)
+      tagName: ion-card
+      ↓CardHeader [ngx.components.UIDynamicElement-1932000001102]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        comment: Bean CardHeader (ngx.components.UIDynamicElement)
+        tagName: ion-card-header
+        ↓CardTitle [ngx.components.UIDynamicElement-1932000001103]: 
+          beanData: '{"ionBean":"CardTitle"}'
+          comment: Bean CardTitle (ngx.components.UIDynamicElement)
+          tagName: ion-card-title
+          ↓Text [ngx.components.UIText-1932000001104]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:apxChart (Donut)
+      ↓CardContent [ngx.components.UIDynamicElement-1932000001105]: 
+        beanData: '{"ionBean":"CardContent"}'
+        comment: Bean CardContent (ngx.components.UIDynamicElement)
+        tagName: ion-card-content
+        ↓Paragraph [ngx.components.UIDynamicElement-1932000001106]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean Paragraph (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text [ngx.components.UIText-1932000001107]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Exemple donut chart avec labels et légende.
+        ↓UseSharedApxChartDonut [ngx.components.UIUseShared-1932000001108]: 
+          comment: Bean UseSharedApxChartDonut (ngx.components.UIUseShared)
+          identifier: sharedApxChartDonut
+          sharedcomponent: libApexCharts.Application.NgxApp.apxChart
+          ↓series [ngx.components.UIUseVariable-1932000001109]: 
+            comment: Bean series (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:[44, 55, 13, 43, 22]
+          ↓chart [ngx.components.UIUseVariable-1932000001110]: 
+            comment: Bean chart (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ type: ''donut'', height: 320 }'
+          ↓title [ngx.components.UIUseVariable-1932000001111]: 
+            comment: Bean title (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ text: ''Traffic Sources'', align: ''left'' }'
+          ↓labels [ngx.components.UIUseVariable-1932000001112]: 
+            comment: Bean labels (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:['Social', 'Search', 'Email', 'Direct', 'Referral']
+          ↓legend [ngx.components.UIUseVariable-1932000001113]: 
+            comment: Bean legend (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ position: ''bottom'' }'
+          ↓theme [ngx.components.UIUseVariable-1932000001114]: 
+            comment: Bean theme (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ mode: (this.global && this.global.themeDark) ? ''dark'' : ''light'' }'
+    ↓RadarCard [ngx.components.UIDynamicElement-1932000001201]: 
+      beanData: '{"ionBean":"Card"}'
+      comment: Bean RadarCard (ngx.components.UIDynamicElement)
+      tagName: ion-card
+      ↓CardHeader [ngx.components.UIDynamicElement-1932000001202]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        comment: Bean CardHeader (ngx.components.UIDynamicElement)
+        tagName: ion-card-header
+        ↓CardTitle [ngx.components.UIDynamicElement-1932000001203]: 
+          beanData: '{"ionBean":"CardTitle"}'
+          comment: Bean CardTitle (ngx.components.UIDynamicElement)
+          tagName: ion-card-title
+          ↓Text [ngx.components.UIText-1932000001204]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:apxChart (Radar)
+      ↓CardContent [ngx.components.UIDynamicElement-1932000001205]: 
+        beanData: '{"ionBean":"CardContent"}'
+        comment: Bean CardContent (ngx.components.UIDynamicElement)
+        tagName: ion-card-content
+        ↓Paragraph [ngx.components.UIDynamicElement-1932000001206]: 
+          beanData: '{"ionBean":"Paragraph"}'
+          comment: Bean Paragraph (ngx.components.UIDynamicElement)
+          tagName: p
+          ↓Text [ngx.components.UIText-1932000001207]: 
+            comment: Bean Text (ngx.components.UIText)
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Exemple radar chart avec axes multiples.
+        ↓UseSharedApxChartRadar [ngx.components.UIUseShared-1932000001208]: 
+          comment: Bean UseSharedApxChartRadar (ngx.components.UIUseShared)
+          identifier: sharedApxChartRadar
+          sharedcomponent: libApexCharts.Application.NgxApp.apxChart
+          ↓series [ngx.components.UIUseVariable-1932000001209]: 
+            comment: Bean series (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:[{ name: ''Allocated Budget'', data: [80, 50, 30, 40, 100, 20] }, { name: ''Actual Spending'', data: [20, 30, 40, 80, 20, 80] }]'
+          ↓chart [ngx.components.UIUseVariable-1932000001210]: 
+            comment: Bean chart (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ type: ''radar'', height: 320 }'
+          ↓title [ngx.components.UIUseVariable-1932000001211]: 
+            comment: Bean title (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ text: ''Budget vs Spending'', align: ''left'' }'
+          ↓xaxis [ngx.components.UIUseVariable-1932000001212]: 
+            comment: Bean xaxis (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ categories: [''Marketing'', ''Sales'', ''Dev'', ''Support'', ''IT'', ''Admin''] }'
+          ↓stroke [ngx.components.UIUseVariable-1932000001213]: 
+            comment: Bean stroke (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ width: 2 }'
+          ↓fill [ngx.components.UIUseVariable-1932000001214]: 
+            comment: Bean fill (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ opacity: 0.2 }'
+          ↓theme [ngx.components.UIUseVariable-1932000001215]: 
+            comment: Bean theme (ngx.components.UIUseVariable)
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: 'script:{ mode: (this.global && this.global.themeDark) ? ''dark'' : ''light'' }'

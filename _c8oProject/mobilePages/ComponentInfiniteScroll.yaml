@@ -200,7 +200,7 @@ title: Infinite Scroll
       directiveSource: 
         - xmlizable: 
           - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-          - MobileSmartSourceType: source:{"filter":"Global","project":"sampleKitchenSync","input":"","model":{"data":[{"sharedObject":"router.sharedObject"}],"path":"?.infiniteItems","prefix":"","suffix":"","custom":"","useCustom":false}}
+          - MobileSmartSourceType: source:{"filter":"Global","project":"sampleKitchenSink","input":"","model":{"data":[{"sharedObject":"router.sharedObject"}],"path":"?.infiniteItems","prefix":"","suffix":"","custom":"","useCustom":false}}
       ↓IonItem28 [ngx.components.UIDynamicElement-1796000092002]: 
         beanData: '{"ionBean":"ListItem"}'
         comment: Bean IonItem28 (ngx.components.UIDynamicElement)

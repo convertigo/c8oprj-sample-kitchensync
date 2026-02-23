@@ -224,7 +224,7 @@ title: Modal
           beanData: |
             '{
              "ionBean": "ModalAction",
-             "page": "plain:sampleKitchenSync.MobileApplication.Application.ComponentText",
+             "page": "plain:sampleKitchenSink.MobileApplication.Application.ComponentText",
              "cssClass": "plain:"
             }'
           comment: Bean OpenModal (ngx.components.UIDynamicAction)
@@ -259,7 +259,7 @@ title: Modal
             '{
              "ionBean": "ModalAction",
              "IonMode": "plain:ios",
-             "page": "plain:sampleKitchenSync.MobileApplication.Application.ComponentText",
+             "page": "plain:sampleKitchenSink.MobileApplication.Application.ComponentText",
              "presentingElement": "script:document.querySelector(''ion-router-outlet'')",
              "cssClass": "plain:component-modal-card"
             }'
@@ -294,7 +294,7 @@ title: Modal
           beanData: |
             '{
              "ionBean": "ModalAction",
-             "page": "plain:sampleKitchenSync.MobileApplication.Application.ComponentText",
+             "page": "plain:sampleKitchenSink.MobileApplication.Application.ComponentText",
              "cssClass": "plain:component-modal-sheet",
              "breakpoints": "script:[0, 0.25, 0.5, 1]",
              "backdropBreakpoint": "plain:0.25",

@@ -256,7 +256,7 @@ title: Popover
           beanData: |
             '{
              "ionBean": "PopoverAction",
-             "page": "plain:sampleKitchenSync.MobileApplication.Application.ComponentText",
+             "page": "plain:sampleKitchenSink.MobileApplication.Application.ComponentText",
              "cssClass": "plain:component-popover-action"
             }'
           comment: Bean OpenPopoverAction (ngx.components.UIDynamicAction)

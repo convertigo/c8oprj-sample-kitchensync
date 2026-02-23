@@ -259,7 +259,7 @@ title: Skeleton Text
       directiveSource: 
         - xmlizable: 
           - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-          - MobileSmartSourceType: source:{"filter":"Global","project":"sampleKitchenSync","input":"","model":{"data":[{"sharedObject":"router.sharedObject"}],"path":"?.skeletonAlbums","prefix":"","suffix":"","custom":"","useCustom":false}}
+          - MobileSmartSourceType: source:{"filter":"Global","project":"sampleKitchenSink","input":"","model":{"data":[{"sharedObject":"router.sharedObject"}],"path":"?.skeletonAlbums","prefix":"","suffix":"","custom":"","useCustom":false}}
       ↓IonItem6 [ngx.components.UIDynamicElement-1797000000575]: 
         beanData: '{"ionBean":"ListItem"}'
         comment: Bean IonItem6 (ngx.components.UIDynamicElement)
@@ -370,7 +370,7 @@ title: Skeleton Text
       directiveSource: 
         - xmlizable: 
           - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-          - MobileSmartSourceType: source:{"filter":"Global","project":"sampleKitchenSync","input":"","model":{"data":[{"sharedObject":"router.sharedObject"}],"path":"?.skeletonRows","prefix":"","suffix":"","custom":"","useCustom":false}}
+          - MobileSmartSourceType: source:{"filter":"Global","project":"sampleKitchenSink","input":"","model":{"data":[{"sharedObject":"router.sharedObject"}],"path":"?.skeletonRows","prefix":"","suffix":"","custom":"","useCustom":false}}
       ↓IonItem37 [ngx.components.UIDynamicElement-1796000003657]: 
         beanData: '{"ionBean":"ListItem"}'
         comment: Bean IonItem37 (ngx.components.UIDynamicElement)

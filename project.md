@@ -1,7 +1,7 @@
 
-# ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/core/images/project_color_16x16.png?raw=true "Project") sampleKitchenSync
+# ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/core/images/project_color_16x16.png?raw=true "Project") sampleKitchenSink
 
-Convertigo Kitchen Sync
+Convertigo Kitchen Sink
 
 <details><summary><span style="color:DarkGoldenRod"><i>References</i></span></summary><blockquote><p>
 
@@ -92,12 +92,140 @@ AgGrid component page
 Alert component page
 </p></blockquote></details>
 
+<details><summary><b>ComponentApxAreaChart</b> : Apex Area Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxAreaChart
+
+Apex Area Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxBarChart</b> : Apex Bar Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxBarChart
+
+Apex Bar Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxBoxPlotChart</b> : Apex Box Plot Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxBoxPlotChart
+
+Apex Box Plot Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxBubbleChart</b> : Apex Bubble Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxBubbleChart
+
+Apex Bubble Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxCandlestickChart</b> : Apex Candlestick Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxCandlestickChart
+
+Apex Candlestick Chart component page
+</p></blockquote></details>
+
 <details><summary><b>ComponentApxChart</b> : Apex Chart component page</summary><blockquote><p>
 
 
 ### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxChart
 
 Apex Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxDonutChart</b> : Apex Donut Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxDonutChart
+
+Apex Donut Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxHeatmapChart</b> : Apex Heatmap Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxHeatmapChart
+
+Apex Heatmap Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxLineChart</b> : Apex Line Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxLineChart
+
+Apex Line Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxPieChart</b> : Apex Pie Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxPieChart
+
+Apex Pie Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxPolarAreaChart</b> : Apex Polar Area Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxPolarAreaChart
+
+Apex Polar Area Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxRadarChart</b> : Apex Radar Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxRadarChart
+
+Apex Radar Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxRadialBarChart</b> : Apex Radial Bar Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxRadialBarChart
+
+Apex Radial Bar Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxRangeAreaChart</b> : Apex Range Area Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxRangeAreaChart
+
+Apex Range Area Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxRangeBarChart</b> : Apex Range Bar Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxRangeBarChart
+
+Apex Range Bar Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxScatterChart</b> : Apex Scatter Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxScatterChart
+
+Apex Scatter Chart component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentApxTreemapChart</b> : Apex Treemap Chart component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentApxTreemapChart
+
+Apex Treemap Chart component page
 </p></blockquote></details>
 
 <details><summary><b>ComponentAvatar</b> : Avatar component page</summary><blockquote><p>

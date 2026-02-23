@@ -1,9 +1,9 @@
 
 
 
-# sampleKitchenSync
+# sampleKitchenSink
 
-Convertigo Kitchen Sync
+Convertigo Kitchen Sink
 
 
 For more technical informations : [documentation](./project.md)
@@ -15,7 +15,23 @@ For more technical informations : [documentation](./project.md)
         - [ComponentActionSheet](#componentactionsheet)
         - [ComponentAgGrid](#componentaggrid)
         - [ComponentAlert](#componentalert)
+        - [ComponentApxAreaChart](#componentapxareachart)
+        - [ComponentApxBarChart](#componentapxbarchart)
+        - [ComponentApxBoxPlotChart](#componentapxboxplotchart)
+        - [ComponentApxBubbleChart](#componentapxbubblechart)
+        - [ComponentApxCandlestickChart](#componentapxcandlestickchart)
         - [ComponentApxChart](#componentapxchart)
+        - [ComponentApxDonutChart](#componentapxdonutchart)
+        - [ComponentApxHeatmapChart](#componentapxheatmapchart)
+        - [ComponentApxLineChart](#componentapxlinechart)
+        - [ComponentApxPieChart](#componentapxpiechart)
+        - [ComponentApxPolarAreaChart](#componentapxpolarareachart)
+        - [ComponentApxRadarChart](#componentapxradarchart)
+        - [ComponentApxRadialBarChart](#componentapxradialbarchart)
+        - [ComponentApxRangeAreaChart](#componentapxrangeareachart)
+        - [ComponentApxRangeBarChart](#componentapxrangebarchart)
+        - [ComponentApxScatterChart](#componentapxscatterchart)
+        - [ComponentApxTreemapChart](#componentapxtreemapchart)
         - [ComponentAvatar](#componentavatar)
         - [ComponentBadge](#componentbadge)
         - [ComponentBreadcrumbs](#componentbreadcrumbs)
@@ -82,17 +98,17 @@ For more technical informations : [documentation](./project.md)
      <tr><td>To contribute</td><td>
 
      ```
-     sampleKitchenSync=https://github.com/convertigo/c8oprj-sample-kitchensync.git:branch=8.4.0.0
+     sampleKitchenSink=https://github.com/convertigo/c8oprj-sample-kitchensync.git:branch=8.4.0.0
      ```
      </td></tr>
      <tr><td>To simply use</td><td>
 
      ```
-     sampleKitchenSync=https://github.com/convertigo/c8oprj-sample-kitchensync/archive/8.4.0.0.zip
+     sampleKitchenSink=https://github.com/convertigo/c8oprj-sample-kitchensync/archive/8.4.0.0.zip
      ```
      </td></tr>
     </table>
-3. Click the `Finish` button. This will automatically import the __sampleKitchenSync__ project
+3. Click the `Finish` button. This will automatically import the __sampleKitchenSink__ project
 
 
 ## Mobile Application
@@ -117,9 +133,73 @@ AgGrid component page
 
 Alert component page
 
+#### ComponentApxAreaChart
+
+Apex Area Chart component page
+
+#### ComponentApxBarChart
+
+Apex Bar Chart component page
+
+#### ComponentApxBoxPlotChart
+
+Apex Box Plot Chart component page
+
+#### ComponentApxBubbleChart
+
+Apex Bubble Chart component page
+
+#### ComponentApxCandlestickChart
+
+Apex Candlestick Chart component page
+
 #### ComponentApxChart
 
 Apex Chart component page
+
+#### ComponentApxDonutChart
+
+Apex Donut Chart component page
+
+#### ComponentApxHeatmapChart
+
+Apex Heatmap Chart component page
+
+#### ComponentApxLineChart
+
+Apex Line Chart component page
+
+#### ComponentApxPieChart
+
+Apex Pie Chart component page
+
+#### ComponentApxPolarAreaChart
+
+Apex Polar Area Chart component page
+
+#### ComponentApxRadarChart
+
+Apex Radar Chart component page
+
+#### ComponentApxRadialBarChart
+
+Apex Radial Bar Chart component page
+
+#### ComponentApxRangeAreaChart
+
+Apex Range Area Chart component page
+
+#### ComponentApxRangeBarChart
+
+Apex Range Bar Chart component page
+
+#### ComponentApxScatterChart
+
+Apex Scatter Chart component page
+
+#### ComponentApxTreemapChart
+
+Apex Treemap Chart component page
 
 #### ComponentAvatar
 
