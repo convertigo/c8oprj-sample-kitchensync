@@ -2834,6 +2834,190 @@ title: Convertigo Kitchen Sink
             - xmlizable: 
               - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
               - MobileSmartSourceType: plain:Drop Zone
+    ↓HomeItemCyGraph [ngx.components.UIDynamicElement-1971100000200]: 
+      beanData: |
+        '{
+         "ionBean": "ListItem",
+         "Button": "plain:true",
+         "Detail": "plain:true",
+         "LinkRouterPath": "plain:\/component-cy-graph",
+         "LinkRouterDirection": "plain:forward"
+        }'
+      comment: Bean HomeItemCyGraph (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓Class [ngx.components.UIAttribute-1971100000201]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:home-list-item
+        comment: Bean Class (ngx.components.UIAttribute)
+      ↓EntryIcon [ngx.components.UIDynamicElement-1971100000204]: 
+        beanData: '{"ionBean":"Icon","IconName":"plain:apps"}'
+        comment: Bean EntryIcon (ngx.components.UIDynamicElement)
+        tagName: ion-icon
+        ↓Slot [ngx.components.UIAttribute-1971100000205]: 
+          attrName: slot
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:start
+          comment: Bean Slot (ngx.components.UIAttribute)
+        ↓Class [ngx.components.UIAttribute-1971100000206]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:component-icon component-icon-primary
+          comment: Bean Class (ngx.components.UIAttribute)
+      ↓EntryLabel [ngx.components.UIDynamicElement-1971100000207]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean EntryLabel (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1971100000208]: 
+          comment: Bean Text (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Cy Graph
+    ↓HomeItemSortableJS [ngx.components.UIDynamicElement-1971200000200]: 
+      beanData: |
+        '{
+         "ionBean": "ListItem",
+         "Button": "plain:true",
+         "Detail": "plain:true",
+         "LinkRouterPath": "plain:\/component-sortable-js",
+         "LinkRouterDirection": "plain:forward"
+        }'
+      comment: Bean HomeItemSortableJS (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓Class [ngx.components.UIAttribute-1971200000201]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:home-list-item
+        comment: Bean Class (ngx.components.UIAttribute)
+      ↓EntryIcon [ngx.components.UIDynamicElement-1971200000204]: 
+        beanData: '{"ionBean":"Icon","IconName":"plain:apps"}'
+        comment: Bean EntryIcon (ngx.components.UIDynamicElement)
+        tagName: ion-icon
+        ↓Slot [ngx.components.UIAttribute-1971200000205]: 
+          attrName: slot
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:start
+          comment: Bean Slot (ngx.components.UIAttribute)
+        ↓Class [ngx.components.UIAttribute-1971200000206]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:component-icon component-icon-primary
+          comment: Bean Class (ngx.components.UIAttribute)
+      ↓EntryLabel [ngx.components.UIDynamicElement-1971200000207]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean EntryLabel (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1971200000208]: 
+          comment: Bean Text (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:SortableJS
+    ↓HomeItemKanbanBoard [ngx.components.UIDynamicElement-1971300000200]: 
+      beanData: |
+        '{
+         "ionBean": "ListItem",
+         "Button": "plain:true",
+         "Detail": "plain:true",
+         "LinkRouterPath": "plain:\/component-kanban-board",
+         "LinkRouterDirection": "plain:forward"
+        }'
+      comment: Bean HomeItemKanbanBoard (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓Class [ngx.components.UIAttribute-1971300000201]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:home-list-item
+        comment: Bean Class (ngx.components.UIAttribute)
+      ↓EntryIcon [ngx.components.UIDynamicElement-1971300000204]: 
+        beanData: '{"ionBean":"Icon","IconName":"plain:apps"}'
+        comment: Bean EntryIcon (ngx.components.UIDynamicElement)
+        tagName: ion-icon
+        ↓Slot [ngx.components.UIAttribute-1971300000205]: 
+          attrName: slot
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:start
+          comment: Bean Slot (ngx.components.UIAttribute)
+        ↓Class [ngx.components.UIAttribute-1971300000206]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:component-icon component-icon-primary
+          comment: Bean Class (ngx.components.UIAttribute)
+      ↓EntryLabel [ngx.components.UIDynamicElement-1971300000207]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean EntryLabel (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1971300000208]: 
+          comment: Bean Text (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Kanban Board
+    ↓HomeItemFrappeGantt [ngx.components.UIDynamicElement-1971400000200]: 
+      beanData: |
+        '{
+         "ionBean": "ListItem",
+         "Button": "plain:true",
+         "Detail": "plain:true",
+         "LinkRouterPath": "plain:\/component-frappe-gantt",
+         "LinkRouterDirection": "plain:forward"
+        }'
+      comment: Bean HomeItemFrappeGantt (ngx.components.UIDynamicElement)
+      tagName: ion-item
+      ↓Class [ngx.components.UIAttribute-1971400000201]: 
+        attrName: class
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:home-list-item
+        comment: Bean Class (ngx.components.UIAttribute)
+      ↓EntryIcon [ngx.components.UIDynamicElement-1971400000204]: 
+        beanData: '{"ionBean":"Icon","IconName":"plain:apps"}'
+        comment: Bean EntryIcon (ngx.components.UIDynamicElement)
+        tagName: ion-icon
+        ↓Slot [ngx.components.UIAttribute-1971400000205]: 
+          attrName: slot
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:start
+          comment: Bean Slot (ngx.components.UIAttribute)
+        ↓Class [ngx.components.UIAttribute-1971400000206]: 
+          attrName: class
+          attrValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:component-icon component-icon-primary
+          comment: Bean Class (ngx.components.UIAttribute)
+      ↓EntryLabel [ngx.components.UIDynamicElement-1971400000207]: 
+        beanData: '{"ionBean":"Label"}'
+        comment: Bean EntryLabel (ngx.components.UIDynamicElement)
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1971400000208]: 
+          comment: Bean Text (ngx.components.UIText)
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Frappe Gantt
     ↓HomeItem057 [ngx.components.UIDynamicElement-1963000010200]: 
       beanData: |
         '{

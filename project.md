@@ -292,6 +292,14 @@ Chip component page
 Content component page
 </p></blockquote></details>
 
+<details><summary><b>ComponentCyGraph</b> : CyGraph component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentCyGraph
+
+CyGraph component page
+</p></blockquote></details>
+
 <details><summary><b>ComponentDateAndTimePicker</b> : Date and Time Picker component page</summary><blockquote><p>
 
 
@@ -314,6 +322,14 @@ DropZone component page
 ### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentFloatingActionButton
 
 Floating Action Button component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentFrappeGantt</b> : FrappeGantt component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentFrappeGantt
+
+FrappeGantt component page
 </p></blockquote></details>
 
 <details><summary><b>ComponentGrid</b> : Grid component page</summary><blockquote><p>
@@ -370,6 +386,14 @@ Item component page
 ### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentItemGroup
 
 Item Group component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentKanbanBoard</b> : KanbanBoard component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentKanbanBoard
+
+KanbanBoard component page
 </p></blockquote></details>
 
 <details><summary><b>ComponentLeafletMap</b> : Leaflet Map component page</summary><blockquote><p>
@@ -546,6 +570,14 @@ Signature component page
 ### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentSkeletonText
 
 Skeleton Text component page
+</p></blockquote></details>
+
+<details><summary><b>ComponentSortableJS</b> : SortableJS component page</summary><blockquote><p>
+
+
+### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/pagecomponent_color_16x16.png?raw=true "PageComponent") ComponentSortableJS
+
+SortableJS component page
 </p></blockquote></details>
 
 <details><summary><b>ComponentSpinner</b> : Spinner component page</summary><blockquote><p>

@@ -40,9 +40,11 @@ For more technical informations : [documentation](./project.md)
         - [ComponentCheckbox](#componentcheckbox)
         - [ComponentChip](#componentchip)
         - [ComponentContent](#componentcontent)
+        - [ComponentCyGraph](#componentcygraph)
         - [ComponentDateAndTimePicker](#componentdateandtimepicker)
         - [ComponentDropZone](#componentdropzone)
         - [ComponentFloatingActionButton](#componentfloatingactionbutton)
+        - [ComponentFrappeGantt](#componentfrappegantt)
         - [ComponentGrid](#componentgrid)
         - [ComponentIcons](#componenticons)
         - [ComponentInfiniteScroll](#componentinfinitescroll)
@@ -50,6 +52,7 @@ For more technical informations : [documentation](./project.md)
         - [ComponentInputOtp](#componentinputotp)
         - [ComponentItem](#componentitem)
         - [ComponentItemGroup](#componentitemgroup)
+        - [ComponentKanbanBoard](#componentkanbanboard)
         - [ComponentLeafletMap](#componentleafletmap)
         - [ComponentList](#componentlist)
         - [ComponentLoading](#componentloading)
@@ -72,6 +75,7 @@ For more technical informations : [documentation](./project.md)
         - [ComponentSelect](#componentselect)
         - [ComponentSignature](#componentsignature)
         - [ComponentSkeletonText](#componentskeletontext)
+        - [ComponentSortableJS](#componentsortablejs)
         - [ComponentSpinner](#componentspinner)
         - [ComponentSwiperSlides](#componentswiperslides)
         - [ComponentTabs](#componenttabs)
@@ -233,6 +237,10 @@ Chip component page
 
 Content component page
 
+#### ComponentCyGraph
+
+CyGraph component page
+
 #### ComponentDateAndTimePicker
 
 Date and Time Picker component page
@@ -244,6 +252,10 @@ DropZone component page
 #### ComponentFloatingActionButton
 
 Floating Action Button component page
+
+#### ComponentFrappeGantt
+
+FrappeGantt component page
 
 #### ComponentGrid
 
@@ -272,6 +284,10 @@ Item component page
 #### ComponentItemGroup
 
 Item Group component page
+
+#### ComponentKanbanBoard
+
+KanbanBoard component page
 
 #### ComponentLeafletMap
 
@@ -360,6 +376,10 @@ Signature component page
 #### ComponentSkeletonText
 
 Skeleton Text component page
+
+#### ComponentSortableJS
+
+SortableJS component page
 
 #### ComponentSpinner
 

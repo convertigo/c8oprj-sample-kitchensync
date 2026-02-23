@@ -80,6 +80,10 @@ tplProjectName: mobilebuilder_tpl_8_4_0_ngx
 ↓ComponentNgSelect [ngx.components.PageComponent-1920100000000]: 🗏 mobilePages/ComponentNgSelect.yaml
 ↓ComponentTinyMce [ngx.components.PageComponent-1920300000000]: 🗏 mobilePages/ComponentTinyMce.yaml
 ↓ComponentTuiImageEditor [ngx.components.PageComponent-1920400000000]: 🗏 mobilePages/ComponentTuiImageEditor.yaml
+↓ComponentCyGraph [ngx.components.PageComponent-1971100000000]: 🗏 mobilePages/ComponentCyGraph.yaml
+↓ComponentSortableJS [ngx.components.PageComponent-1971200000000]: 🗏 mobilePages/ComponentSortableJS.yaml
+↓ComponentKanbanBoard [ngx.components.PageComponent-1971300000000]: 🗏 mobilePages/ComponentKanbanBoard.yaml
+↓ComponentFrappeGantt [ngx.components.PageComponent-1971400000000]: 🗏 mobilePages/ComponentFrappeGantt.yaml
 ↓ComponentApxChart [ngx.components.PageComponent-1932000000000]: 🗏 mobilePages/ComponentApxChart.yaml
 ↓ComponentApxBarChart [ngx.components.PageComponent-1963000010000]: 🗏 mobilePages/ComponentApxBarChart.yaml
 ↓ComponentApxLineChart [ngx.components.PageComponent-1963000020000]: 🗏 mobilePages/ComponentApxLineChart.yaml
@@ -586,7 +590,7 @@ tplProjectName: mobilebuilder_tpl_8_4_0_ngx
             --color: #e2e8f0;
           }'
 ↓TailwindTheme [ngx.components.UITheme-1771011036626]: 
-  comment: Utility-like design token layer mapped to Ionic components (v8.4.0.6)
+  comment: Utility-like design token layer mapped to Ionic components (v8.4.0.7)
   styleContent: 
     - xmlizable: 
       - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
@@ -597,7 +601,7 @@ tplProjectName: mobilebuilder_tpl_8_4_0_ngx
           
           /** Ionic CSS Variables **/
           
-          /** version 8.4.0.6 **/
+          /** version 8.4.0.7 **/
           
           /* tw-ionic.css
              Tailwind-ish theme overlay for Ionic (v6/v7+)
@@ -1919,25 +1923,35 @@ tplProjectName: mobilebuilder_tpl_8_4_0_ngx
           ion-menu ion-list ion-item::part(native),
           ion-menu ion-item::part(native) {
             padding: 0.72rem 0.8rem;
-            border-radius: var(--tw-radius-md);
             border: 0;
             background: color-mix(in srgb, var(--tw-surface) 84%, transparent);
             color: var(--tw-text);
+            align-items: center;
             transition: background-color 0.18s ease, border-color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
           }
           
-          ion-menu ion-list ion-item ion-label {
+          ion-menu ion-list ion-item ion-label,
+          ion-menu ion-item ion-label {
             font-size: 0.92rem;
             font-weight: 600;
             letter-spacing: -0.01em;
             color: var(--tw-text);
+            margin: 0 !important;
+            display: flex;
+            align-items: center;
+            line-height: 1.2;
           }
           
-          ion-menu ion-list ion-item ion-icon {
+          ion-menu ion-list ion-item ion-icon,
+          ion-menu ion-item ion-icon {
             font-size: 1.05rem;
             margin-inline-end: 0.58rem;
             color: color-mix(in srgb, var(--tw-primary) 60%, var(--tw-text-muted));
             opacity: 0.92;
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            align-self: center;
+            flex: 0 0 auto;
           }
           
           ion-menu ion-list ion-item:hover::part(native) {
